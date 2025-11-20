@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'>
+  <defs>
+    <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#004d7a'/>
+      <stop offset='100%' stop-color='#008793'/>
+    </linearGradient>
+  </defs>
+  <rect width='400' height='200' fill='url(#g)' rx='16'/>
+  <text x='200' y='105' font-size='42' fill='#fff' font-family='Helvetica, Arial, sans-serif' text-anchor='middle' font-weight='600'>DIA</text>
+  <text x='200' y='150' font-size='18' fill='#d8f9ff' font-family='Helvetica, Arial, sans-serif' text-anchor='middle'>Safety & PV</text>
+</svg>

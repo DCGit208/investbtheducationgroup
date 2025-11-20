@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-11-16 16:17:41",
+  "stats": {
+    "successful": 0,
+    "failed": 14,
+    "skipped": 48
+  },
+  "vendors_processed": 62
+}

@@ -1,0 +1,73 @@
+/* Information Technology (Operations & Infrastructure) page-scoped styles (extracted) */
+/* Scoped commercial overlap hardening */
+#commercials { position: relative; z-index: 2; }
+#commercials .card { position: relative; z-index: 2; overflow: visible; background: var(--card-bg, #fff); }
+#commercials .card::before,
+#commercials .card::after { content: none !important; display: none !important; }
+
+/* Ensure any fixed CTA elsewhere does not cover the commercials section while interacting */
+#commercials:focus-within { z-index: 3; }
+
+/* Tabs (Team Certification Pathways) */
+.tabs { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px; }
+.tab-btn { padding:10px 14px; border:1px solid #cfe2ff; border-radius:8px; cursor:pointer; background:#f7fbff; }
+.tab-btn.active { background:#e8f3ff; font-weight:700; }
+.tab-panel { display:none; }
+.tab-panel.active { display:block; }
+
+/* Accordion */
+.accordion-button {
+  background: var(--bg-light, #f7fbff);
+  border: 1px solid #d1d5db;
+  padding: 14px 18px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: left;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px 0 6px;
+  display: flex; justify-content: space-between; align-items: center;
+  transition: background .3s ease, box-shadow .3s ease;
+}
+.accordion-button:hover { background:#e6f0fb; box-shadow:0 4px 12px rgba(11,79,122,0.12); }
+.accordion-button::after { content:'\25BC'; transition: transform .3s ease; }
+.accordion-button[aria-expanded="true"]::after { transform: rotate(-180deg); }
+
+.accordion-content {
+  max-height: 0; overflow: hidden; opacity: 0;
+  transition: max-height .5s ease, opacity .5s ease, padding .3s ease;
+  padding: 0;
+}
+.accordion-content.active {
+  opacity: 1; padding: 12px 0; max-height: 1500px;
+}
+
+/* Leader ROI card overlay fixes */
+#leader-roi-card {
+  position: relative;
+  z-index: 3;
+  overflow: visible;
+  padding-bottom: 32px; /* extra room under CTA */
+}
+#leader-roi-card::before,
+#leader-roi-card::after {
+  display: none !important;
+  content: none !important;
+  pointer-events: none !important; /* kill any pseudo overlay */
+}
+#leader-roi-card a.btn-outline {
+  position: relative;
+  z-index: 4;
+  display: inline-block;
+  margin-top: 8px;
+}
+/* Hide any ghost/overlay anchors injected by theme/plugins inside this card */
+#leader-roi-card a[aria-hidden="true"],
+#leader-roi-card a.cta-overlay,
+#leader-roi-card a.button-overlay,
+#leader-roi-card a[style*="position:absolute"] {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+#leader-roi-card .btn { margin-top: 10px; }

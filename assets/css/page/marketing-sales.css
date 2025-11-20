@@ -1,0 +1,107 @@
+/* Scoped styles for Marketing & Sales page (extracted) */
+.ms-page .muted { color:#6b7280; }
+.ms-page .hero .card { background:#fff; }
+.ms-page .hero .stat-value { font-weight:800; font-size:20px; }
+
+/* Eyebrow (visible page name) */
+.ms-page .eyebrow{
+  text-transform:uppercase; letter-spacing:.08em;
+  font-size:12px; color:#e6f0fb; margin-bottom:6px; opacity:.95; display:block;
+}
+
+/* Quick nav */
+.ms-page .quick-nav {
+  display:flex; flex-wrap:wrap; gap:10px;
+  padding:12px; margin:16px 0 24px; background:#f9fafb;
+  border:1px solid #e5e7eb; border-radius:10px;
+}
+.ms-page .quick-nav a {
+  padding:8px 12px; border:1px solid #d1d5db; border-radius:999px; font-size:14px;
+  background:#fff; transition:background .2s;
+}
+.ms-page .quick-nav a:hover { background:#f3f4f6; }
+
+/* Tabs */
+.ms-page .tab-system { margin: 20px 0; display:flex; flex-wrap:wrap; gap:10px; }
+.ms-page .tab-btn {
+  padding:10px 16px; cursor:pointer; background:#f3f4f6; border:1px solid #d1d5db;
+  border-radius:6px; font-weight:600;
+}
+.ms-page .tab-btn.active { background:#1f2937; color:#fff; }
+.ms-page .tab-content { display:none; }
+.ms-page .tab-content.active { display:block; }
+
+/* Accordions (Use Cases) */
+.ms-page .accordion-button {
+  width:100%; text-align:left; padding:16px;
+  background:#f9fafb; border:1px solid #e5e7eb;
+  cursor:pointer; font-weight:600; border-radius:8px;
+  margin-bottom:8px; transition: background .2s, color .2s, border-color .2s;
+  display:flex; justify-content:space-between; align-items:center;
+}
+.ms-page .accordion-button:hover { background:#f3f4f6; }
+.ms-page .accordion-button.active { background:#1f2937; color:#fff; border-color:#1f2937; }
+.ms-page .accordion-button .chev { transition:transform .25s; }
+.ms-page .accordion-button.active .chev { transform:rotate(180deg); }
+
+.ms-page .accordion-content {
+  overflow: hidden; display:block; max-height:0; opacity:0; padding:0 16px;
+  background:#fff; border:1px solid #e5e7eb; border-radius:8px; margin:0 0 16px;
+  transition:max-height .35s ease, opacity .25s ease, padding .25s ease;
+  color:#111827;
+}
+.ms-page .accordion-content.active { opacity:1; padding:16px; max-height:1600px; }
+
+/* Sections & grids (align to global) */
+.ms-page .section h2 { margin-bottom:10px; }
+.ms-page .grid {
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:22px; align-items:stretch;
+}
+.ms-page .card {
+  background:#fff; color:#042a3d; border-radius:8px; padding:18px;
+  box-shadow:0 6px 18px rgba(2, 6, 23, 0.12);
+}
+
+/* Leader ROI card — avoid hidden overlay issues */
+#leader-roi-card-ms { position:relative; z-index:3; overflow:visible; padding-bottom:28px; }
+#leader-roi-card-ms a.btn { position:relative; z-index:4; display:inline-block; margin-top:8px; }
+
+/* Remove any accidental overlay anchors injected by other code */
+#leader-roi-card-ms a[aria-hidden="true"],
+#leader-roi-card-ms a.cta-overlay,
+#leader-roi-card-ms a.button-overlay,
+#leader-roi-card-ms a[style*="position:absolute"] {
+  display:none !important; pointer-events:none !important;
+}
+
+/* Forms */
+.ms-page .apply-form .form-row {
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px;
+}
+.ms-page .apply-form .form-group { display:flex; flex-direction:column; gap:6px; }
+
+/* Keep commercials above any sticky UI from theme/plugins */
+.ms-page #commercials { position:relative; z-index:2; }
+/* Native details/summary accordion (no JS) */
+.ms-page details.ms-acc {
+  border:1px solid #e5e7eb; border-radius:8px; background:#fff;
+  margin:0 0 14px; overflow:hidden;
+}
+.ms-page details.ms-acc[open] { box-shadow:0 6px 18px rgba(2,6,23,.08); }
+
+.ms-page details.ms-acc > summary {
+  list-style:none; cursor:pointer; padding:16px; font-weight:700;
+  background:#f9fafb; outline:none; display:flex; align-items:center; gap:10px;
+}
+.ms-page details.ms-acc > summary::-webkit-details-marker { display:none; }
+
+.ms-page details.ms-acc > summary::after{
+  content:"▼"; margin-left:auto; transition:transform .2s ease;
+  font-size:13px; opacity:.9;
+}
+.ms-page details.ms-acc[open] > summary { background:#1f2937; color:#fff; }
+.ms-page details.ms-acc[open] > summary::after{ transform:rotate(180deg); color:#fff; }
+
+.ms-page .ms-acc-body {
+  padding:16px; border-top:1px solid #e5e7eb; color:#111827; background:#fff;
+}

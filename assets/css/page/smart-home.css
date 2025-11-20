@@ -1,0 +1,42 @@
+/* Smart Home & Building Automation (scoped under .sh) */
+.sh h1 { font-size:48px; line-height:1.1; }
+.sh .lead { font-size:1.15rem; max-width:780px; }
+.sh .stats { display:flex; gap:18px; flex-wrap:wrap; margin:22px 0 10px; }
+.sh .stat { flex:1; min-width:180px; }
+.sh .stat-value { font-weight:800; font-size:22px; }
+.sh .cta-row { display:flex; gap:10px; flex-wrap:wrap; }
+
+/* Quick nav and cards */
+.sh .quick-nav .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap:12px; margin-top:12px; }
+.sh .quick-nav a { display:block; background:#fff; border:1px solid #e5e7eb; padding:12px 14px; border-radius:10px; font-weight:600; transition:.15s; }
+.sh .quick-nav a:hover { background:#f3f4f6; }
+
+/* Tiles */
+.sh .tile-4 { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:20px; }
+.sh .tile-3 { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:20px; }
+.sh .card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:16px; position:relative; }
+.sh .muted { color:#6b7280; font-size:.92rem; }
+
+/* KPI grid */
+.sh .kpi-grid { display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:16px; margin-bottom:14px; }
+@media (max-width: 900px){ .sh .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px){ .sh .kpi-grid { grid-template-columns: 1fr; } }
+.sh .kpi-card .val { font-weight:800; font-size:20px; }
+.sh .kpi-card .lab { color:#6b7280; }
+
+/* Tables */
+.sh .econ-table, .sh .roi-table { width:100%; border-collapse:collapse; margin-top:12px; }
+.sh .econ-table td, .sh .econ-table th,
+.sh .roi-table td, .sh .roi-table th { border:1px solid #e5e7eb; padding:10px; }
+.sh .econ-table th, .sh .roi-table th { background:#f9fafb; font-weight:700; }
+
+/* Ecosystem */
+.sh .ecosystem-logos { display:flex; flex-wrap:wrap; gap:16px; margin-top:12px; }
+.sh .ecosystem-logos img { height:38px; object-fit:contain; }
+
+/* Apply form */
+.sh .apply-form { max-width: 1000px; margin: 0 auto; }
+.sh .apply-form .form-row { display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
+@media (max-width: 720px){ .sh .apply-form .form-row { grid-template-columns:1fr; } }
+.sh .apply-form .field { margin-bottom:12px; }
+.sh .apply-form input, .sh .apply-form select, .sh .apply-form textarea { width:100%; padding:10px 12px; border:1px solid #dfe7ee; border-radius:8px; font-size:0.95rem; }

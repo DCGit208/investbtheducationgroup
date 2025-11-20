@@ -1,0 +1,42 @@
+/* Communications & Satellite Technology (scoped under .comms) */
+.comms h1 { font-size:48px; line-height:1.1; }
+.comms .lead { font-size:1.15rem; max-width:780px; }
+.comms .stats { display:flex; gap:18px; flex-wrap:wrap; margin:22px 0 10px; }
+.comms .stat { flex:1; min-width:180px; }
+.comms .stat-value { font-weight:800; font-size:22px; }
+.comms .cta-row { display:flex; gap:10px; flex-wrap:wrap; }
+
+/* Quick nav and cards */
+.comms .quick-nav .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap:12px; margin-top:12px; }
+.comms .quick-nav a { display:block; background:#fff; border:1px solid #e5e7eb; padding:12px 14px; border-radius:10px; font-weight:600; transition:.15s; }
+.comms .quick-nav a:hover { background:#f3f4f6; }
+
+/* Tiles */
+.comms .tile-4 { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:20px; }
+.comms .tile-3 { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:20px; }
+.comms .card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:16px; position:relative; }
+.comms .muted { color:#6b7280; font-size:.92rem; }
+
+/* KPI grid */
+.comms .kpi-grid { display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:16px; margin-bottom:14px; }
+@media (max-width: 900px){ .comms .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px){ .comms .kpi-grid { grid-template-columns: 1fr; } }
+.comms .kpi-card .val { font-weight:800; font-size:20px; }
+.comms .kpi-card .lab { color:#6b7280; }
+
+/* Tables */
+.comms .econ-table, .comms .roi-table { width:100%; border-collapse:collapse; margin-top:12px; }
+.comms .econ-table td, .comms .econ-table th,
+.comms .roi-table td, .comms .roi-table th { border:1px solid #e5e7eb; padding:10px; }
+.comms .econ-table th, .comms .roi-table th { background:#f9fafb; font-weight:700; }
+
+/* Ecosystem */
+.comms .ecosystem-logos { display:flex; flex-wrap:wrap; gap:16px; margin-top:12px; }
+.comms .ecosystem-logos img { height:38px; object-fit:contain; }
+
+/* Apply form */
+.comms .apply-form { max-width: 1000px; margin: 0 auto; }
+.comms .apply-form .form-row { display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
+@media (max-width: 720px){ .comms .apply-form .form-row { grid-template-columns:1fr; } }
+.comms .apply-form .field { margin-bottom:12px; }
+.comms .apply-form input, .comms .apply-form select, .comms .apply-form textarea { width:100%; padding:10px 12px; border:1px solid #dfe7ee; border-radius:8px; font-size:0.95rem; }

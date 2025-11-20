@@ -1,0 +1,69 @@
+/* Manufacturing & Industrial page-scoped styles (extracted from inline) */
+.pod-economics-table,
+.roi-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.pod-economics-table th,
+.pod-economics-table td,
+.roi-table th,
+.roi-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #1f2933;
+}
+.pod-economics-table thead th,
+.roi-table thead th {
+  font-weight: 600;
+  background: rgba(15, 23, 42, 0.9);
+  color: #ffffff; /* ensure high contrast on dark header */
+}
+.pod-row-welding {
+  border-left: 4px solid #f97316;
+  background: linear-gradient(to right, rgba(249, 115, 22, 0.08), transparent);
+}
+.pod-row-automation {
+  border-left: 4px solid #22c55e;
+  background: linear-gradient(to right, rgba(34, 197, 94, 0.08), transparent);
+}
+.pod-row-maintenance {
+  border-left: 4px solid #3b82f6;
+  background: linear-gradient(to right, rgba(59, 130, 246, 0.08), transparent);
+}
+.help-icon {
+  display: inline-block;
+  margin-left: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  border: 1px solid rgba(148, 163, 184, 0.8);
+  color: #e5e7eb;
+  cursor: help;
+}
+.commercials-footer {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+.commercials-footer-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.commercials-footer-note {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  max-width: 420px;
+}
+@media (max-width: 768px) {
+  .commercials-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

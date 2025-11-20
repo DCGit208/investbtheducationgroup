@@ -1,0 +1,50 @@
+/* CORE PAGE THEME */
+.re h1 { font-size:48px; line-height:1.1; }
+.re .lead { font-size:1.15rem; max-width:780px; }
+.re .stats { display:flex; gap:18px; flex-wrap:wrap; margin:22px 0 10px; }
+.re .stat { flex:1; min-width:180px; }
+.re .stat-value { font-weight:800; font-size:22px; }
+.re .cta-row { display:flex; gap:10px; flex-wrap:wrap; }
+.re .quick-nav .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap:12px; margin-top:12px; }
+.re .quick-nav a { display:block; background:#fff; border:1px solid #e5e7eb; padding:12px 14px; border-radius:10px; font-weight:600; transition:.15s; }
+.re .quick-nav a:hover { background:#f3f4f6; }
+.re .tile-4 { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:20px; }
+.re .tile-3 { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:20px; }
+.re .card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:16px; position:relative; }
+.re .muted { color:#6b7280; font-size:.92rem; }
+.re header .stats .muted { color:#fff; font-weight:700; }
+.re ul { padding-left:20px; }
+.re a.skip-link { position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden; }
+.re a.skip-link:focus { position:static; width:auto; height:auto; padding:8px 12px; background:#1f2937; color:#fff; border-radius:8px; }
+.re .accordion-button { background:var(--bg-light); border:1px solid #d1d5db; padding:14px 18px; border-radius:10px; width:100%; text-align:left; font-weight:600; cursor:pointer; margin-bottom:10px; display:flex; justify-content:space-between; align-items:center; transition:background .25s, box-shadow .25s; }
+.re .accordion-button:hover { background:#e6f0fb; box-shadow:0 4px 12px rgba(11,79,122,0.12); }
+.re .accordion-button[aria-expanded="true"] { background:#1f2937; color:#fff; }
+.re .accordion-button:focus-visible { outline:3px solid #1f6feb; outline-offset:2px; }
+.re .accordion-panel { border:1px solid #d1d5db; border-radius:0 0 10px 10px; padding:16px 18px; background:#fff; margin:-10px 0 14px; box-shadow:0 2px 8px rgba(0,0,0,0.04); }
+.re .econ-table, .re .roi-table { width:100%; border-collapse:collapse; margin-top:12px; }
+.re .econ-table td, .re .econ-table th,
+.re .roi-table td, .re .roi-table th { border:1px solid #e5e7eb; padding:10px; }
+.re .econ-table th, .re .roi-table th { background:#f9fafb; font-weight:700; }
+.re .ecosystem-logos { display:flex; flex-wrap:wrap; gap:16px; margin-top:20px; }
+.re .ecosystem-logos img { height:42px; object-fit:contain; }
+/* KPI grid (3x2) */
+.re .kpi-grid { display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:16px; margin-bottom:14px; }
+@media (max-width: 900px){ .re .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px){ .re .kpi-grid { grid-template-columns: 1fr; } }
+.re .kpi-card .val { font-weight:800; font-size:20px; }
+.re .kpi-card .lab { color:#6b7280; }
+/* Apply / Hire form width + layout */
+.re .apply-form { max-width: 1000px; margin: 0 auto; }
+.re .apply-form .form-row { display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
+@media (max-width: 720px){ .re .apply-form .form-row { grid-template-columns:1fr; } }
+.re .apply-form .field { margin-bottom:12px; }
+.re .apply-form input, .re .apply-form select, .re .apply-form textarea { width:100%; padding:10px 12px; border:1px solid #dfe7ee; border-radius:8px; font-size:0.95rem; }
+/* Quick Apply (hero) */
+.re .quick-apply { margin-top:0; }
+.re .quick-apply-toggle { background:transparent; border:2px solid rgba(255,255,255,0.8); border-radius:12px; padding:12px 24px; font-weight:700; font-size:16px; color:#fff; cursor:pointer; display:inline-block; }
+.re .quick-apply-form { display:none; margin-left:8px; gap:8px; align-items:center; flex-wrap:wrap; }
+.re .quick-apply-form .field { min-width:220px; }
+.re .quick-apply-form input, .re .quick-apply-form select { padding:8px 10px; }
+/* Sticky CTA */
+.re .sticky-cta { position:fixed; right:16px; bottom:16px; z-index:50; }
+.re .sticky-cta a { display:inline-block; background:#0b4f7a; color:#fff; padding:10px 14px; border-radius:999px; font-weight:700; box-shadow:0 6px 18px rgba(0,0,0,.15); }

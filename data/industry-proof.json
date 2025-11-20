@@ -1,0 +1,156 @@
+[
+  {
+    "id": "isc2-workforce-study",
+    "category": "Workforce & Demand",
+    "title": "ISC2 Cybersecurity Workforce Study",
+    "summary": "Annual study sizing the global cybersecurity workforce and skills gap across regions and industries.",
+    "source": "ISC2",
+    "url": "https://www.isc2.org/Research",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["Cybersecurity"]
+  },
+  {
+    "id": "world-bank-edstats",
+    "category": "Skills & Learning",
+    "title": "World Bank — EdStats (Education Data)",
+    "summary": "Global education indicators, dashboards, and datasets for policy and analysis.",
+    "source": "World Bank",
+    "url": "https://datatopics.worldbank.org/education/",
+    "last_verified": "2025-11-20",
+    "regions": ["Global"],
+    "sectors": ["Education", "All"]
+  },
+  {
+    "id": "ilo-skills",
+    "category": "Skills & Learning",
+    "title": "ILO — Skills for Employment",
+    "summary": "ILO resources and reports on skills development, mismatch, and employability.",
+    "source": "ILO",
+    "url": "https://www.ilo.org/skills/",
+    "last_verified": "2025-11-20",
+    "regions": ["Global"],
+    "sectors": ["Education", "All"]
+  },
+  {
+    "id": "comptia-it-industry-outlook",
+    "category": "Industry Outlook",
+    "title": "CompTIA IT Industry Outlook",
+    "summary": "Macro trends, hiring outlook, and investment focus across the global IT industry.",
+    "source": "CompTIA",
+    "url": "https://www.comptia.org/resources",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["Cloud", "IT Operations", "Software", "Cybersecurity"]
+  },
+  {
+    "id": "wef-future-of-jobs",
+    "category": "Future of Work",
+    "title": "WEF Future of Jobs Report 2025 (PDF)",
+    "summary": "PDF report detailing macro trends impacting global jobs and skills 2025–2030.",
+    "source": "World Economic Forum",
+    "url": "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["All"]
+  },
+  {
+    "id": "nist-csf",
+    "category": "Standards & Compliance",
+    "title": "NIST Cybersecurity Framework",
+    "summary": "Risk-based guidance for managing cybersecurity outcomes; widely adopted across sectors and governments.",
+    "source": "NIST",
+    "url": "https://www.nist.gov/cyberframework",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["Cybersecurity", "IT Operations", "Industrial"]
+  },
+  {
+    "id": "iso-27001",
+    "category": "Standards & Compliance",
+    "title": "ISO/IEC 27001 — Information Security Management",
+    "summary": "Requirements for establishing, implementing, maintaining and continually improving an ISMS.",
+    "source": "ISO/IEC",
+    "url": "https://www.iso.org/isoiec-27001-information-security.html",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["Cybersecurity", "IT Operations", "Cloud"]
+  },
+  {
+    "id": "nist-nice-framework",
+    "category": "Workforce & Demand",
+    "title": "NICE Workforce Framework for Cybersecurity",
+    "summary": "Common taxonomy of cybersecurity work roles, tasks, and KSAs for workforce development.",
+    "source": "NIST NICE",
+    "url": "https://www.nist.gov/nice/framework",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["Cybersecurity", "Education"]
+  },
+  {
+    "id": "idc-research",
+    "category": "ROI & Economics",
+    "title": "IDC — Research & InfoBriefs",
+    "summary": "Market and economic impact research used for sizing benefits and benchmarking.",
+    "source": "IDC",
+    "url": "https://www.idc.com/",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["All"]
+  },
+  {
+    "id": "unesco-uis-education",
+    "category": "Skills & Learning",
+    "title": "UNESCO Institute for Statistics — Education Data",
+    "summary": "Global, comparative indicators and datasets on education and skills outcomes.",
+    "source": "UNESCO UIS",
+    "url": "https://uis.unesco.org/",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["Education", "All"]
+  },
+  {
+    "id": "iso-9001",
+    "category": "Standards & Compliance",
+    "title": "ISO 9001 — Quality Management Systems",
+    "summary": "Framework for consistent quality, continual improvement, and customer satisfaction.",
+    "source": "ISO",
+    "url": "https://www.iso.org/iso-9001-quality-management.html",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["All"]
+  },
+  {
+    "id": "iso-13485",
+    "category": "Standards & Compliance",
+    "title": "ISO 13485 — Medical Devices QMS",
+    "summary": "Quality management requirements for medical device design, production, and service.",
+    "source": "ISO",
+    "url": "https://www.iso.org/standard/59752.html",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["Medical"]
+  },
+  {
+    "id": "nist-ai-risk-management",
+    "category": "Standards & Compliance",
+    "title": "NIST AI Risk Management Framework",
+    "summary": "Guidance to manage risks across AI development and deployment lifecycles.",
+    "source": "NIST",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["AI", "Cloud", "All"]
+  },
+  {
+    "id": "w3c-wai",
+    "category": "Accessibility",
+    "title": "W3C Web Accessibility Initiative (WAI)",
+    "summary": "Standards and resources for building accessible digital experiences (WCAG, ARIA).",
+    "source": "W3C",
+    "url": "https://www.w3.org/WAI/",
+    "last_verified": "2025-11-19",
+    "regions": ["Global"],
+    "sectors": ["All"]
+  }
+]
