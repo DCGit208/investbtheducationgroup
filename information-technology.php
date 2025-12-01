@@ -690,7 +690,7 @@ include 'breadcrumbs.php';
 <script>
 /* ==== Scope-safe accordions (only if a global handler is absent) ==== */
 (function(){
-  const buttons = document.querySelectorAll('#domains .accordion-button, #solutions .accordion-button');
+  const buttons = document.querySelectorAll('.accordion-button');
   if (!buttons.length) return;
 
   // Guard against double-binding if global script already attached
@@ -698,7 +698,7 @@ include 'breadcrumbs.php';
   if (alreadyBound) return;
   buttons.forEach(b => b.dataset.bound = '1');
 
-  const allContents = document.querySelectorAll('#domains .accordion-content, #solutions .accordion-content');
+  const allContents = document.querySelectorAll('.accordion-content');
 
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
