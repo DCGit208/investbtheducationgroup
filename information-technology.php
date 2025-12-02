@@ -688,63 +688,64 @@ include 'breadcrumbs.php';
 </section>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+// Wait for full DOM load
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initAccordions);
+} else {
+  initAccordions();
+}
+
+function initAccordions() {
   /* ==== Accordions ==== */
   const buttons = document.querySelectorAll('.accordion-button');
-  console.log('Found accordion buttons:', buttons.length);
   
-  if (buttons.length) {
-    // Guard against double-binding
-    const alreadyBound = buttons[0].dataset.bound === '1';
-    if (!alreadyBound) {
-      console.log('Initializing accordions...');
-      buttons.forEach(b => b.dataset.bound = '1');
-      
-      const allContents = document.querySelectorAll('.accordion-content');
-      console.log('Found accordion contents:', allContents.length);
-
-      buttons.forEach((btn, index) => {
-        btn.addEventListener('click', function(e) {
-          console.log('Accordion button clicked:', index);
-          const content = this.nextElementSibling;
-          
-          if (!content || !content.classList.contains('accordion-content')) {
-            console.error('No accordion-content found after button:', this);
-            return;
-          }
-          
-          const isOpen = content.classList.contains('active');
-
-          // Close others
-          allContents.forEach(c => { if (c !== content) c.classList.remove('active'); });
-          buttons.forEach(bb => { if (bb !== this) bb.setAttribute('aria-expanded','false'); });
-
-          // Toggle current
-          if (isOpen) {
-            content.classList.remove('active');
-            this.setAttribute('aria-expanded','false');
-            console.log('Closed accordion:', index);
-          } else {
-            content.classList.add('active');
-            this.setAttribute('aria-expanded','true');
-            console.log('Opened accordion:', index);
-          }
-        });
-
-        btn.addEventListener('keydown', function(e) {
-          if (e.key === 'Enter' || e.key === ' ') { 
-            e.preventDefault(); 
-            this.click(); 
-          }
-        });
-      });
-      console.log('Accordions initialized successfully');
-    } else {
-      console.log('Accordions already bound, skipping initialization');
-    }
-  } else {
-    console.warn('No accordion buttons found on page');
+  if (!buttons.length) {
+    console.warn('No accordion buttons found');
+    return;
   }
+
+  console.log('Initializing', buttons.length, 'accordion buttons');
+
+  buttons.forEach((btn, index) => {
+    // Skip if already initialized
+    if (btn.dataset.initialized === '1') return;
+    btn.dataset.initialized = '1';
+
+    btn.onclick = function(e) {
+      e.preventDefault();
+      const content = this.nextElementSibling;
+      
+      if (!content || !content.classList.contains('accordion-content')) {
+        console.error('Invalid accordion structure at index', index);
+        return;
+      }
+      
+      const isOpen = content.classList.contains('active');
+      
+      // Close all accordions
+      document.querySelectorAll('.accordion-content').forEach(c => c.classList.remove('active'));
+      document.querySelectorAll('.accordion-button').forEach(b => b.setAttribute('aria-expanded', 'false'));
+      
+      // Toggle current
+      if (!isOpen) {
+        content.classList.add('active');
+        this.setAttribute('aria-expanded', 'true');
+      }
+      
+      return false;
+    };
+
+    // Keyboard support
+    btn.onkeydown = function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        this.click();
+      }
+    };
+  });
+
+  console.log('Accordions initialized successfully');
+}
 
   /* ==== Tabs (Team Certification) ==== */
   const tabBtns = document.querySelectorAll('.tab-btn');
