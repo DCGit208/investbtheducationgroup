@@ -691,17 +691,28 @@ include 'breadcrumbs.php';
 document.addEventListener('DOMContentLoaded', function() {
   /* ==== Accordions ==== */
   const buttons = document.querySelectorAll('.accordion-button');
+  console.log('Found accordion buttons:', buttons.length);
+  
   if (buttons.length) {
     // Guard against double-binding
     const alreadyBound = buttons[0].dataset.bound === '1';
     if (!alreadyBound) {
+      console.log('Initializing accordions...');
       buttons.forEach(b => b.dataset.bound = '1');
       
       const allContents = document.querySelectorAll('.accordion-content');
+      console.log('Found accordion contents:', allContents.length);
 
-      buttons.forEach(btn => {
-        btn.addEventListener('click', function() {
+      buttons.forEach((btn, index) => {
+        btn.addEventListener('click', function(e) {
+          console.log('Accordion button clicked:', index);
           const content = this.nextElementSibling;
+          
+          if (!content || !content.classList.contains('accordion-content')) {
+            console.error('No accordion-content found after button:', this);
+            return;
+          }
+          
           const isOpen = content.classList.contains('active');
 
           // Close others
@@ -712,9 +723,11 @@ document.addEventListener('DOMContentLoaded', function() {
           if (isOpen) {
             content.classList.remove('active');
             this.setAttribute('aria-expanded','false');
+            console.log('Closed accordion:', index);
           } else {
             content.classList.add('active');
             this.setAttribute('aria-expanded','true');
+            console.log('Opened accordion:', index);
           }
         });
 
@@ -725,7 +738,12 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         });
       });
+      console.log('Accordions initialized successfully');
+    } else {
+      console.log('Accordions already bound, skipping initialization');
     }
+  } else {
+    console.warn('No accordion buttons found on page');
   }
 
   /* ==== Tabs (Team Certification) ==== */
