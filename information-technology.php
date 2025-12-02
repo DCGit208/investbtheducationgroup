@@ -688,64 +688,66 @@ include 'breadcrumbs.php';
 </section>
 
 <script>
-/* ==== Scope-safe accordions (only if a global handler is absent) ==== */
-(function(){
+document.addEventListener('DOMContentLoaded', function() {
+  /* ==== Accordions ==== */
   const buttons = document.querySelectorAll('.accordion-button');
-  if (!buttons.length) return;
+  if (buttons.length) {
+    // Guard against double-binding
+    const alreadyBound = buttons[0].dataset.bound === '1';
+    if (!alreadyBound) {
+      buttons.forEach(b => b.dataset.bound = '1');
+      
+      const allContents = document.querySelectorAll('.accordion-content');
 
-  // Guard against double-binding if global script already attached
-  const alreadyBound = buttons[0].dataset.bound === '1';
-  if (alreadyBound) return;
-  buttons.forEach(b => b.dataset.bound = '1');
+      buttons.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const content = this.nextElementSibling;
+          const isOpen = content.classList.contains('active');
 
-  const allContents = document.querySelectorAll('.accordion-content');
+          // Close others
+          allContents.forEach(c => { if (c !== content) c.classList.remove('active'); });
+          buttons.forEach(bb => { if (bb !== this) bb.setAttribute('aria-expanded','false'); });
 
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const content = btn.nextElementSibling;
-      const isOpen = content.classList.contains('active');
+          // Toggle current
+          if (isOpen) {
+            content.classList.remove('active');
+            this.setAttribute('aria-expanded','false');
+          } else {
+            content.classList.add('active');
+            this.setAttribute('aria-expanded','true');
+          }
+        });
 
-      // Close others
-      allContents.forEach(c => { if (c !== content) c.classList.remove('active'); });
-      buttons.forEach(bb => { if (bb !== btn) bb.setAttribute('aria-expanded','false'); });
+        btn.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') { 
+            e.preventDefault(); 
+            this.click(); 
+          }
+        });
+      });
+    }
+  }
 
-      // Toggle current
-      if (isOpen) {
-        content.classList.remove('active');
-        btn.setAttribute('aria-expanded','false');
-      } else {
-        content.classList.add('active');
-        btn.setAttribute('aria-expanded','true');
-      }
+  /* ==== Tabs (Team Certification) ==== */
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  if (tabBtns.length) {
+    const panels = {
+      'ops-core': document.getElementById('tab-ops-core'),
+      'data-ops': document.getElementById('tab-data-ops'),
+      'strategy': document.getElementById('tab-strategy')
+    };
+
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        tabBtns.forEach(b => b.classList.remove('active'));
+        Object.values(panels).forEach(p => p && p.classList.remove('active'));
+        this.classList.add('active');
+        const key = this.getAttribute('data-tab');
+        if (panels[key]) panels[key].classList.add('active');
+      });
     });
-
-    btn.addEventListener('keydown', e => {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); btn.click(); }
-    });
-  });
-})();
-
-/* ==== Simple tabs (Team Certification) ==== */
-(function(){
-  const btns = document.querySelectorAll('.tab-btn');
-  if (!btns.length) return;
-
-  const panels = {
-    'ops-core': document.getElementById('tab-ops-core'),
-    'data-ops': document.getElementById('tab-data-ops'),
-    'strategy': document.getElementById('tab-strategy')
-  };
-
-  btns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      btns.forEach(b => b.classList.remove('active'));
-      Object.values(panels).forEach(p => p.classList.remove('active'));
-      btn.classList.add('active');
-      const key = btn.getAttribute('data-tab');
-      if (panels[key]) panels[key].classList.add('active');
-    });
-  });
-})();
+  }
+});
 
 /* ==== Internal anchor validation (non-blocking) ==== */
 (function(){
