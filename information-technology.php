@@ -236,29 +236,37 @@ include 'breadcrumbs.php';
 <!-- Offer Packaging -->
 <section id="packages" class="section">
   <h2>Offer Packaging (Buy-Now Clarity)</h2>
+  <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;">Three tiers aligned to complexity, coverage hours, and financial scale. Each tier shows uptime/response commitments and ideal organizational fit.</p>
   <div class="grid">
-    <div class="card">
+    <div class="card package-tier">
+      <span class="tier-badge standard">Standard</span>
       <h3>Managed IT Core</h3>
       <p>Service desk, endpoint/UEM baseline, patching, backup policy, SLA reporting.</p>
-      <p class="muted"><strong>SLA:</strong> 8×5 • P1 ≤ 1h • KPIs: FCR, SLA attainment, CSAT.</p>
+      <div class="sla-box">
+        <p><strong>SLA:</strong> 8×5 • P1 ≤ 1h • FCR ≥70% • Uptime ≥99.5%</p>
+      </div>
+      <p class="best-for"><strong>Best for:</strong> Organizations with 50–200 users, single-site or regional, standard business hours.</p>
     </div>
-    <div class="card">
-      <h3>Secure Workplace</h3>
-      <p>Identity hardening (MFA/CA), device compliance, zero-trust access, DLP policies (with Cyber).</p>
-      <p class="muted"><strong>SLA:</strong> 12×5 • P1 ≤ 30m • Audit evidence packs.</p>
+    <div class="card package-tier">
+      <span class="tier-badge advanced">Advanced</span>
+      <h3>Secure Workplace + Network Core</h3>
+      <p>Identity hardening (MFA/CA), device compliance, zero-trust access, DLP policies. LAN/WAN/SD-WAN, Wi-Fi surveys, NAC, QoS.</p>
+      <div class="sla-box">
+        <p><strong>SLA:</strong> 12×5 • P1 ≤ 30m • FCR ≥80% • Uptime ≥99.7%</p>
+      </div>
+      <p class="best-for"><strong>Best for:</strong> Multi-site enterprises with 200–1000 users, compliance requirements (ISO 27001, SOC 2).</p>
     </div>
-    <div class="card">
-      <h3>Network Core &amp; Campus Wi-Fi</h3>
-      <p>LAN/WAN/SD-WAN design, Wi-Fi surveys, NAC, QoS, guest/IoT segmentation, branch templates.</p>
-      <p class="muted"><strong>SLA:</strong> 12×5 (24×7 add-on) • p95 latency targets • change windows.</p>
-    </div>
-    <div class="card">
-      <h3>Business Continuity+</h3>
-      <p>Tiered backups, immutable storage, tested DR runbooks, tabletop &amp; failover exercises.</p>
-      <p class="muted"><strong>SLA:</strong> 24×7 optional • RPO/RTO commitments.</p>
+    <div class="card package-tier">
+      <span class="tier-badge enterprise">Enterprise</span>
+      <h3>Full-Stack Operations + BCP</h3>
+      <p>All services plus business continuity, immutable backups, tested DR runbooks, tabletop exercises, 24×7 NOC.</p>
+      <div class="sla-box">
+        <p><strong>SLA:</strong> 24×7 • P1 ≤ 15m • FCR ≥85% • Uptime ≥99.9%</p>
+      </div>
+      <p class="best-for"><strong>Best for:</strong> Global organizations with 1000+ users, mission-critical systems, regulated industries.</p>
     </div>
   </div>
-  <p class="muted" style="margin-top:10px">Add-ons: Field services, depot/IMACD, license mgmt, vendor governance, 24×7 NOC, telemetry wallboards.</p>
+  <p class="muted" style="margin-top:20px;text-align:center;">Add-ons: Field services, depot/IMACD, license mgmt, vendor governance, telemetry wallboards, custom integrations.</p>
 </section>
 
 <!-- SRE for IT Operations -->
@@ -768,7 +776,7 @@ include 'breadcrumbs.php';
 <!-- Hire a 1:50 IT Team -->
 <section id="hire-it-team" class="section">
   <h2>Hire a 1:50 IT Team</h2>
-  <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;">Tell us about your environment and objectives. We’ll propose the right package, pod composition, and SLAs.</p>
+  <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;"><strong>For Organizations:</strong> Tell us about your environment and objectives. We'll propose the right package, pod composition, and SLAs tailored to your user count, sites, and compliance needs.</p>
   <form method="post" action="send-mail.php" class="application-form">
     <div class="form-row">
       <div class="field"><label>Full Name</label><input name="name" required></div>
@@ -804,7 +812,7 @@ include 'breadcrumbs.php';
 <section id="apply-leader" class="section">
   <h2>Apply to Become a Team Leader</h2>
   <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;">
-    Only <strong>100 Team Leaders</strong> are accepted per industry. Build a certified 50-person delivery unit and deploy contracts globally.
+    <strong>For Leaders:</strong> Only <strong>100 Team Leaders</strong> are accepted per industry. Build a certified 50-person delivery unit, deploy enterprise contracts, and earn $3M–$8M annually. This is not a client service—it's a leadership mandate in the 1:50 model.
   </p>
   <form method="post" action="send-mail.php" class="application-form">
     <div class="form-row">

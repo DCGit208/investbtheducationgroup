@@ -208,3 +208,85 @@
     padding: 12px;
   }
 }
+
+/* Package Tier Enhancements */
+.package-tier {
+  position: relative;
+  padding-top: 50px;
+}
+
+.tier-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tier-badge.standard {
+  background: #10b981;
+  color: #fff;
+}
+
+.tier-badge.advanced {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.tier-badge.enterprise {
+  background: #8b5cf6;
+  color: #fff;
+}
+
+.sla-box {
+  background: #f0f9ff;
+  border-left: 4px solid #0b4f7a;
+  padding: 12px 16px;
+  margin: 16px 0;
+  border-radius: 6px;
+}
+
+.sla-box p {
+  margin: 0;
+  font-size: 14px;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.best-for {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: 12px 16px;
+  margin: 16px 0 0 0;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #78350f;
+  line-height: 1.6;
+}
+
+.best-for strong {
+  color: #92400e;
+}
+
+@media (max-width: 768px) {
+  .package-tier {
+    padding-top: 45px;
+  }
+  
+  .tier-badge {
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 5px 12px;
+  }
+  
+  .sla-box,
+  .best-for {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+}
