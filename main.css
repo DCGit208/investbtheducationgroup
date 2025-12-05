@@ -27,14 +27,15 @@ body {
 
 /* Team Certification Excellence Section */
 #certifications {
-    background: linear-gradient(135deg, #0a0e27 0%, #1a1d3a 50%, #0a0e27 100%);
-    padding: 100px 20px;
+    background: #ffffff;
+    padding: 60px 20px;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 #certifications::before {
-    content: '';
+    content: none;
+    display: none;
     position: absolute;
     top: 0;
     left: 0;

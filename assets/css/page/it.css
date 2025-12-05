@@ -1,4 +1,22 @@
 /* Information Technology (Operations & Infrastructure) page-scoped styles (extracted) */
+
+/* Override certifications section dark background */
+#certifications {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+#certifications h2,
+#certifications .muted,
+#certifications p {
+  color: #000000 !important;
+  background: transparent !important;
+}
+#certifications::before,
+#certifications::after {
+  display: none !important;
+  content: none !important;
+}
+
 /* Scoped commercial overlap hardening */
 #commercials { position: relative; z-index: 2; }
 #commercials .card { position: relative; z-index: 2; overflow: visible; background: var(--card-bg, #fff); }

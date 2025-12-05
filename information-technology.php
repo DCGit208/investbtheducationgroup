@@ -748,24 +748,62 @@ function initAccordions() {
 }
 
   /* ==== Tabs (Team Certification) ==== */
+  initTabs();
+}
+
+function initTabs() {
   const tabBtns = document.querySelectorAll('.tab-btn');
-  if (tabBtns.length) {
-    const panels = {
-      'ops-core': document.getElementById('tab-ops-core'),
-      'data-ops': document.getElementById('tab-data-ops'),
-      'strategy': document.getElementById('tab-strategy')
+  if (!tabBtns.length) {
+    console.warn('No tab buttons found');
+    return;
+  }
+
+  console.log('Initializing', tabBtns.length, 'tab buttons');
+
+  const panels = {
+    'ops-core': document.getElementById('tab-ops-core'),
+    'data-ops': document.getElementById('tab-data-ops'),
+    'strategy': document.getElementById('tab-strategy')
+  };
+
+  tabBtns.forEach((btn, index) => {
+    // Skip if already initialized
+    if (btn.dataset.tabInitialized === '1') return;
+    btn.dataset.tabInitialized = '1';
+
+    btn.onclick = function(e) {
+      e.preventDefault();
+      console.log('Tab clicked:', this.getAttribute('data-tab'));
+      
+      // Remove active from all tabs and panels
+      tabBtns.forEach(b => b.classList.remove('active'));
+      Object.values(panels).forEach(p => {
+        if (p) p.classList.remove('active');
+      });
+      
+      // Add active to clicked tab and corresponding panel
+      this.classList.add('active');
+      const key = this.getAttribute('data-tab');
+      if (panels[key]) {
+        panels[key].classList.add('active');
+        console.log('Activated panel:', key);
+      } else {
+        console.error('Panel not found for:', key);
+      }
+      
+      return false;
     };
 
-    tabBtns.forEach(btn => {
-      btn.addEventListener('click', function() {
-        tabBtns.forEach(b => b.classList.remove('active'));
-        Object.values(panels).forEach(p => p && p.classList.remove('active'));
-        this.classList.add('active');
-        const key = this.getAttribute('data-tab');
-        if (panels[key]) panels[key].classList.add('active');
-      });
-    });
-  }
+    // Keyboard support
+    btn.onkeydown = function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        this.click();
+      }
+    };
+  });
+
+  console.log('Tabs initialized successfully');
 });
 
 /* ==== Internal anchor validation (non-blocking) ==== */
