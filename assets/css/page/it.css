@@ -132,3 +132,79 @@
 }
 
 #leader-roi-card .btn { margin-top: 10px; }
+
+/* Compliance & KPI Tables */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.compliance-table,
+.kpi-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  min-width: 600px;
+}
+
+.compliance-table thead,
+.kpi-table thead {
+  background: #0b4f7a;
+  color: #fff;
+}
+
+.compliance-table th,
+.kpi-table th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #0b4f7a;
+}
+
+.compliance-table td,
+.kpi-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.compliance-table tbody tr:nth-child(even),
+.kpi-table tbody tr:nth-child(even) {
+  background: #f7fbff;
+}
+
+.compliance-table tbody tr:hover,
+.kpi-table tbody tr:hover {
+  background: #e8f3ff;
+  transition: background 0.2s ease;
+}
+
+.compliance-table td:first-child,
+.kpi-table td:first-child {
+  font-weight: 600;
+  color: #0b4f7a;
+}
+
+/* Mobile responsive tables */
+@media (max-width: 768px) {
+  .table-wrapper {
+    border-radius: 8px;
+  }
+  
+  .compliance-table,
+  .kpi-table {
+    font-size: 14px;
+  }
+  
+  .compliance-table th,
+  .kpi-table th,
+  .compliance-table td,
+  .kpi-table td {
+    padding: 12px;
+  }
+}

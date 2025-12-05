@@ -35,6 +35,7 @@ include 'breadcrumbs.php';
         <a href="software-engineering.php">Software &amp; Systems Engineering</a>;
         for PaaS/AI scale see <a href="intelligent-cloud.php">Intelligent Cloud</a>;
         for SOC/MDR/IR see <a href="cybersecurity.php">Cybersecurity</a>.
+        Each fully built 1:50 IT leadership unit can realistically support <strong>$3M–$8M per year</strong> in managed services and project revenue across multi-site portfolios.
       </p>
       <div class="cta-row">
         <a class="btn" href="#apply-leader">Become a Team Leader</a>
@@ -56,6 +57,9 @@ include 'breadcrumbs.php';
           <div style="font-size:13px;color:#e8f3ff;white-space:nowrap">Member annual income</div>
         </div>
       </div>
+      <p class="kpi-caption" style="margin-top:16px;font-size:13px;color:#b8d4f0;max-width:600px;line-height:1.5">
+        Illustrative ranges, based on multi-contract 1:50 IT portfolios. Total annual revenue capacity per unit: <strong style="color:#e8f3ff">$3M–$8M</strong>.
+      </p>
     </div>
 
     <div class="hero-right">
@@ -96,25 +100,18 @@ include 'breadcrumbs.php';
 <section id="quick-nav" class="section">
   <h2>Quick Navigation</h2>
   <div class="grid">
-    <a class="card" href="#model">How the Model Works</a>
-    <a class="card" href="#pods">1:50 Team — Roles &amp; Delivery Pods</a>
-    <a class="card" href="#commercials">Commercials — 1:50 Pods &amp; Leader ROI</a>
-    <a class="card" href="#packages">Offer Packaging</a>
-    <a class="card" href="#sre">SRE for IT Ops</a>
-    <a class="card" href="#governance">ITIL &amp; Governance</a>
-    <a class="card" href="#services">Recommended Services</a>
-    <a class="card" href="#domains">Service Domains</a>
-    <a class="card" href="#solutions">Solutions by Category</a>
-    <a class="card" href="#catalog">Service Catalog</a>
-    <a class="card" href="#use-cases">Use Cases</a>
-    <a class="card" href="#playbooks">Industry Playbooks</a>
-    <a class="card" href="#orgs">Organizations That Benefit</a>
-    <a class="card" href="#kpis">KPIs &amp; SLAs</a>
-    <a class="card" href="#portfolio">Proof &amp; Portfolio</a>
-    <a class="card" href="#certifications">Team Certification Pathways</a>
-    <a class="card" href="#leadership-pathways">Leadership Certification Pathways</a>
+    <a class="card" href="#model">How the 1:50 IT Model Works</a>
+    <a class="card" href="#pods">Pod Composition &amp; Governance</a>
+    <a class="card" href="#services">Service Catalog (What We Run)</a>
+    <a class="card" href="#packages">Tiered Managed Service Packages</a>
+    <a class="card" href="#compliance">Compliance &amp; Enterprise Standards</a>
+    <a class="card" href="#kpis">KPIs &amp; SLA Targets</a>
+    <a class="card" href="#commercials">Commercials &amp; ROI</a>
+    <a class="card" href="#portfolio">Proof &amp; Case Studies</a>
+    <a class="card" href="#governance">ITIL, Governance &amp; Security Boundaries</a>
+    <a class="card" href="#leadership-pathways">Leadership Journey (1:50 IT Leader)</a>
     <a class="card" href="#hire-it-team">Hire a 1:50 IT Team</a>
-    <a class="card" href="#apply-leader">Apply (Team Leader)</a>
+    <a class="card" href="#apply-leader">Apply to Become a Team Leader</a>
   </div>
 </section>
 
@@ -135,6 +132,7 @@ include 'breadcrumbs.php';
 <!-- 1:50 Team — Roles & Delivery Pods -->
 <section id="pods" class="section">
   <h2>1:50 Team — Roles &amp; Delivery Pods</h2>
+  <p><strong>Governance:</strong> One certified IT Operations Leader governs the full 1:50 pod, runs CAB, approves change windows, and reports on KPIs, SLAs, and financial performance.</p>
   <p>Five delivery pods execute with clear accountability. One certified leader orchestrates governance, SLAs and commercial outcomes.</p>
   <div class="grid">
     <div class="card">
@@ -283,6 +281,100 @@ include 'breadcrumbs.php';
     <li>Monthly SLA packs, capacity/availability reports, asset/license compliance, cost dashboards.</li>
     <li>ISO/IEC 20000-ready; coordinates with ISO 27001/SOC 2 via Cybersecurity.</li>
   </ul>
+</section>
+
+<!-- Compliance & Enterprise Standards -->
+<section id="compliance" class="section">
+  <h2>Compliance &amp; Enterprise Standards Map</h2>
+  <p class="muted" style="max-width:900px;margin:0 auto 30px;text-align:center;">
+    IT Operations &amp; Infrastructure aligns with enterprise frameworks and hands off advanced security and GRC to the Cybersecurity and Intelligent Cloud teams.
+  </p>
+
+  <div class="table-wrapper">
+    <table class="compliance-table">
+      <thead>
+        <tr>
+          <th>Area</th>
+          <th>Framework / Standard</th>
+          <th>What This IT Pod Covers</th>
+          <th>Handoffs</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Service Management</td>
+          <td>ITIL v4, ISO/IEC 20000</td>
+          <td>Incident, Request, Problem, Change, Service Catalog, SLAs, reporting</td>
+          <td>Links to business risk &amp; audit with Cybersecurity</td>
+        </tr>
+        <tr>
+          <td>Security &amp; Privacy</td>
+          <td>ISO 27001, SOC 2, GDPR</td>
+          <td>Baseline hardening, patch windows, access reviews, logs to SIEM</td>
+          <td>Detection/response, GRC, data privacy led by Cybersecurity</td>
+        </tr>
+        <tr>
+          <td>Continuity &amp; Resilience</td>
+          <td>BCP/DR best practice, ISO 22301 (alignment)</td>
+          <td>Backup, DR runbooks, RPO/RTO, failover tests</td>
+          <td>Enterprise BCP steering with Business &amp; Governance</td>
+        </tr>
+        <tr>
+          <td>Asset &amp; License Management</td>
+          <td>ITIL Asset Mgmt, SAM best practice</td>
+          <td>CMDB accuracy, license compliance, vendor governance</td>
+          <td>Financial controls with Finance team</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- KPIs & SLA Targets -->
+<section id="kpis" class="section">
+  <h2>KPIs &amp; SLA Targets — How We Are Measured</h2>
+  <p class="muted" style="max-width:900px;margin:0 auto 30px;text-align:center;">
+    Typical KPI &amp; SLA targets for an enterprise 1:50 IT Operations &amp; Infrastructure pod.
+  </p>
+
+  <div class="table-wrapper">
+    <table class="kpi-table">
+      <thead>
+        <tr>
+          <th>Service Area</th>
+          <th>Key KPIs</th>
+          <th>Typical Targets</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Service Desk &amp; End-User Support</td>
+          <td>First Contact Resolution, SLA Attainment, CSAT</td>
+          <td>FCR ≥ 70–80%, SLA ≥ 95%, CSAT ≥ 4.5/5</td>
+        </tr>
+        <tr>
+          <td>Network &amp; Wi-Fi</td>
+          <td>Uptime, p95 Latency, Incident MTTR</td>
+          <td>Uptime ≥ 99.5–99.9%, p95 latency within agreed ms, MTTR ≤ 2–4h</td>
+        </tr>
+        <tr>
+          <td>Backup &amp; DR</td>
+          <td>Backup Success %, RPO/RTO, Tested Restores</td>
+          <td>Success ≥ 98–99%, tested at least quarterly, documented RPO/RTO</td>
+        </tr>
+        <tr>
+          <td>Asset &amp; License Management</td>
+          <td>Inventory Accuracy, License Compliance</td>
+          <td>≥ 95% CMDB accuracy, zero critical compliance gaps</td>
+        </tr>
+        <tr>
+          <td>Change &amp; Release Management</td>
+          <td>Change Success Rate, Emergency Changes, Rollback Rate</td>
+          <td>Success ≥ 95%, Emergency ≤ 5%, Rollback ≤ 3%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </section>
 
 <!-- Recommended IT Services -->
@@ -603,28 +695,74 @@ include 'breadcrumbs.php';
   </div>
 </section>
 
-<!-- Leadership Pathways -->
+<!-- Leadership Journey -->
 <section id="leadership-pathways" class="section">
-  <h2>Leadership Certification Pathways (IT Ops Leaders)</h2>
+  <h2>Leadership Journey — How a 1:50 IT Leader is Built</h2>
+  <p class="muted" style="max-width:900px;margin:0 auto 30px;text-align:center;">
+    This is not a student program or an employment scheme — it is an Investor Education leadership mandate for running a full IT operations business unit.
+  </p>
+
   <div class="grid">
     <div class="card">
-      <h3>Technical Leadership</h3>
-      <p>ITIL 4 Managing Professional • ISO/IEC 20000 Lead Implementer • ISO 27001 Lead Implementer (with Cyber) •
-         SRE Foundations • ServiceNow/Jira Service Mgmt Admin • Architecture for IT Ops (capacity/availability).</p>
+      <h3>Step 1 — Formed</h3>
+      <p><strong>You complete expert tracks in:</strong></p>
+      <ul style="margin:10px 0;padding-left:20px;line-height:1.8">
+        <li>ITIL/ITSM, identity/endpoint, network, collaboration, backup/DR</li>
+        <li>ISO/IEC 20000, ISO 27001 coordination, ServiceNow/Jira Service Mgmt</li>
+        <li>Leadership & commercial training (negotiation, stakeholder management, financial ops)</li>
+      </ul>
     </div>
     <div class="card">
-      <h3>Program &amp; Delivery</h3>
-      <p>PMP or PRINCE2 • Agile Scrum Master/PO • Change Enablement • Vendor &amp; Contract Management • Financial Ops (FinOps for IT).</p>
+      <h3>Step 2 — Build the 1:50 Pod</h3>
+      <p><strong>You recruit and develop 50 members across 5 pods:</strong></p>
+      <ul style="margin:10px 0;padding-left:20px;line-height:1.8">
+        <li>Platform Pod (10): Workplace, identity, collaboration</li>
+        <li>Network Pod (10): LAN/WAN, Wi-Fi, connectivity</li>
+        <li>Data & Protection Pod (10): Backup/DR, data ops, BI</li>
+        <li>NOC & Tooling Pod (10): Monitoring, runbooks, CMDB</li>
+        <li>Leadership Pod (10): Governance, CAB, reporting</li>
+      </ul>
+      <p class="muted">Using the Investor Education work-study model.</p>
     </div>
     <div class="card">
-      <h3>Commercial &amp; Leadership</h3>
-      <p>Negotiation &amp; Procurement • Stakeholder Management • Executive Reporting • Compliance &amp; Audit Readiness.</p>
+      <h3>Step 3 — Deploy & Govern</h3>
+      <p><strong>You run SLAs and coordinate operations:</strong></p>
+      <ul style="margin:10px 0;padding-left:20px;line-height:1.8">
+        <li>Chair CAB, approve change windows, manage incident/problem/change processes</li>
+        <li>Coordinate with Cybersecurity (security posture) & Intelligent Cloud (platform scale)</li>
+        <li>Report KPIs, SLAs, and financial performance to clients monthly</li>
+        <li>Maintain ISO/IEC 20000 readiness and operational excellence</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Step 4 — Earn & Scale</h3>
+      <p><strong>You earn from team-building and operational revenue:</strong></p>
+      <ul style="margin:10px 0;padding-left:20px;line-height:1.8">
+        <li><strong>Team-building commission:</strong> 44,321 USD upon forming the pod</li>
+        <li><strong>Operational revenue share:</strong> Performance-based residuals from managed services</li>
+        <li><strong>Total pod revenue capacity:</strong> $3M–$8M per year across multi-site client portfolios</li>
+        <li>Scale by deploying multiple pods or expanding geographic coverage</li>
+      </ul>
     </div>
   </div>
-  <p class="muted" style="margin-top:10px">
-    <strong>1:50 Model Mapping:</strong> Leaders coordinate five delivery pods, uphold SLAs, own CAB/governance, and drive revenue performance.
-    Commission potential: <strong>44,321 USD</strong> (active) with multi-million USD capacity in mature deployments.
-  </p>
+
+  <div style="margin-top:40px;padding:30px;background:#f7fbff;border-radius:12px;border:1px solid #cfe2ff;">
+    <h3 style="margin-top:0;color:#0b4f7a;">Leadership Certification Pathways</h3>
+    <div class="grid" style="margin-top:20px;">
+      <div>
+        <h4 style="color:#0b4f7a;margin-bottom:10px;">Technical Leadership</h4>
+        <p style="font-size:14px;line-height:1.6;margin:0;">ITIL 4 Managing Professional • ISO/IEC 20000 Lead Implementer • ISO 27001 Lead Implementer (with Cyber) • SRE Foundations • ServiceNow/Jira Service Mgmt Admin • Architecture for IT Ops (capacity/availability).</p>
+      </div>
+      <div>
+        <h4 style="color:#0b4f7a;margin-bottom:10px;">Program & Delivery</h4>
+        <p style="font-size:14px;line-height:1.6;margin:0;">PMP or PRINCE2 • Agile Scrum Master/PO • Change Enablement • Vendor & Contract Management • Financial Ops (FinOps for IT).</p>
+      </div>
+      <div>
+        <h4 style="color:#0b4f7a;margin-bottom:10px;">Commercial & Leadership</h4>
+        <p style="font-size:14px;line-height:1.6;margin:0;">Negotiation & Procurement • Stakeholder Management • Executive Reporting • Compliance & Audit Readiness.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- Hire a 1:50 IT Team -->
