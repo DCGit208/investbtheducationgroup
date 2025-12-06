@@ -943,13 +943,15 @@ include 'breadcrumbs.php';
 
 <!-- Team Certification Pathways -->
 <section id="certifications" class="section">
-  <h2>Team Certification Pathways — IT Operations (No Overlap)</h2>
-  <p class="muted">Organized in three ladders: <strong>Ops Core</strong>, <strong>Data &amp; Analytics (Ops)</strong>, and <strong>Strategy &amp; Sector</strong>. Development/SDLC, big-data/ML, and SOC/MDR live on Software Engineering, Intelligent Cloud, and Cybersecurity pages to avoid repetition.</p>
+  <h2>Team Certification Pathways — Complete 1:50 Pod Coverage</h2>
+  <p class="muted">Five certification tracks aligned to the five delivery pods, covering every service domain for $3M–$8M+ annual revenue capacity. Each track has Foundation → Intermediate → Advanced → Expert progression over 4–5 years. Development/SDLC, big-data/ML, and SOC/MDR live on Software Engineering, Intelligent Cloud, and Cybersecurity pages.</p>
 
   <div class="tabs" role="tablist">
-    <button class="tab-btn active" onclick="switchTab('ops-core')" role="tab" aria-controls="tab-ops-core">A) Ops Core</button>
-    <button class="tab-btn" onclick="switchTab('data-ops')" role="tab" aria-controls="tab-data-ops">B) Data &amp; Analytics (Ops)</button>
-    <button class="tab-btn" onclick="switchTab('strategy')" role="tab" aria-controls="tab-strategy">C) Strategy &amp; Sector</button>
+    <button class="tab-btn active" onclick="switchTab('leadership')" role="tab" aria-controls="tab-leadership">A) Leadership & Governance</button>
+    <button class="tab-btn" onclick="switchTab('platform')" role="tab" aria-controls="tab-platform">B) Platform & Collaboration</button>
+    <button class="tab-btn" onclick="switchTab('network')" role="tab" aria-controls="tab-network">C) Network & Connectivity</button>
+    <button class="tab-btn" onclick="switchTab('data-protection')" role="tab" aria-controls="tab-data-protection">D) Data & Protection</button>
+    <button class="tab-btn" onclick="switchTab('noc-tooling')" role="tab" aria-controls="tab-noc-tooling">E) NOC & Tooling</button>
   </div>
   
   <script>
@@ -964,34 +966,70 @@ include 'breadcrumbs.php';
   }
   </script>
 
-  <div id="tab-ops-core" class="tab-panel active" role="tabpanel" aria-labelledby="ops-core">
-    <h3>Ops Core — Foundation → Expert</h3>
+  <div id="tab-leadership" class="tab-panel active" role="tabpanel" aria-labelledby="leadership">
+    <h3>A) Leadership & Governance Pod — Strategic IT Operations Leadership</h3>
+    <p style="margin-bottom:16px;color:#6b7280;"><strong>Revenue impact:</strong> $35K–$60K/month pod revenue | <strong>Roles:</strong> IT Ops Architect, vCIO, PMO, CAB Chair | <strong>Service coverage:</strong> ITIL processes, governance, strategy, vendor management, financial/commercial oversight</p>
     <ul>
-      <li><strong>Foundation (Year 1):</strong> CompTIA Tech+ • A+ • ITIL 4 Foundation • MD-102 (Endpoint) • M365 Admin • CCNA.</li>
-      <li><strong>Intermediate (Year 2):</strong> AZ-104 (Azure Admin) • Linux LFCS/LPIC-1 • Veeam Associate • ENWLSD/ENARSI (as needed).</li>
-      <li><strong>Advanced (Year 3):</strong> ITIL Managing Professional • VMware/Hyper-V Admin • SD-WAN/NAC • ServiceNow/Jira SM Admin.</li>
-      <li><strong>Expert (Year 4-5):</strong> ISO/IEC 20000 implementation • Architecture for IT Ops • SRE for IT Operations.</li>
+      <li><strong>Foundation (Year 1):</strong> ITIL 4 Foundation • PMP/PRINCE2 Foundation • Agile/Scrum basics • Financial Management for IT • Vendor Management fundamentals • Stakeholder Engagement.</li>
+      <li><strong>Intermediate (Year 2):</strong> ITIL 4 Strategist • ISO/IEC 20000 Foundation • COBIT 2019 Foundation • Change Management (PROSCI/ADKAR) • vCIO Advisory frameworks • Contract & SLA negotiation.</li>
+      <li><strong>Advanced (Year 3):</strong> ITIL 4 Managing Professional (full suite) • ISO/IEC 20000 Lead Implementer • Enterprise Architecture (TOGAF/Zachman) • FinOps Certified Practitioner • Asset/License Management (HAM/SAM) • Service Integration & Management (SIAM).</li>
+      <li><strong>Expert (Year 4-5):</strong> ITIL 4 Strategic Leader • Business Relationship Management Professional (BRM) • Lean Six Sigma Green/Black Belt • IT Governance frameworks • Multi-site Operations Leadership • Executive Communication & Board Reporting.</li>
+      <li><strong>Sector depth:</strong> Healthcare IT leadership (HIPAA ops), Financial IT (PCI coordination), Education (FERPA/accessibility), Public Sector (compliance frameworks).</li>
     </ul>
+    <p class="muted" style="margin-top:12px;"><strong>Career path:</strong> IT Ops Team Leader → IT Operations Director → VP/Head of IT Operations → CIO track</p>
   </div>
 
-  <div id="tab-data-ops" class="tab-panel" role="tabpanel" aria-labelledby="data-ops">
-    <h3>Data &amp; Analytics (Operations) — DBA/BI/ETL</h3>
+  <div id="tab-platform" class="tab-panel" role="tabpanel" aria-labelledby="platform">
+    <h3>B) Platform & Collaboration Pod — Identity, Endpoint, Servers, Productivity</h3>
+    <p style="margin-bottom:16px;color:#6b7280;"><strong>Revenue impact:</strong> $45K–$75K/month pod revenue | <strong>Roles:</strong> Identity Engineer, Endpoint Specialist, Server Admin, Collaboration Engineer | <strong>Service coverage:</strong> Identity/access, endpoint/UEM, servers/virtualization, M365/Google, collaboration governance</p>
     <ul>
-      <li><strong>Foundation:</strong> SQL Admin Basics (Postgres/SQL Server) • Power BI/Looker Analyst Fundamentals • ETL basics.</li>
-      <li><strong>Intermediate:</strong> dbt Fundamentals • Data Quality &amp; Lineage • Backup/Recovery for DBs.</li>
-      <li><strong>Advanced:</strong> Performance tuning • HA/Failover • Governed BI layers • KPI dashboards for execs.</li>
-      <li><strong>Boundary:</strong> Big data/ML/MLOps → Intelligent Cloud; SIEM/security analytics → Cybersecurity.</li>
+      <li><strong>Foundation (Year 1):</strong> CompTIA A+ • MS-900 (M365 Fundamentals) • MD-102 (Endpoint Administrator) • SC-900 (Security Fundamentals) • MS-102 (M365 Administrator) • Linux Essentials.</li>
+      <li><strong>Intermediate (Year 2):</strong> SC-300 (Identity & Access Administrator) • AZ-104 (Azure Administrator) • Intune/Jamf/Workspace ONE certifications • MS-720 (Teams Administrator) • LFCS (Linux Foundation Certified SysAdmin) • VMware VCP or Hyper-V specialist.</li>
+      <li><strong>Advanced (Year 3):</strong> SC-100 (Cybersecurity Architect — identity focus) • AZ-305 (Azure Solutions Architect) • Advanced UEM (zero-touch, kiosk, VDI) • MS-700 (Teams Voice Engineer) • RHCSA (Red Hat) or LPIC-2 • Advanced virtualization (vSphere, Hyper-V clustering).</li>
+      <li><strong>Expert (Year 4-5):</strong> Entra ID/AD advanced architecture • Conditional Access policy frameworks • Privileged Identity Management (PIM) • Collaboration governance at scale (DLP, retention, compliance) • Server automation (Ansible, Chef, Puppet) • Multi-forest/multi-tenant architectures.</li>
+      <li><strong>Sector depth:</strong> Healthcare device management (HIPAA endpoints), Financial branch endpoints (PCI-compliant imaging), Education (lab management, student devices), Manufacturing (rugged/industrial endpoints).</li>
     </ul>
+    <p class="muted" style="margin-top:12px;"><strong>Career path:</strong> Platform Engineer → Senior Platform Architect → Principal Engineer (Identity/Collaboration/Endpoint specialization)</p>
   </div>
 
-  <div id="tab-strategy" class="tab-panel" role="tabpanel" aria-labelledby="strategy">
-    <h3>Strategy, Governance &amp; Sector Solutions</h3>
+  <div id="tab-network" class="tab-panel" role="tabpanel" aria-labelledby="network">
+    <h3>C) Network & Connectivity Pod — LAN, WAN, Wi-Fi, SD-WAN, Security</h3>
+    <p style="margin-bottom:16px;color:#6b7280;"><strong>Revenue impact:</strong> $40K–$70K/month pod revenue | <strong>Roles:</strong> Network Engineer, Wi-Fi Specialist, SD-WAN Engineer, NAC Administrator | <strong>Service coverage:</strong> LAN/WAN design, Wi-Fi, SD-WAN, NAC, DHCP/DNS/IPAM, VPN/ZTNA, QoS, branch templates</p>
     <ul>
-      <li><strong>Governance:</strong> ITIL v4 Managing Professional • ISO/IEC 20000 • Asset/License (HAM/SAM) badges • FinOps for IT.</li>
-      <li><strong>Compliance &amp; Access:</strong> Access reviews, evidence packs, retention &amp; eDiscovery coordination.</li>
-      <li><strong>Sector Ops:</strong> Healthcare (HIS/LIMS/EHR ops), Finance (branch ops, PCI evidence with Cyber), Education (LMS ops, labs).</li>
-      <li><strong>Accessibility:</strong> WCAG 2.2 AA readiness for public sector and regulated workloads.</li>
+      <li><strong>Foundation (Year 1):</strong> CompTIA Network+ • CCNA (Cisco) or equivalent (Aruba, Juniper) • Wi-Fi fundamentals • DHCP/DNS/IPAM basics • Network security fundamentals • Cable plant & physical layer.</li>
+      <li><strong>Intermediate (Year 2):</strong> CCNP Enterprise (ENCOR + ENARSI) or Aruba ACMP • Wi-Fi Design (CWDP/Ekahau) • SD-WAN fundamentals (Cisco Meraki/Fortinet/VMware VeloCloud) • NAC/802.1X (ClearPass, ISE, FortiNAC) • VPN/ZTNA architectures.</li>
+      <li><strong>Advanced (Year 3):</strong> CCNP Enterprise Wireless (ENWLSD + ENWLSI) or Aruba ACMX • SD-WAN Professional (multi-vendor) • Advanced NAC policy design • QoS & traffic engineering • Multi-site WAN optimization • Network automation (Python, Ansible for networking).</li>
+      <li><strong>Expert (Year 4-5):</strong> CCIE Enterprise Infrastructure or Aruba Expert • Wi-Fi 6E/7 advanced design • Zero Trust Network Architecture (ZTNA) • Branch-in-a-box templates • Multi-region connectivity (MPLS, Internet, 5G) • Network observability & telemetry • Carrier/ISP coordination.</li>
+      <li><strong>Sector depth:</strong> Healthcare network segmentation (medical devices), Financial branch networking (PCI zones), Education (campus networks, high-density Wi-Fi), Manufacturing (OT/IT convergence, industrial protocols).</li>
     </ul>
+    <p class="muted" style="margin-top:12px;"><strong>Career path:</strong> Network Engineer → Senior Network Architect → Principal Network Engineer → Network Infrastructure Director</p>
+  </div>
+
+  <div id="tab-data-protection" class="tab-panel" role="tabpanel" aria-labelledby="data-protection">
+    <h3>D) Data & Protection Pod — DBA, Backup/DR/BCP, BI/Analytics</h3>
+    <p style="margin-bottom:16px;color:#6b7280;"><strong>Revenue impact:</strong> $42K–$72K/month pod revenue | <strong>Roles:</strong> Database Administrator, Backup/DR Specialist, BI Analyst, Data Engineer | <strong>Service coverage:</strong> SQL/NoSQL admin, backup/restore, DR/BCP, storage, ETL, BI dashboards, data governance</p>
+    <ul>
+      <li><strong>Foundation (Year 1):</strong> SQL Fundamentals (Postgres/SQL Server/MySQL) • Backup basics (Veeam/Commvault/Rubrik Associate) • Storage fundamentals (SAN/NAS) • Power BI/Tableau/Looker Analyst • ETL basics • Data quality fundamentals.</li>
+      <li><strong>Intermediate (Year 2):</strong> Database Administration Professional (Microsoft MCSA successor/Oracle OCP/PostgreSQL) • Veeam/Commvault/Rubrik Professional • Storage design & capacity planning • dbt Fundamentals • Data modeling & warehousing • BI governance & row-level security.</li>
+      <li><strong>Advanced (Year 3):</strong> Advanced DBA (HA/clustering/replication/performance tuning) • Backup immutability & air-gap architectures • DR orchestration & failover automation • Business Continuity Planning (BCP) certification • Advanced BI (DAX, complex data models, paginated reports) • Data lineage & cataloging (Collibra/Alation).</li>
+      <li><strong>Expert (Year 4-5):</strong> Database Architecture (multi-region, sharding, polyglot persistence) • Disaster Recovery Planning Professional (DRI/BCI) • Recovery testing frameworks & tabletop exercises • Executive KPI dashboards & data storytelling • DataOps & governed analytics • RPO/RTO optimization & cost modeling.</li>
+      <li><strong>Sector depth:</strong> Healthcare data (HIPAA retention, EHR backup), Financial data (SOX compliance, transaction integrity), Education (student data protection, FERPA), Manufacturing (SCADA/historian backup).</li>
+      <li><strong>Boundary:</strong> Big data/ML/data lakes → <strong>Intelligent Cloud</strong>; SIEM/security analytics → <strong>Cybersecurity</strong>.</li>
+    </ul>
+    <p class="muted" style="margin-top:12px;"><strong>Career path:</strong> DBA/BI Analyst → Senior Data Engineer → Principal Data Architect → Head of Data Operations</p>
+  </div>
+
+  <div id="tab-noc-tooling" class="tab-panel" role="tabpanel" aria-labelledby="noc-tooling">
+    <h3>E) NOC & Tooling Pod — Monitoring, ITSM, CMDB, Automation, Incident Response</h3>
+    <p style="margin-bottom:16px;color:#6b7280;"><strong>Revenue impact:</strong> $48K–$78K/month pod revenue | <strong>Roles:</strong> NOC Engineer, ITSM Administrator, Monitoring Specialist, Automation Engineer, On-call Coordinator | <strong>Service coverage:</strong> 24×7 monitoring, service desk/ITSM, CMDB, asset/license management, runbooks, on-call, status pages</p>
+    <ul>
+      <li><strong>Foundation (Year 1):</strong> CompTIA IT Fundamentals+ • ITIL 4 Foundation • HDI Support Center Analyst • Monitoring basics (Datadog/Splunk/ELK/Prometheus) • ServiceNow/Jira Service Management Fundamentals • Incident & Request Management.</li>
+      <li><strong>Intermediate (Year 2):</strong> ITIL 4 Specialist (Monitor, Support & Fulfil) • ServiceNow System Administrator or Jira Admin • Monitoring platform professional (Datadog/Splunk/Grafana certifications) • CMDB design & population • Asset Management (ITAM Foundation) • PagerDuty/Opsgenie on-call design.</li>
+      <li><strong>Advanced (Year 3):</strong> ITIL 4 Specialist (Create, Deliver & Support) • Advanced ITSM (change/problem/knowledge management) • Observability engineering (logs/metrics/traces correlation) • Runbook automation (Ansible/Python) • License optimization (SAM/HAM Professional) • SLA reporting & KPI dashboards.</li>
+      <li><strong>Expert (Year 4-5):</strong> Site Reliability Engineering (SRE) for IT Ops • Advanced automation (self-healing, auto-remediation) • Chaos engineering for resilience testing • Enterprise CMDB federation • Status page & incident communication at scale • On-call culture & burnout prevention • Proactive monitoring & AIOps.</li>
+      <li><strong>Sector depth:</strong> Healthcare NOC (patient safety-critical monitoring), Financial NOC (transaction monitoring, branch uptime), Education (academic calendar-aware support), Manufacturing (OT monitoring integration).</li>
+    </ul>
+    <p class="muted" style="margin-top:12px;"><strong>Career path:</strong> NOC Analyst → NOC Team Lead → Service Delivery Manager → IT Operations Manager → Head of Service Operations</p>
   </div>
 </section>
 
