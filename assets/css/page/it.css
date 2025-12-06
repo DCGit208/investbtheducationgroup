@@ -1,30 +1,367 @@
 /* Information Technology (Operations & Infrastructure) page-scoped styles (extracted) */
 
+/* ===================================
+   PREMIUM BACKGROUND SYSTEM
+   Beyond Fortune 500 visual design
+=================================== */
+
+/* Hero Section - Multi-layer Premium Gradient */
+.hero {
+  position: relative;
+  background: linear-gradient(135deg, #0a2540 0%, #0b4f7a 50%, #0d5f92 100%);
+  overflow: hidden;
+  padding: 80px 0;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 80%;
+  height: 150%;
+  background: radial-gradient(ellipse at center, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+  animation: float 20s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -10%;
+  width: 60%;
+  height: 120%;
+  background: radial-gradient(ellipse at center, rgba(16, 185, 129, 0.1) 0%, transparent 70%);
+  animation: float 15s ease-in-out infinite reverse;
+  pointer-events: none;
+}
+
+@keyframes float {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  33% { transform: translate(30px, -30px) rotate(5deg); }
+  66% { transform: translate(-20px, 20px) rotate(-5deg); }
+}
+
+/* Geometric Pattern Overlay for Hero */
+.hero-left::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100px;
+  width: 400px;
+  height: 400px;
+  background: 
+    linear-gradient(45deg, transparent 48%, rgba(255, 255, 255, 0.02) 49%, rgba(255, 255, 255, 0.02) 51%, transparent 52%),
+    linear-gradient(-45deg, transparent 48%, rgba(255, 255, 255, 0.02) 49%, rgba(255, 255, 255, 0.02) 51%, transparent 52%);
+  background-size: 40px 40px;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-left, .hero-right {
+  position: relative;
+  z-index: 2;
+}
+
+/* Alternating Section Backgrounds */
+#quick-nav {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  position: relative;
+}
+
+#model {
+  background: #ffffff;
+  position: relative;
+}
+
+#model::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(11, 79, 122, 0.03) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+#model-efficiency {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+#model-efficiency::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.08) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+#pods {
+  background: #ffffff;
+  position: relative;
+}
+
+#pods::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(11, 79, 122, 0.2) 50%, transparent 100%);
+}
+
+/* Premium Dark Section for Commercials (ROI/Money Focus) */
+#commercials {
+  background: linear-gradient(135deg, #0a2540 0%, #1e293b 100%);
+  position: relative;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+#commercials::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 30%, rgba(251, 191, 36, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(59, 130, 246, 0.06) 0%, transparent 40%);
+  pointer-events: none;
+}
+
+#commercials h2,
+#commercials h3,
+#commercials p,
+#commercials li,
+#commercials strong {
+  color: #ffffff;
+}
+
+#commercials .muted {
+  color: #cbd5e1 !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-left-color: #fbbf24 !important;
+}
+
+#finance-pack {
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+}
+
+#packages {
+  background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 50%, #f0f9ff 100%);
+  position: relative;
+  padding: 80px 0;
+}
+
+#packages::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.05) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+#compliance, #kpis {
+  background: #ffffff;
+}
+
+#timeline {
+  background: linear-gradient(90deg, 
+    #f0f9ff 0%, 
+    #e0f2fe 25%, 
+    #dbeafe 50%, 
+    #e0f2fe 75%, 
+    #f0f9ff 100%
+  );
+  position: relative;
+  padding: 80px 0;
+}
+
+/* Enhanced Categorization - Technical Blueprint Pattern */
+#enhanced-categorization {
+  background: #fafafa;
+  position: relative;
+}
+
+#enhanced-categorization::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(11, 79, 122, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(11, 79, 122, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+#solutions-by-category {
+  background: #ffffff;
+}
+
+#service-catalog {
+  background: linear-gradient(135deg, #fef3c7 0%, #fef9e7 50%, #f0f9ff 100%);
+  position: relative;
+}
+
+#client-success {
+  background: #ffffff;
+}
+
+#governance {
+  background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+/* Leadership Section - Inspiring gradient */
+#leadership-pathways {
+  background: linear-gradient(135deg, #0a2540 0%, #1e3a5f 50%, #0d5f92 100%);
+  position: relative;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+#leadership-pathways::before {
+  content: '';
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.1) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+#leadership-pathways h2,
+#leadership-pathways h3,
+#leadership-pathways h4,
+#leadership-pathways p,
+#leadership-pathways li,
+#leadership-pathways strong {
+  color: #ffffff;
+}
+
+#leadership-pathways .card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#leadership-pathways .card h3,
+#leadership-pathways .card h4,
+#leadership-pathways .card p,
+#leadership-pathways .card li,
+#leadership-pathways .card strong {
+  color: #1e293b;
+}
+
+#faq {
+  background: #ffffff;
+  position: relative;
+}
+
+#faq::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(180deg, transparent 0%, rgba(11, 79, 122, 0.02) 100%);
+  pointer-events: none;
+}
+
+/* CTA Sections - Premium white with shadow depth */
+#hire-it-team,
+#apply-leader {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  box-shadow: 
+    0 -1px 0 rgba(11, 79, 122, 0.1),
+    0 10px 30px rgba(0, 0, 0, 0.05);
+  position: relative;
+  padding: 80px 0;
+}
+
 /* Override certifications section dark background */
 #certifications {
-  background: #ffffff !important;
-  color: #000000 !important;
+  background: linear-gradient(135deg, #0a2540 0%, #1e293b 100%) !important;
+  color: #ffffff !important;
+  position: relative;
+  overflow: hidden;
+  padding: 80px 20px;
 }
+#certifications::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 60%);
+  pointer-events: none;
+}
+
 #certifications h2,
 #certifications .muted,
-#certifications p {
-  color: #000000 !important;
-  background: transparent !important;
+#certifications p,
+#certifications h3,
+#certifications h4,
+#certifications li,
+#certifications strong {
+  color: #ffffff !important;
 }
-#certifications::before,
-#certifications::after {
-  display: none !important;
-  content: none !important;
+
+#certifications .service-card {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+#certifications .service-card:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
 }
 
 /* Scoped commercial overlap hardening */
-#commercials { position: relative; z-index: 2; }
-#commercials .card { position: relative; z-index: 2; overflow: visible; background: var(--card-bg, #fff); }
-#commercials .card::before,
-#commercials .card::after { content: none !important; display: none !important; }
+#commercials .card { 
+  position: relative; 
+  z-index: 2; 
+  overflow: visible; 
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3) !important;
+}
 
-/* Ensure any fixed CTA elsewhere does not cover the commercials section while interacting */
-#commercials:focus-within { z-index: 3; }
+#commercials .card:hover {
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4) !important;
+}
+
+#commercials .card h3,
+#commercials .card h4,
+#commercials .card p,
+#commercials .card li,
+#commercials .card strong {
+  color: #1e293b !important;
+}
+
+#commercials .card .muted {
+  color: #475569 !important;
+}
 
 /* Tabs (Team Certification Pathways) */
 .tabs { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; border-bottom:2px solid #e5e7eb; padding-bottom:0; }
@@ -273,16 +610,21 @@
 }
 
 @media (max-width: 768px) {
-  .package-tier {
-    padding-top: 45px;
-  }
-  
-  .tier-badge {
-    top: 10px;
-    right: 10px;
-    font-size: 12px;
-    padding: 5px 12px;
-  }
+/* Enhanced Commercials Section Tables */
+#commercials > h2 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#commercials h3 {
+  color: #0b4f7a !important;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0b4f7a;
+} }
   
   .sla-box,
   .best-for {
@@ -297,19 +639,7 @@
   font-size: 22px;
   font-weight: 700;
   margin-top: 32px;
-  margin-bottom: 16px;
-  padding-bottom: 10px;
-  border-bottom: 3px solid #e8f3ff;
-}
-
-#commercials .card {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 28px;
-  margin-bottom: 24px;
-  box-shadow: 0 2px 8px rgba(11, 79, 122, 0.06);
-  transition: box-shadow 0.3s ease;
+ transition: box-shadow 0.3s ease;
 }
 
 #commercials .card:hover {
@@ -403,6 +733,50 @@
 
 /* Mobile responsive for Commercials tables */
 @media (max-width: 768px) {
+  #commercials h3 {
+    font-size: 19px;
+    margin-top: 24px;
+  }
+  
+  #commercials .card {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+/* Premium Card Enhancement for all sections */
+.section .card {
+  transition: all 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.section .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(11, 79, 122, 0.12);
+}
+
+/* Glass-morphism cards for premium sections */
+#packages .card,
+#timeline .card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Mobile responsive for Commercials tables */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 0;
+  }
+  
+  #commercials,
+  #leadership-pathways,
+  #packages,
+  #timeline,
+  #hire-it-team,
+  #apply-leader {
+    padding: 60px 0;
+  }
+  
   #commercials h3 {
     font-size: 19px;
     margin-top: 24px;
