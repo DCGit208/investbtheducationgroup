@@ -470,6 +470,11 @@ include 'breadcrumbs.php';
       <li>Baseline hardening &amp; patch windows (advanced SOC/MDR → Cybersecurity)</li>
     </ul>
     <p class="muted"><em>KPIs:</em> uptime, latency, change success rate, incident MTTR.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0f9ff;border-left:3px solid #0b4f7a;font-size:14px;">
+      <strong>Delivered by:</strong> Network Pod<br>
+      <strong>Typical scope:</strong> 100–2000 users, multi-site deployments<br>
+      <strong>Contract value:</strong> $12K–$55K/month depending on sites, coverage (8×5 vs 24×7), and SD-WAN complexity
+    </p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">Hardware, Services &amp; Infrastructure</button>
@@ -480,6 +485,11 @@ include 'breadcrumbs.php';
       <li>Backup/restore, DR drills, continuity runbooks</li>
     </ul>
     <p class="muted"><em>KPIs:</em> SLA attainment, first-contact resolution, restore success, device compliance.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0f9ff;border-left:3px solid #0b4f7a;font-size:14px;">
+      <strong>Delivered by:</strong> Platform Pod + Data & Protection Pod + NOC & Tooling Pod<br>
+      <strong>Typical scope:</strong> 50–2000+ users, endpoint fleets, server/VM estates<br>
+      <strong>Contract value:</strong> $15K–$70K/month depending on device count, DR requirements, and coverage hours
+    </p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">IT Management &amp; Strategy</button>
@@ -490,6 +500,11 @@ include 'breadcrumbs.php';
       <li>Transformation &amp; adoption (communications, training, champions network)</li>
     </ul>
     <p class="muted"><em>KPIs:</em> CSAT, backlog age, CAB success rate, SLA compliance.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0f9ff;border-left:3px solid #0b4f7a;font-size:14px;">
+      <strong>Delivered by:</strong> Leadership Pod + NOC & Tooling Pod<br>
+      <strong>Typical scope:</strong> All tiers — foundational governance for any 1:50 team engagement<br>
+      <strong>Contract value:</strong> Included in base pod rates; consulting add-ons (vCIO, transformation) $8K–$25K/month
+    </p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">Storage &amp; Data Management</button>
@@ -500,6 +515,11 @@ include 'breadcrumbs.php';
       <li>ETL pipelines, data quality &amp; stewardship, governed BI layers</li>
     </ul>
     <p class="muted"><em>KPIs:</em> job success %, data freshness, query performance, RTO/RPO.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0f9ff;border-left:3px solid #0b4f7a;font-size:14px;">
+      <strong>Delivered by:</strong> Data & Protection Pod<br>
+      <strong>Typical scope:</strong> 10TB–500TB+ storage, 5–100 databases, BI for 50–2000 users<br>
+      <strong>Contract value:</strong> $10K–$45K/month depending on data volumes, HA requirements, and BI complexity
+    </p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">Application Operations</button>
@@ -509,6 +529,11 @@ include 'breadcrumbs.php';
       <li>SSO/IAM integration, access reviews, telemetry &amp; availability SLOs (build work → Software Eng.)</li>
     </ul>
     <p class="muted"><em>KPIs:</em> uptime, incident MTTR, change success rate, adoption.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0f9ff;border-left:3px solid #0b4f7a;font-size:14px;">
+      <strong>Delivered by:</strong> Platform Pod + NOC & Tooling Pod<br>
+      <strong>Typical scope:</strong> 5–50 business applications, multi-environment (dev/test/prod)<br>
+      <strong>Contract value:</strong> $8K–$35K/month per major application cluster depending on uptime SLAs and release cadence
+    </p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">SDLC Coordination (Boundary)</button>
@@ -518,6 +543,10 @@ include 'breadcrumbs.php';
       <li>Feature builds/SDLC live on <a href="software-engineering.php">Software &amp; Systems Engineering</a></li>
     </ul>
     <p class="muted"><em>KPIs:</em> change success %, incident avoidance, handover quality.</p>
+    <p style="margin-top:12px;padding:10px;background:#fff9e6;border-left:3px solid #f59e0b;font-size:14px;">
+      <strong>Delivered by:</strong> Leadership Pod (CAB governance) + Platform/NOC Pods (operational readiness)<br>
+      <strong>Boundary:</strong> IT Ops coordinates releases; Software Engineering builds features. Collaborative handoff model.
+    </p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">Collaboration &amp; Productivity</button>
@@ -527,6 +556,11 @@ include 'breadcrumbs.php';
       <li>Endpoint/security baselines (advanced controls → Cyber), adoption programs</li>
     </ul>
     <p class="muted"><em>KPIs:</em> adoption %, active usage, ticket reduction, automation coverage.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0f9ff;border-left:3px solid #0b4f7a;font-size:14px;">
+      <strong>Delivered by:</strong> Platform Pod<br>
+      <strong>Typical scope:</strong> 50–5000 users, M365/Google rollouts, adoption campaigns<br>
+      <strong>Contract value:</strong> $6K–$30K/month depending on user count, advanced features (DLP, retention), and training programs
+    </p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">Training &amp; Enablement</button>
@@ -536,6 +570,11 @@ include 'breadcrumbs.php';
       <li>End-user enablement (collaboration suites, best practices)</li>
     </ul>
     <p class="muted"><em>KPIs:</em> training CSAT, time-to-productivity, incident reductions.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0f9ff;border-left:3px solid #0b4f7a;font-size:14px;">
+      <strong>Delivered by:</strong> Leadership Pod + Platform Pod<br>
+      <strong>Typical scope:</strong> Onboarding programs, champions networks, certification pathways<br>
+      <strong>Contract value:</strong> Included in Standard tier; dedicated programs $3K–$12K/month for large-scale transformations
+    </p>
   </div>
 </section>
 
@@ -556,6 +595,10 @@ include 'breadcrumbs.php';
     <p><strong>Industry relevance:</strong> Banks, healthcare, manufacturing, education, government, retail.</p>
     <p><strong>Why it matters:</strong> Improves uptime, user productivity, predictable OPEX &amp; compliance with SLAs.</p>
     <p class="muted"><em>Boundary:</em> advanced detection, IR and SOC → <strong>Cybersecurity</strong>.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0fdf4;border-left:3px solid #10b981;font-size:14px;">
+      <strong>Package tiers:</strong> All tiers (Standard, Advanced, Enterprise) include core managed services<br>
+      <strong>Typical ROI:</strong> 20–35% reduction in IT incident tickets within 6 months; 15–25% improvement in user satisfaction (CSAT) within 3–6 months; predictable monthly OPEX vs. variable break-fix costs
+    </p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">Application Operations &amp; Integrations</button>
@@ -570,6 +613,10 @@ include 'breadcrumbs.php';
     <p><strong>Industry relevance:</strong> Banking, health, government, education, industrial.</p>
     <p><strong>Why it matters:</strong> Protects uptime and user productivity while minimizing change risk.</p>
     <p class="muted"><em>Boundary:</em> new feature builds &amp; refactors → <a href="software-engineering.php"><strong>Software Engineering</strong></a>.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0fdf4;border-left:3px solid #10b981;font-size:14px;">
+      <strong>Package tiers:</strong> Advanced & Enterprise tiers (requires CAB governance + release coordination)<br>
+      <strong>Typical ROI:</strong> 30–50% reduction in production incidents caused by changes within 6–9 months; 95%+ change success rate; 40–60% faster release cycles with defined maintenance windows
+    </p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">Data &amp; Analytics Services</button>
@@ -583,6 +630,10 @@ include 'breadcrumbs.php';
     <p><strong>Industry relevance:</strong> Finance, retail, manufacturing, healthcare, public sector.</p>
     <p><strong>Why it matters:</strong> Trusted data for faster, better decisions and operational visibility.</p>
     <p class="muted"><em>Boundary:</em> SIEM/security analytics → <strong>Cybersecurity</strong>; large-scale data/ML → <strong>Intelligent Cloud</strong>.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0fdf4;border-left:3px solid #10b981;font-size:14px;">
+      <strong>Package tiers:</strong> Available in all tiers; complexity scales with Advanced/Enterprise packages<br>
+      <strong>Typical ROI:</strong> Executive dashboards operational within 8–12 weeks; 25–40% reduction in time spent on manual reporting; improved decision-making speed (data freshness from weekly to daily or real-time)
+    </p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">IT Consulting &amp; Strategy</button>
@@ -596,6 +647,10 @@ include 'breadcrumbs.php';
     <p><strong>Industry relevance:</strong> Enterprises and SMEs scaling IT effectiveness and transparency.</p>
     <p><strong>Why it matters:</strong> Aligns IT spend to outcomes; boosts service quality &amp; stakeholder trust.</p>
     <p class="muted"><em>Boundary:</em> risk, compliance and security strategy coordinated with <strong>Cybersecurity</strong>.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0fdf4;border-left:3px solid #10b981;font-size:14px;">
+      <strong>Package tiers:</strong> Consulting add-on or standalone engagement (6–12 month programs)<br>
+      <strong>Typical ROI:</strong> 15–30% reduction in IT operating costs within 12–18 months through vendor consolidation and process maturity; improved SLA compliance from 75–85% to 92–98%; measurable stakeholder satisfaction improvement
+    </p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">Industry-Specific IT Solutions</button>
@@ -610,38 +665,130 @@ include 'breadcrumbs.php';
     <p><strong>Industry relevance:</strong> Hospitals, banks, factories, schools, ministries &amp; agencies.</p>
     <p><strong>Why it matters:</strong> Tailors IT to regulatory, operational and user realities by sector.</p>
     <p class="muted"><em>Boundary:</em> sector security/compliance delivered jointly with <strong>Cybersecurity</strong>.</p>
+    <p style="margin-top:12px;padding:10px;background:#f0fdf4;border-left:3px solid #10b981;font-size:14px;">
+      <strong>Package tiers:</strong> Custom add-ons to Standard/Advanced/Enterprise base packages<br>
+      <strong>Typical ROI:</strong> Sector-specific compliance achieved (HIPAA, PCI-DSS, FERPA) within 6–9 months; 20–35% faster sector app deployments vs. generic IT teams; reduced audit findings and regulatory risk
+    </p>
   </div>
 </section>
 
 <!-- Service Catalog -->
 <section id="catalog" class="section">
   <h2>Service Catalog (Comprehensive)</h2>
+  <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;">Quick reference showing what services each pod delivers, which tiers include them, and typical contract values.</p>
   <div class="grid">
-    <div class="card"><h3>A. Workplace &amp; Endpoint</h3><p>Imaging/Autopilot/DEP • UEM (Intune/Jamf/Workspace ONE) • app packaging • device posture • kiosk/VDI.</p></div>
-    <div class="card"><h3>B. Identity &amp; Access</h3><p>Entra ID/AD • SSO/MFA • Conditional Access • SSPR • lifecycle (HR→IT) • B2B/B2C • RBAC reviews.</p></div>
-    <div class="card"><h3>C. Network &amp; Connectivity</h3><p>LAN/WAN/SD-WAN • Wi-Fi surveys • NAC/802.1X • DHCP/DNS/IPAM • VPN/ZTNA • QoS • branch templates.</p></div>
-    <div class="card"><h3>D. Servers &amp; Virtualization</h3><p>Windows/Linux • VMware/Hyper-V/KVM • file/print • cert services • config mgmt (Ansible/etc.).</p></div>
-    <div class="card"><h3>E. Collaboration &amp; Voice</h3><p>M365/Google • Teams/Meet/Zoom • DLP &amp; retention • room systems • telephony/Teams Phone.</p></div>
-    <div class="card"><h3>F. Data Protection &amp; DR/BCP</h3><p>Backup encryption • immutable backup • recovery testing • failover orchestration • tabletop exercises.</p></div>
-    <div class="card"><h3>G. Monitoring, NOC &amp; Tooling</h3><p>Alert normalization • runbooks • escalation • CMDB sync • status pages • telemetry wallboards.</p></div>
-    <div class="card"><h3>H. Service Desk &amp; Field</h3><p>ITSM tooling • knowledge mgmt • rotas • VIP support • depot/IMACD • vendor dispatch &amp; RMA.</p></div>
-    <div class="card"><h3>I. Asset, License &amp; Vendor</h3><p>HAM/SAM • true-ups • shadow IT discovery • vendor scorecards • cost optimization.</p></div>
-    <div class="card"><h3>J. Training &amp; Adoption</h3><p>Champion networks • floor walks • micro-learning • policy onboarding • productivity clinics.</p></div>
+    <div class="card">
+      <h3>A. Workplace &amp; Endpoint</h3>
+      <p>Imaging/Autopilot/DEP • UEM (Intune/Jamf/Workspace ONE) • app packaging • device posture • kiosk/VDI.</p>
+      <p class="muted" style="margin-top:10px;font-size:13px;"><strong>Pod:</strong> Platform | <strong>Tiers:</strong> All | <strong>Value:</strong> $8K–$35K/mo</p>
+    </div>
+    <div class="card">
+      <h3>B. Identity &amp; Access</h3>
+      <p>Entra ID/AD • SSO/MFA • Conditional Access • SSPR • lifecycle (HR→IT) • B2B/B2C • RBAC reviews.</p>
+      <p class="muted" style="margin-top:10px;font-size:13px;"><strong>Pod:</strong> Platform | <strong>Tiers:</strong> All | <strong>Value:</strong> $6K–$25K/mo</p>
+    </div>
+    <div class="card">
+      <h3>C. Network &amp; Connectivity</h3>
+      <p>LAN/WAN/SD-WAN • Wi-Fi surveys • NAC/802.1X • DHCP/DNS/IPAM • VPN/ZTNA • QoS • branch templates.</p>
+      <p class="muted" style="margin-top:10px;font-size:13px;"><strong>Pod:</strong> Network | <strong>Tiers:</strong> All | <strong>Value:</strong> $12K–$55K/mo</p>
+    </div>
+    <div class="card">
+      <h3>D. Servers &amp; Virtualization</h3>
+      <p>Windows/Linux • VMware/Hyper-V/KVM • file/print • cert services • config mgmt (Ansible/etc.).</p>
+      <p class="muted" style="margin-top:10px;font-size:13px;"><strong>Pod:</strong> Platform | <strong>Tiers:</strong> All | <strong>Value:</strong> $10K–$40K/mo</p>
+    </div>
+    <div class="card">
+      <h3>E. Collaboration &amp; Voice</h3>
+      <p>M365/Google • Teams/Meet/Zoom • DLP &amp; retention • room systems • telephony/Teams Phone.</p>
+      <p class="muted" style="margin-top:10px;font-size:13px;"><strong>Pod:</strong> Platform | <strong>Tiers:</strong> All | <strong>Value:</strong> $6K–$30K/mo</p>
+    </div>
+    <div class="card">
+      <h3>F. Data Protection &amp; DR/BCP</h3>
+      <p>Backup encryption • immutable backup • recovery testing • failover orchestration • tabletop exercises.</p>
+      <p class="muted" style="margin-top:10px;font-size:13px;"><strong>Pod:</strong> Data & Protection | <strong>Tiers:</strong> Advanced/Enterprise | <strong>Value:</strong> $12K–$50K/mo</p>
+    </div>
+    <div class="card">
+      <h3>G. Monitoring, NOC &amp; Tooling</h3>
+      <p>Alert normalization • runbooks • escalation • CMDB sync • status pages • telemetry wallboards.</p>
+      <p class="muted" style="margin-top:10px;font-size:13px;"><strong>Pod:</strong> NOC & Tooling | <strong>Tiers:</strong> All | <strong>Value:</strong> $8K–$35K/mo</p>
+    </div>
+    <div class="card">
+      <h3>H. Service Desk &amp; Field</h3>
+      <p>ITSM tooling • knowledge mgmt • rotas • VIP support • depot/IMACD • vendor dispatch &amp; RMA.</p>
+      <p class="muted" style="margin-top:10px;font-size:13px;"><strong>Pod:</strong> NOC & Tooling + Platform | <strong>Tiers:</strong> All | <strong>Value:</strong> $10K–$45K/mo</p>
+    </div>
+    <div class="card">
+      <h3>I. Asset, License &amp; Vendor</h3>
+      <p>HAM/SAM • true-ups • shadow IT discovery • vendor scorecards • cost optimization.</p>
+      <p class="muted" style="margin-top:10px;font-size:13px;"><strong>Pod:</strong> NOC & Tooling + Leadership | <strong>Tiers:</strong> Advanced/Enterprise | <strong>Value:</strong> $5K–$20K/mo</p>
+    </div>
+    <div class="card">
+      <h3>J. Training &amp; Adoption</h3>
+      <p>Champion networks • floor walks • micro-learning • policy onboarding • productivity clinics.</p>
+      <p class="muted" style="margin-top:10px;font-size:13px;"><strong>Pod:</strong> Leadership + Platform | <strong>Tiers:</strong> Standard (basic), Advanced/Enterprise (comprehensive) | <strong>Value:</strong> Included or $3K–$12K/mo</p>
+    </div>
   </div>
 </section>
 
-<!-- Use Cases -->
+<!-- Client Success Scenarios -->
 <section id="use-cases" class="section">
-  <h2>Use Cases</h2>
+  <h2>Client Success Scenarios</h2>
+  <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;">Real-world scenarios showing how 1:50 IT teams solve business problems, which pods deliver, and typical outcomes.</p>
   <div class="grid">
-    <div class="card"><h3>SME IT Foundations</h3><p>Helpdesk, endpoint mgmt, backup/DR, collaboration rollout with adoption training.</p></div>
-    <div class="card"><h3>Branch Standardization</h3><p>Golden-image endpoints, network templates, asset tracking &amp; SLA reports across sites.</p></div>
-    <div class="card"><h3>Hybrid Integration</h3><p>Connect on-prem apps with cloud; SSO; stable operations with defined change windows.</p></div>
-    <div class="card"><h3>BI for Management</h3><p>ETL pipelines &amp; dashboards for finance, ops, and sales — trusted daily insights.</p></div>
-    <div class="card"><h3>ITIL Service Excellence</h3><p>Incident, change, problem processes with live SLAs and a service catalog.</p></div>
-    <div class="card"><h3>App Operational Readiness</h3><p>Release coordination, CAB, rollback runbooks, status pages; SDLC on Software Eng.</p></div>
-    <div class="card"><h3>Vendor Governance</h3><p>Contracts, SLAs/OLAs, KPIs, and scorecards to control cost &amp; improve quality.</p></div>
-    <div class="card"><h3>Industry Rollouts</h3><p>Healthcare, Finance, Manufacturing, Education — targeted deployments &amp; support.</p></div>
+    <div class="card">
+      <h3>SME IT Foundations</h3>
+      <p><strong>Challenge:</strong> 150-user company with reactive break-fix IT, no SLAs, frequent downtime.</p>
+      <p><strong>Solution:</strong> Standard tier managed services — helpdesk, endpoint mgmt, backup/DR, M365 rollout with adoption training.</p>
+      <p class="muted" style="margin-top:8px;font-size:13px;"><strong>Pods:</strong> Platform + NOC & Tooling + Leadership</p>
+      <p class="muted" style="font-size:13px;"><strong>Timeline:</strong> 8–12 weeks to steady-state</p>
+      <p class="muted" style="font-size:13px;"><strong>Contract:</strong> $22K–$35K/month</p>
+      <p style="margin-top:8px;font-size:14px;color:#059669;"><strong>Outcome:</strong> 28% reduction in incidents, 99.6% uptime, CSAT from 3.2 to 4.7/5 within 6 months.</p>
+    </div>
+    <div class="card">
+      <h3>Multi-Site Branch Standardization</h3>
+      <p><strong>Challenge:</strong> Regional bank with 12 branches, inconsistent IT setups, manual patching, compliance gaps.</p>
+      <p><strong>Solution:</strong> Advanced tier with golden-image endpoints, network templates, centralized asset tracking, monthly SLA reporting.</p>
+      <p class="muted" style="margin-top:8px;font-size:13px;"><strong>Pods:</strong> Platform + Network + NOC & Tooling + Leadership</p>
+      <p class="muted" style="font-size:13px;"><strong>Timeline:</strong> 16–20 weeks (pilot 2 branches, then rollout)</p>
+      <p class="muted" style="font-size:13px;"><strong>Contract:</strong> $65K–$85K/month</p>
+      <p style="margin-top:8px;font-size:14px;color:#059669;"><strong>Outcome:</strong> 31% fewer tickets, patch compliance 97%+, audit pass, predictable OPEX vs. variable break-fix costs.</p>
+    </div>
+    <div class="card">
+      <h3>Hybrid Cloud Integration</h3>
+      <p><strong>Challenge:</strong> Manufacturer migrating on-prem ERP to cloud; needs SSO, stable operations, defined change windows for 24×7 production.</p>
+      <p><strong>Solution:</strong> Enterprise tier with identity/SSO integration, CAB governance, release coordination, application operations support.</p>
+      <p class="muted" style="margin-top:8px;font-size:13px;"><strong>Pods:</strong> Platform + NOC & Tooling + Leadership (CAB)</p>
+      <p class="muted" style="font-size:13px;"><strong>Timeline:</strong> 12–16 weeks (planning, pilot, cutover)</p>
+      <p class="muted" style="font-size:13px;"><strong>Contract:</strong> $55K–$75K/month</p>
+      <p style="margin-top:8px;font-size:14px;color:#059669;"><strong>Outcome:</strong> Zero production incidents during migration, 99.8% uptime post-cutover, change success rate 96%.</p>
+    </div>
+    <div class="card">
+      <h3>Executive BI & Analytics</h3>
+      <p><strong>Challenge:</strong> Retail chain needs real-time sales/inventory dashboards; current reports are manual, weekly, error-prone.</p>
+      <p><strong>Solution:</strong> Advanced tier with ETL pipelines, governed BI layers, executive KPI dashboards for finance, ops, sales teams.</p>
+      <p class="muted" style="margin-top:8px;font-size:13px;"><strong>Pods:</strong> Data & Protection + Leadership</p>
+      <p class="muted" style="font-size:13px;"><strong>Timeline:</strong> 10–14 weeks (data model, ETL, dashboards, training)</p>
+      <p class="muted" style="font-size:13px;"><strong>Contract:</strong> $28K–$42K/month</p>
+      <p style="margin-top:8px;font-size:14px;color:#059669;"><strong>Outcome:</strong> Data freshness from weekly to daily, 35% reduction in manual reporting time, faster inventory decisions.</p>
+    </div>
+    <div class="card">
+      <h3>ITIL Service Maturity</h3>
+      <p><strong>Challenge:</strong> Government agency needs ITIL processes, documented SLAs, compliance-ready reporting for audits.</p>
+      <p><strong>Solution:</strong> Consulting engagement (6 months) + Advanced tier operations — design incident/change/problem processes, implement service catalog, live SLA tracking.</p>
+      <p class="muted" style="margin-top:8px;font-size:13px;"><strong>Pods:</strong> Leadership + NOC & Tooling</p>
+      <p class="muted" style="font-size:13px;"><strong>Timeline:</strong> 20–24 weeks (design, pilot, rollout, CSI)</p>
+      <p class="muted" style="font-size:13px;"><strong>Contract:</strong> $48K–$62K/month</p>
+      <p style="margin-top:8px;font-size:14px;color:#059669;"><strong>Outcome:</strong> SLA compliance from 78% to 94%, audit findings cleared, CSAT +18%, measurable service quality improvement.</p>
+    </div>
+    <div class="card">
+      <h3>Healthcare Clinic IT Rollout</h3>
+      <p><strong>Challenge:</strong> Healthcare network adding 8 new clinics; needs standardized IT, EHR integration, PHI-compliant workflows, DR readiness.</p>
+      <p><strong>Solution:</strong> Advanced tier with healthcare-specific templates, device fleet mgmt, immutable backup, DR drills, audit support (with Cybersecurity).</p>
+      <p class="muted" style="margin-top:8px;font-size:13px;"><strong>Pods:</strong> Platform + Network + Data & Protection + Leadership</p>
+      <p class="muted" style="font-size:13px;"><strong>Timeline:</strong> 24–28 weeks (pilot 1 clinic, then rollout 7)</p>
+      <p class="muted" style="font-size:13px;"><strong>Contract:</strong> $72K–$95K/month</p>
+      <p style="margin-top:8px;font-size:14px;color:#059669;"><strong>Outcome:</strong> RPO 15m, RTO 2h, HIPAA audit pass, 26% fewer IT-related clinic delays, standardized support across all sites.</p>
+    </div>
   </div>
 </section>
 
