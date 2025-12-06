@@ -229,27 +229,114 @@ include 'breadcrumbs.php';
 </section>
 
 <!-- Commercials — 1:50 Pods & Leader ROI -->
-<section id="commercials" class="section" style="position:relative; z-index:2;">
+<section id="commercials" class="section">
   <h2>Commercials — 1:50 Pods &amp; Leader ROI</h2>
+  <p class="muted" style="max-width:900px;margin:0 auto 30px;text-align:center;">
+    Commercials are aligned to the 1:50 leadership model and multi-contract scenarios: each pod delivers measurable value to enterprises, SMEs, and multi-site organizations, while leaders build long-term residual income from managed services.
+  </p>
   <div class="grid">
     <div class="card">
-      <h3>Pod Economics</h3>
-      <p>Transparent monthly pod rates mapped to SLAs and velocity. Includes leadership, change governance, reporting, and defined acceptance criteria.</p>
-      <p class="muted">Add-ons: 24×7 NOC, depot/IMACD, license mgmt, vendor governance.</p>
+      <h3>Managed IT Services Model</h3>
+      <p>Enterprises and SMEs engage your 1:50 pod on multi-year managed services: helpdesk, endpoint/UEM, network operations, collaboration support, backup/DR, monitoring, and compliance reporting.</p>
+      <p class="muted"><strong>Revenue model:</strong> Monthly retainers based on user count, sites, and SLA tiers (Standard/Advanced/Enterprise).</p>
     </div>
     <div class="card">
-      <h3>Managed IT Program</h3>
-      <p>Tiered managed services aligned to uptime, performance, and recovery targets. Scales across branches with standardized templates.</p>
-      <p class="muted">Handoffs with Cybersecurity (advanced detection/IR) and Software Eng. (feature builds).</p>
+      <h3>Multi-Client Portfolio</h3>
+      <p>Because your pod is structured by function (Platform, Network, Data Protection, NOC, Leadership), it can serve multiple organizations simultaneously: regional clients, branch networks, and sector-specific deployments.</p>
+      <p class="muted"><strong>Scale:</strong> A single 50-person team portfolio can support 500–2000+ users across multiple clients in parallel.</p>
     </div>
-    <div id="leader-roi-card" class="card" style="position:relative; z-index:3; overflow:visible; padding-bottom:24px;">
-      <h3>Leader ROI Ladder</h3>
-      <p>Active commission: <strong>44,321 USD</strong>. Residual income scales with managed services and multi-site contracts. Month-3/6/12 maturity bands available in the Finance Pack.</p>
-      <a class="btn"
-         href="#finance-pack"
-         style="position:relative; z-index:4; pointer-events:auto;"
-         aria-label="Request Finance Pack and contact form">Request Finance Pack</a>
+    <div class="card">
+      <h3>Leader ROI (Narrative)</h3>
+      <p>As an IT Operations Team Leader you build a 1:50 pod and earn:</p>
+      <ul>
+        <li><strong>≈ 650 USD/month</strong> active leadership income for 5 years</li>
+        <li><strong>44,321 USD</strong> – structured team-building commissions</li>
+        <li><strong>$3M–$8M/year</strong> potential residual income from mature multi-site managed services contracts</li>
+      </ul>
+      <p class="muted">Figures are illustrative and calibrated per country and sector. Details live in the Finance Pack.</p>
     </div>
+  </div>
+
+  <h3 style="margin-top:24px;">Pod Economics (Illustrative)</h3>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>Pod Type</th>
+          <th>Velocity (pts/mo)</th>
+          <th>Monthly Rate (USD)</th>
+          <th>Typical Scope</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Platform Pod</td>
+          <td>80–120</td>
+          <td>$45k–$75k</td>
+          <td>Identity, endpoints, servers, collaboration</td>
+        </tr>
+        <tr>
+          <td>Network Pod</td>
+          <td>70–110</td>
+          <td>$40k–$70k</td>
+          <td>LAN/WAN, Wi-Fi, SD-WAN, NAC, QoS</td>
+        </tr>
+        <tr>
+          <td>Data &amp; Protection Pod</td>
+          <td>75–115</td>
+          <td>$42k–$72k</td>
+          <td>DBA, backup/DR, BCP, BI/analytics</td>
+        </tr>
+        <tr>
+          <td>NOC &amp; Tooling Pod</td>
+          <td>85–125</td>
+          <td>$48k–$78k</td>
+          <td>Monitoring, CMDB, service desk, ITSM</td>
+        </tr>
+        <tr>
+          <td>Leadership Pod</td>
+          <td>60–90</td>
+          <td>$35k–$60k</td>
+          <td>vCIO, CAB, governance, vendor mgmt</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="muted" style="margin-top:12px;font-size:14px;">Rates vary by geography, user count, SLA tier (Standard/Advanced/Enterprise), and coverage hours (8×5, 12×5, 24×7). Final commercials are agreed per contract.</p>
+  </div>
+
+  <h3 style="margin-top:24px;">Leader ROI Ladder (Illustrative)</h3>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>Milestone</th>
+          <th>Active Commission</th>
+          <th>Residual (Managed Services)</th>
+          <th>Cumulative Annualized</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Month 3</td>
+          <td>$14,440</td>
+          <td>$600k–$1.2M</td>
+          <td>$800k–$1.5M</td>
+        </tr>
+        <tr>
+          <td>Month 6</td>
+          <td>$28,880</td>
+          <td>$1.5M–$3.0M</td>
+          <td>$2.0M–$4.0M</td>
+        </tr>
+        <tr>
+          <td>Month 12</td>
+          <td>$44,321</td>
+          <td>$3.0M–$8.0M</td>
+          <td>$4.0M–$10M</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="muted" style="margin-top:12px;font-size:14px;">Aligned to the 1:50 leadership model and multi-client managed services portfolios. Actual numbers vary by region, client mix (SME vs. enterprise), and service tier adoption. Full breakdown in Finance Pack.</p>
   </div>
 </section>
 
