@@ -1272,8 +1272,7 @@ function initAccordions() {
   });
 
   console.log('Accordions initialized successfully');
-}
-
+  
   /* ==== Tabs (Team Certification) ==== */
   initTabs();
 }
