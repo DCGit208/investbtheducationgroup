@@ -947,10 +947,22 @@ include 'breadcrumbs.php';
   <p class="muted">Organized in three ladders: <strong>Ops Core</strong>, <strong>Data &amp; Analytics (Ops)</strong>, and <strong>Strategy &amp; Sector</strong>. Development/SDLC, big-data/ML, and SOC/MDR live on Software Engineering, Intelligent Cloud, and Cybersecurity pages to avoid repetition.</p>
 
   <div class="tabs" role="tablist">
-    <button class="tab-btn active" data-tab="ops-core" role="tab" aria-controls="tab-ops-core">A) Ops Core</button>
-    <button class="tab-btn" data-tab="data-ops" role="tab" aria-controls="tab-data-ops">B) Data &amp; Analytics (Ops)</button>
-    <button class="tab-btn" data-tab="strategy" role="tab" aria-controls="tab-strategy">C) Strategy &amp; Sector</button>
+    <button class="tab-btn active" onclick="switchTab('ops-core')" role="tab" aria-controls="tab-ops-core">A) Ops Core</button>
+    <button class="tab-btn" onclick="switchTab('data-ops')" role="tab" aria-controls="tab-data-ops">B) Data &amp; Analytics (Ops)</button>
+    <button class="tab-btn" onclick="switchTab('strategy')" role="tab" aria-controls="tab-strategy">C) Strategy &amp; Sector</button>
   </div>
+  
+  <script>
+  function switchTab(tabId) {
+    // Remove active from all buttons and panels
+    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.remove('active'));
+    
+    // Add active to clicked button and corresponding panel
+    event.target.classList.add('active');
+    document.getElementById('tab-' + tabId).classList.add('active');
+  }
+  </script>
 
   <div id="tab-ops-core" class="tab-panel active" role="tabpanel" aria-labelledby="ops-core">
     <h3>Ops Core — Foundation → Expert</h3>
@@ -1272,64 +1284,6 @@ function initAccordions() {
   });
 
   console.log('Accordions initialized successfully');
-  
-  /* ==== Tabs (Team Certification) ==== */
-  initTabs();
-}
-
-function initTabs() {
-  const tabBtns = document.querySelectorAll('.tab-btn');
-  if (!tabBtns.length) {
-    console.warn('No tab buttons found');
-    return;
-  }
-
-  console.log('Initializing', tabBtns.length, 'tab buttons');
-
-  const panels = {
-    'ops-core': document.getElementById('tab-ops-core'),
-    'data-ops': document.getElementById('tab-data-ops'),
-    'strategy': document.getElementById('tab-strategy')
-  };
-
-  tabBtns.forEach((btn, index) => {
-    // Skip if already initialized
-    if (btn.dataset.tabInitialized === '1') return;
-    btn.dataset.tabInitialized = '1';
-
-    btn.onclick = function(e) {
-      e.preventDefault();
-      console.log('Tab clicked:', this.getAttribute('data-tab'));
-      
-      // Remove active from all tabs and panels
-      tabBtns.forEach(b => b.classList.remove('active'));
-      Object.values(panels).forEach(p => {
-        if (p) p.classList.remove('active');
-      });
-      
-      // Add active to clicked tab and corresponding panel
-      this.classList.add('active');
-      const key = this.getAttribute('data-tab');
-      if (panels[key]) {
-        panels[key].classList.add('active');
-        console.log('Activated panel:', key);
-      } else {
-        console.error('Panel not found for:', key);
-      }
-      
-      return false;
-    };
-
-    // Keyboard support
-    btn.onkeydown = function(e) {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        this.click();
-      }
-    };
-  });
-
-  console.log('Tabs initialized successfully');
 });
 
 /* ==== Internal anchor validation (non-blocking) ==== */
