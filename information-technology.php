@@ -101,15 +101,16 @@ include 'breadcrumbs.php';
   <h2>Quick Navigation</h2>
   <div class="grid">
     <a class="card" href="#model">How the 1:50 IT Model Works</a>
+    <a class="card" href="#model-efficiency">Why the 1:50 Model Works</a>
     <a class="card" href="#pods">Pod Composition &amp; Governance</a>
-    <a class="card" href="#services">Service Catalog (What We Run)</a>
     <a class="card" href="#packages">Tiered Managed Service Packages</a>
     <a class="card" href="#compliance">Compliance &amp; Enterprise Standards</a>
     <a class="card" href="#kpis">KPIs &amp; SLA Targets</a>
+    <a class="card" href="#timeline">Typical Delivery Timeline</a>
     <a class="card" href="#commercials">Commercials &amp; ROI</a>
-    <a class="card" href="#portfolio">Proof &amp; Case Studies</a>
-    <a class="card" href="#governance">ITIL, Governance &amp; Security Boundaries</a>
-    <a class="card" href="#leadership-pathways">Leadership Journey (1:50 IT Leader)</a>
+    <a class="card" href="#governance">ITIL, Governance &amp; Security</a>
+    <a class="card" href="#leadership-pathways">Leadership Journey</a>
+    <a class="card" href="#faq">Common Questions (Investor FAQ)</a>
     <a class="card" href="#hire-it-team">Hire a 1:50 IT Team</a>
     <a class="card" href="#apply-leader">Apply to Become a Team Leader</a>
   </div>
@@ -127,6 +128,46 @@ include 'breadcrumbs.php';
   <p style="margin-top:10px;color:var(--muted)">
     <strong>Example financials:</strong> Team-building commission 44,321 USD. Residual revenue per team can scale to multi-million USD/yr across client branches (see finance pack).
   </p>
+</section>
+
+<!-- Why the 1:50 Model Works -->
+<section id="model-efficiency" class="section">
+  <h2>Why the 1:50 Model Works</h2>
+  <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;">
+    The 1:50 ratio is purpose-built for IT operations efficiency. One certified leader governs 50 delivery professionals organized into 5 specialized pods of 10 each.
+  </p>
+  <div class="grid">
+    <div class="card">
+      <h3>Optimal Span of Control</h3>
+      <p>Research shows 8–12 direct reports is optimal for technical leadership. With 5 pod leads reporting to 1 team leader, governance stays tight while pods maintain autonomy.</p>
+      <p class="muted"><strong>Result:</strong> Clear accountability without micromanagement bottlenecks.</p>
+    </div>
+    <div class="card">
+      <h3>Specialization at Scale</h3>
+      <p>Each 10-person pod focuses on one domain (Platform, Network, Data Protection, NOC, Leadership). Deep expertise within pods, seamless handoffs between them.</p>
+      <p class="muted"><strong>Result:</strong> Faster resolution, fewer escalations, higher first-contact resolution rates.</p>
+    </div>
+    <div class="card">
+      <h3>Financial Viability</h3>
+      <p>50-person teams generate $3M–$8M annually in managed services revenue. Leader overhead (governance, CAB, reporting) is 10–15% of billable hours—sustainable and scalable.</p>
+      <p class="muted"><strong>Result:</strong> Profitable unit economics for both leader and organization.</p>
+    </div>
+    <div class="card">
+      <h3>Enterprise-Grade SLAs</h3>
+      <p>Pod structure supports 8×5, 12×5, or 24×7 coverage through shift rotation. One NOC pod handles monitoring; other pods respond to escalations within defined SLA windows.</p>
+      <p class="muted"><strong>Result:</strong> Uptime commitments (99.5%–99.9%) backed by real capacity.</p>
+    </div>
+    <div class="card">
+      <h3>Growth Path</h3>
+      <p>Start with 1 pod (10 people, focused service). Add pods as client base grows. Leader scales to full 50-person team over 12–24 months, matching revenue growth.</p>
+      <p class="muted"><strong>Result:</strong> Lower startup risk, phased investment, proven scalability.</p>
+    </div>
+    <div class="card">
+      <h3>Work-Study Model</h3>
+      <p>Team members gain certifications while delivering services. Leader mentors 50 professionals through ITIL, infrastructure, and commercial pathways—building institutional knowledge.</p>
+      <p class="muted"><strong>Result:</strong> Continuous skill improvement, reduced reliance on external hires.</p>
+    </div>
+  </div>
 </section>
 
 <!-- 1:50 Team — Roles & Delivery Pods -->
@@ -703,6 +744,59 @@ include 'breadcrumbs.php';
   </div>
 </section>
 
+<!-- Typical Delivery Timeline -->
+<section id="timeline" class="section">
+  <h2>Typical Delivery Timeline</h2>
+  <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;">
+    From assessment to steady-state operations, here's how a 1:50 IT team typically deploys enterprise services.
+  </p>
+  <div class="grid">
+    <div class="card">
+      <h3>Phase 1: Assessment & Design (Weeks 1–4)</h3>
+      <ul style="text-align:left;margin:10px 0;">
+        <li>Discovery: user count, sites, infrastructure inventory</li>
+        <li>Define SLA targets, coverage hours, escalation paths</li>
+        <li>Map existing tools to ITIL processes</li>
+        <li>Staffing plan: which pods launch first, phased hiring</li>
+      </ul>
+      <p class="muted"><strong>Deliverable:</strong> Service design document, pod roadmap, commercial proposal.</p>
+    </div>
+    <div class="card">
+      <h3>Phase 2: Pilot & Onboarding (Weeks 5–12)</h3>
+      <ul style="text-align:left;margin:10px 0;">
+        <li>Launch first pod (typically Platform or Service Desk)</li>
+        <li>Deploy tooling: ITSM, monitoring, CMDB baseline</li>
+        <li>Run pilot with 1–2 sites or departments</li>
+        <li>Refine runbooks, SLA reporting, escalation</li>
+      </ul>
+      <p class="muted"><strong>Deliverable:</strong> Pilot SLA report, lessons learned, go-live readiness.</p>
+    </div>
+    <div class="card">
+      <h3>Phase 3: Rollout (Months 3–6)</h3>
+      <ul style="text-align:left;margin:10px 0;">
+        <li>Add remaining pods (Network, Data Protection, NOC)</li>
+        <li>Expand to all sites using branch templates</li>
+        <li>CAB goes live with change governance</li>
+        <li>Monthly SLA packs, exec dashboards operational</li>
+      </ul>
+      <p class="muted"><strong>Deliverable:</strong> Full 1:50 team operational, all services in production.</p>
+    </div>
+    <div class="card">
+      <h3>Phase 4: Steady-State & Optimization (Month 6+)</h3>
+      <ul style="text-align:left;margin:10px 0;">
+        <li>CSI: quarterly SLA reviews, KPI trend analysis</li>
+        <li>Automation: reduce toil, improve FCR</li>
+        <li>Capacity planning: add services or scale existing</li>
+        <li>Residual revenue scales with multi-site growth</li>
+      </ul>
+      <p class="muted"><strong>Deliverable:</strong> Continuous improvement, predictable OPEX, SLA excellence.</p>
+    </div>
+  </div>
+  <p style="margin-top:20px;color:#6b7280;text-align:center;">
+    Timeline varies by organization size and complexity. Smaller deployments (50–200 users) may reach steady-state in 8–12 weeks. Enterprise rollouts (1000+ users) typically span 6–9 months.
+  </p>
+</section>
+
 <!-- Leadership Journey -->
 <section id="leadership-pathways" class="section">
   <h2>Leadership Journey — How a 1:50 IT Leader is Built</h2>
@@ -831,6 +925,54 @@ include 'breadcrumbs.php';
     <input type="hidden" name="source" value="Full Apply • IT Ops">
     <button class="btn" type="submit">Submit Application</button>
   </form>
+</section>
+
+<!-- Common Questions (Investor & Buyer FAQ) -->
+<section id="faq" class="section">
+  <h2>Common Questions</h2>
+  <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;">
+    Investors and enterprise buyers frequently ask these questions about the 1:50 IT Operations model.
+  </p>
+
+  <button class="accordion-button" aria-expanded="false">How does a 50-person team generate $3M–$8M annually?</button>
+  <div class="accordion-content">
+    <p>Managed services are priced per user/device with tiered SLAs. A team serving 500–2000 users across multiple sites, with Standard/Advanced/Enterprise packages, generates $250K–$650K monthly recurring revenue. Annual total: $3M–$8M. Leader commission (44,321 USD) covers team-building; residual revenue scales with contract growth.</p>
+  </div>
+
+  <button class="accordion-button" aria-expanded="false">Why 1:50 instead of smaller teams or outsourcing to large MSPs?</button>
+  <div class="accordion-content">
+    <p><strong>vs. smaller teams:</strong> Sub-10 person teams lack specialization—everyone does everything, limiting SLA commitments and scalability. 1:50 pods provide deep expertise per domain.<br><strong>vs. large MSPs:</strong> Traditional MSPs spread talent thin across many clients. 1:50 pods are dedicated units with one leader accountable for SLAs, governance, and financials. Higher consistency, faster response, tighter accountability.</p>
+  </div>
+
+  <button class="accordion-button" aria-expanded="false">What if our organization has fewer than 500 users?</button>
+  <div class="accordion-content">
+    <p>Start with 1–2 pods (10–20 people) focused on Service Desk + Platform or Network. Scale to full 50-person team as you grow sites, add services, or increase coverage hours (12×5 → 24×7). The model is flexible: pay for the pods you need, add capacity as revenue justifies.</p>
+  </div>
+
+  <button class="accordion-button" aria-expanded="false">How do you ensure SLA commitments (99.5%–99.9% uptime)?</button>
+  <div class="accordion-content">
+    <p>NOC pod provides 24×7 monitoring with defined escalation paths. Other pods rotate coverage for 8×5, 12×5, or 24×7 depending on tier. CAB governs change windows to minimize risk. Monthly SLA reports show actual vs. target; CSI process addresses gaps. SLAs are backed by real capacity, not promises.</p>
+  </div>
+
+  <button class="accordion-button" aria-expanded="false">What's the leader's role vs. pod leads?</button>
+  <div class="accordion-content">
+    <p><strong>Team Leader (1):</strong> Governs full 1:50 unit. Runs CAB, approves change windows, owns SLA reporting, manages commercials (invoicing, client escalations), and reports financial performance.<br><strong>Pod Leads (5):</strong> Each leads a 10-person specialized pod. Accountable for domain-specific SLAs (e.g., Network uptime, FCR for Service Desk). Report to Team Leader weekly on KPIs and risks.</p>
+  </div>
+
+  <button class="accordion-button" aria-expanded="false">Can we hire a 1:50 team for a fixed-term project, or is this long-term only?</button>
+  <div class="accordion-content">
+    <p>The model is designed for <strong>long-term managed services</strong> (12+ months) because building and certifying a 50-person team takes 3–6 months. For short-term projects (migrations, audits, consulting), consider our IT Consulting & Strategy services or hybrid engagement (1–2 pods for project + ongoing support).</p>
+  </div>
+
+  <button class="accordion-button" aria-expanded="false">How do you handle turnover in a 50-person team?</button>
+  <div class="accordion-content">
+    <p>Work-study model builds bench strength: junior team members progress through certifications while delivering services. Leader mentors succession pipeline within each pod. Typical turnover: 10–15% annually. Replacement hires onboard within 4–6 weeks using existing runbooks and shadowing. Institutional knowledge stays in the pod, not with individuals.</p>
+  </div>
+
+  <button class="accordion-button" aria-expanded="false">What happens if we outgrow one 1:50 team?</button>
+  <div class="accordion-content">
+    <p>Add a second 1:50 team with regional or service-line specialization (e.g., Team 1: Americas, Team 2: EMEA; or Team 1: Workplace/Network, Team 2: Data/Apps). Two leaders coordinate via shared CAB and SLA framework. This is the path to scaling beyond $8M annually while maintaining governance quality.</p>
+  </div>
 </section>
 
 <script>
