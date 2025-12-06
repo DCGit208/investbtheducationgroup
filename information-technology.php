@@ -26,6 +26,10 @@ include 'breadcrumbs.php';
 
 <header>
   <div class="hero">
+    <video autoplay muted loop playsinline class="hero-video-bg">
+      <source src="Videos/IT2.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
     <div class="hero-left">
       <h1>Operate. Secure. Scale.<br><strong>Information Technology (Operations &amp; Infrastructure)</strong></h1>
       <p class="lead">

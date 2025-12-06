@@ -1,5 +1,52 @@
 /* Information Technology (Operations & Infrastructure) page-scoped styles (extracted) */
 
+/* Hero Video Background */
+.hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 600px;
+}
+
+.hero-video-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(10, 37, 64, 0.85) 0%, rgba(11, 79, 122, 0.75) 100%);
+  z-index: 1;
+}
+
+.hero-left,
+.hero-right {
+  position: relative;
+  z-index: 2;
+}
+
+/* Mobile: Hide video, show gradient background */
+@media (max-width: 768px) {
+  .hero-video-bg {
+    display: none;
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #0a2540 0%, #0b4f7a 100%);
+  }
+}
+
 /* Override certifications section dark background */
 #certifications {
   background: #ffffff !important;
