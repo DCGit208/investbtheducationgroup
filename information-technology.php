@@ -15,6 +15,11 @@ include 'header.php';
 ?>
 <!-- Styles moved to assets/css/page/it.css -->
 
+<video autoplay muted loop playsinline class="page-video-bg">
+  <source src="Videos/IT2.mp4" type="video/mp4">
+</video>
+<div class="page-video-overlay"></div>
+
 <?php 
 $breadcrumb_items = [
   ['label' => 'Home', 'href' => 'index.php'],
