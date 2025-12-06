@@ -58,7 +58,16 @@
 #commercials:focus-within { z-index: 3; }
 
 /* Tabs (Team Certification Pathways) */
-.tabs { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; border-bottom:2px solid #e5e7eb; padding-bottom:0; }
+.tabs { 
+  display:flex; 
+  gap:8px; 
+  flex-wrap:wrap; 
+  margin-bottom:20px; 
+  border-bottom:2px solid #e5e7eb; 
+  padding-bottom:0;
+  position: relative;
+  z-index: 10;
+}
 .tab-btn { 
   padding:12px 20px; 
   border:1px solid #cfe2ff; 
@@ -68,6 +77,9 @@
   background:#f7fbff;
   font-size:15px;
   transition: all 0.3s ease;
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
 }
 .tab-btn:hover { background:#e6f0fb; }
 .tab-btn.active { 
@@ -83,6 +95,8 @@
   border:1px solid #e5e7eb;
   border-radius:0 8px 8px 8px;
   margin-top:-1px;
+  position: relative;
+  z-index: 5;
 }
 .tab-panel.active { display:block; }
 .tab-panel h3 {
