@@ -104,20 +104,73 @@ include 'breadcrumbs.php';
 <!-- Quick Navigation -->
 <section id="quick-nav" class="section">
   <h2>Quick Navigation</h2>
+  <p style="text-align:center;color:#6b7280;margin-bottom:24px;">Essential sections to understand the 1:50 IT Operations model</p>
   <div class="grid">
-    <a class="card" href="#model">How the 1:50 IT Model Works</a>
-    <a class="card" href="#model-efficiency">Why the 1:50 Model Works</a>
-    <a class="card" href="#pods">Pod Composition &amp; Governance</a>
-    <a class="card" href="#packages">Tiered Managed Service Packages</a>
-    <a class="card" href="#compliance">Compliance &amp; Enterprise Standards</a>
-    <a class="card" href="#kpis">KPIs &amp; SLA Targets</a>
-    <a class="card" href="#timeline">Typical Delivery Timeline</a>
+    <a class="card" href="#model">How the 1:50 Model Works</a>
+    <a class="card" href="#pods">5 Delivery Pods</a>
+    <a class="card" href="#packages">Service Packages &amp; Pricing</a>
     <a class="card" href="#commercials">Commercials &amp; ROI</a>
-    <a class="card" href="#governance">ITIL, Governance &amp; Security</a>
+    <a class="card" href="#certifications">Certification Pathways</a>
     <a class="card" href="#leadership-pathways">Leadership Journey</a>
-    <a class="card" href="#faq">Common Questions (Investor FAQ)</a>
     <a class="card" href="#hire-it-team">Hire a 1:50 IT Team</a>
-    <a class="card" href="#apply-leader">Apply to Become a Team Leader</a>
+    <a class="card" href="#apply-leader">Become a Team Leader</a>
+  </div>
+  
+  <!-- Expandable Full Navigation -->
+  <div style="margin-top:40px;">
+    <button class="accordion-button" aria-expanded="false" style="background:#f0f9ff;border-color:#0b4f7a;">
+      📋 Complete Page Map — Explore All Sections
+    </button>
+    <div class="accordion-content" style="background:#ffffff;padding:0;">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;padding:24px;">
+        <div>
+          <h4 style="color:#0b4f7a;margin:0 0 12px;font-size:16px;">Business Model</h4>
+          <ul style="list-style:none;padding:0;margin:0;line-height:2;">
+            <li><a href="#model" style="color:#374151;text-decoration:none;">↗ How the 1:50 Model Works</a></li>
+            <li><a href="#model-efficiency" style="color:#374151;text-decoration:none;">↗ Why 1:50 Model Works</a></li>
+            <li><a href="#pods" style="color:#374151;text-decoration:none;">↗ 5 Delivery Pods</a></li>
+            <li><a href="#commercials" style="color:#374151;text-decoration:none;">↗ Commercials &amp; ROI</a></li>
+            <li><a href="#finance-pack" style="color:#374151;text-decoration:none;">↗ Finance Pack Details</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin:0 0 12px;font-size:16px;">Service Delivery</h4>
+          <ul style="list-style:none;padding:0;margin:0;line-height:2;">
+            <li><a href="#packages" style="color:#374151;text-decoration:none;">↗ Service Packages (Standard/Advanced/Enterprise)</a></li>
+            <li><a href="#compliance" style="color:#374151;text-decoration:none;">↗ Compliance &amp; Standards</a></li>
+            <li><a href="#kpis" style="color:#374151;text-decoration:none;">↗ KPIs &amp; SLA Targets</a></li>
+            <li><a href="#timeline" style="color:#374151;text-decoration:none;">↗ Delivery Timeline</a></li>
+            <li><a href="#governance" style="color:#374151;text-decoration:none;">↗ ITIL &amp; Governance</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin:0 0 12px;font-size:16px;">Service Catalog</h4>
+          <ul style="list-style:none;padding:0;margin:0;line-height:2;">
+            <li><a href="#domains" style="color:#374151;text-decoration:none;">↗ Service Domains (8 categories)</a></li>
+            <li><a href="#solutions" style="color:#374151;text-decoration:none;">↗ Solutions by Category (6 areas)</a></li>
+            <li><a href="#catalog" style="color:#374151;text-decoration:none;">↗ Service Catalog A–J</a></li>
+            <li><a href="#client-success" style="color:#374151;text-decoration:none;">↗ Client Success Scenarios</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin:0 0 12px;font-size:16px;">Leadership &amp; Careers</h4>
+          <ul style="list-style:none;padding:0;margin:0;line-height:2;">
+            <li><a href="#certifications" style="color:#374151;text-decoration:none;">↗ 5-Track Certification Pathways</a></li>
+            <li><a href="#leadership-pathways" style="color:#374151;text-decoration:none;">↗ Leadership Journey (4 steps)</a></li>
+            <li><a href="#faq" style="color:#374151;text-decoration:none;">↗ Common Questions (Investor FAQ)</a></li>
+            <li><a href="#apply-leader" style="color:#374151;text-decoration:none;">↗ Apply to Become Team Leader</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin:0 0 12px;font-size:16px;">For Organizations</h4>
+          <ul style="list-style:none;padding:0;margin:0;line-height:2;">
+            <li><a href="#hire-it-team" style="color:#374151;text-decoration:none;">↗ Hire a 1:50 IT Team</a></li>
+            <li><a href="#packages" style="color:#374151;text-decoration:none;">↗ Compare Packages</a></li>
+            <li><a href="#client-success" style="color:#374151;text-decoration:none;">↗ Success Stories</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
