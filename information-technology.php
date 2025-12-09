@@ -50,19 +50,19 @@ include 'breadcrumbs.php';
       </div>
       <div class="stats">
         <div class="stat">
-          <div class="stat-value">$44,321</div>
+          <div class="stat-value" data-target="44321" data-prefix="$" data-format="comma">0</div>
           <div class="stat-label">Team-building commission</div>
         </div>
         <div class="stat">
-          <div class="stat-value">$2.1M</div>
+          <div class="stat-value" data-target="2100000" data-prefix="$" data-format="abbrev" data-suffix="M">0</div>
           <div class="stat-label">Leader annual income</div>
         </div>
         <div class="stat">
-          <div class="stat-value">$63,822</div>
+          <div class="stat-value" data-target="63822" data-prefix="$" data-format="comma">0</div>
           <div class="stat-label">Member annual income</div>
         </div>
         <div class="stat">
-          <div class="stat-value">$3M–$8M</div>
+          <div class="stat-value" data-target="3" data-prefix="$" data-suffix="M–$8M" data-format="simple">0</div>
           <div class="stat-label">Revenue capacity/year</div>
         </div>
       </div>
@@ -1416,6 +1416,54 @@ function initAccordions() {
     {"@type": "ListItem", "position": 3, "name": "Information Technology", "item": "<?php echo htmlspecialchars($og_url, ENT_QUOTES); ?>"}
   ]
 }
+</script>
+
+<script>
+// Animated Counter for Stats
+function animateCounter(element, target, duration = 2000) {
+  const prefix = element.getAttribute('data-prefix') || '';
+  const suffix = element.getAttribute('data-suffix') || '';
+  const format = element.getAttribute('data-format') || 'comma';
+  
+  const start = 0;
+  const increment = target / (duration / 16); // 60fps
+  let current = start;
+  
+  const timer = setInterval(() => {
+    current += increment;
+    if (current >= target) {
+      current = target;
+      clearInterval(timer);
+    }
+    
+    let formatted;
+    if (format === 'abbrev') {
+      // For millions: 2.1M
+      formatted = (Math.floor(current) / 1000000).toFixed(1);
+    } else if (format === 'simple') {
+      // For simple numbers like "3" in "$3M–$8M"
+      formatted = Math.floor(current).toString();
+    } else {
+      // Default: comma-separated
+      formatted = Math.floor(current).toLocaleString('en-US');
+    }
+    
+    element.textContent = prefix + formatted + suffix;
+  }, 16);
+}
+
+// Trigger animation on page load
+document.addEventListener('DOMContentLoaded', () => {
+  const statValues = document.querySelectorAll('.stat-value[data-target]');
+  
+  // Delay slightly for better UX
+  setTimeout(() => {
+    statValues.forEach(stat => {
+      const target = parseInt(stat.getAttribute('data-target'));
+      animateCounter(stat, target);
+    });
+  }, 300);
+});
 </script>
 
 <?php include 'footer.php'; ?>
