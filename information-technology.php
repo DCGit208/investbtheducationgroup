@@ -43,27 +43,31 @@ include 'breadcrumbs.php';
         Each fully built 1:50 IT leadership unit can realistically support <strong>$3M–$8M per year</strong> in managed services and project revenue across multi-site portfolios.
       </p>
       <div class="cta-row">
-        <a class="btn" href="#apply-leader">Become a Team Leader</a>
-        <a class="btn-outline" href="#services">See Services</a>
-        <a class="btn-outline" href="#packages">See Packages</a>
-        <a class="btn-outline" href="#hire-it-team">Hire a 1:50 IT Team</a>
+        <a class="btn" href="#apply-leader">Apply to Lead a 1:50 IT Team →</a>
+        <a class="btn-outline" href="#commercials">See ROI & Earnings</a>
+        <a class="btn-outline" href="#packages">Service Packages</a>
+        <a class="btn-outline" href="#hire-it-team">Hire Our Team</a>
       </div>
       <div class="stats">
         <div class="stat">
-          <div style="font-weight:800;font-size:20px">44,321 USD</div>
-          <div style="font-size:13px;color:#e8f3ff;white-space:nowrap">Team-building commission</div>
+          <div class="stat-value">$44,321</div>
+          <div class="stat-label">Team-building commission</div>
         </div>
         <div class="stat">
-          <div style="font-weight:800;font-size:20px">2,127,372 USD</div>
-          <div style="font-size:13px;color:#e8f3ff;white-space:nowrap">Leader annual income</div>
+          <div class="stat-value">$2.1M</div>
+          <div class="stat-label">Leader annual income</div>
         </div>
         <div class="stat">
-          <div style="font-weight:800;font-size:20px">63,822 USD</div>
-          <div style="font-size:13px;color:#e8f3ff;white-space:nowrap">Member annual income</div>
+          <div class="stat-value">$63,822</div>
+          <div class="stat-label">Member annual income</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">$3M–$8M</div>
+          <div class="stat-label">Revenue capacity/year</div>
         </div>
       </div>
-      <p class="kpi-caption" style="margin-top:16px;font-size:13px;color:#b8d4f0;max-width:600px;line-height:1.5">
-        Illustrative ranges, based on multi-contract 1:50 IT portfolios. Total annual revenue capacity per unit: <strong style="color:#e8f3ff">$3M–$8M</strong>.
+      <p class="kpi-caption" style="margin-top:20px;font-size:13px;color:#b8d4f0;max-width:700px;line-height:1.5">
+        <strong style="color:#FFD700;">Real numbers.</strong> Illustrative ranges based on multi-contract 1:50 IT portfolios. Leader builds a 50-person team, deploys managed services to multiple clients, and earns performance-based residuals.
       </p>
     </div>
 
