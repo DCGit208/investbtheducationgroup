@@ -40,7 +40,7 @@ include 'breadcrumbs.php';
         <a href="software-engineering.php">Software &amp; Systems Engineering</a>;
         for PaaS/AI scale see <a href="intelligent-cloud.php">Intelligent Cloud</a>;
         for SOC/MDR/IR see <a href="cybersecurity.php">Cybersecurity</a>.
-        Each fully built 1:50 IT leadership unit can realistically support <strong>$30M–$45M per year</strong> in managed services and project revenue across multi-site, multi-branch client portfolios.
+        Each fully built 1:50 IT leadership unit can realistically support <strong>$30M–$45M per year</strong> in managed services and project revenue across multi-site, multi-branch client portfolios. All 50 team members complete <strong>4-year Expert-level training</strong> via intensive work-study model.
       </p>
       <!-- Fortune 500 Validation Strip -->
       <div style="
@@ -102,8 +102,8 @@ include 'breadcrumbs.php';
           <div class="stat-label">Leader annual income</div>
         </div>
         <div class="stat">
-          <div class="stat-value" data-target="63822" data-prefix="$" data-format="comma">0</div>
-          <div class="stat-label">Member annual income</div>
+          <div class="stat-value" data-target="78500" data-prefix="$" data-format="comma">0</div>
+          <div class="stat-label">Member annual income (Expert level)</div>
         </div>
         <div class="stat">
           <div class="stat-value" data-target="30" data-prefix="$" data-suffix="M–$45M" data-format="simple">0</div>
@@ -500,21 +500,59 @@ include 'breadcrumbs.php';
     <div class="card">
       <h3>Multi-Client Portfolio</h3>
       <p>Because your pod is structured by function (Platform, Network, Data Protection, NOC, Leadership), it can serve multiple organizations simultaneously: regional clients, branch networks, and sector-specific deployments.</p>
-      <p class="muted"><strong>Scale:</strong> A single 50-person team portfolio can support 500–2000+ users across multiple clients in parallel.</p>
+      <p class="muted"><strong>Scale:</strong> A single 50-person Expert-level team portfolio can support 500–2000+ users across multiple clients in parallel.</p>
     </div>
     <div class="card">
-      <h3>Leader ROI (Narrative)</h3>
-      <p>As an IT Operations Team Leader you complete 3-year intensive training, build a 1:50 pod serving multi-branch client portfolios, and earn:</p>
+      <h3>Leader ROI</h3>
+      <p style="margin-bottom:12px;">As an IT Operations Team Leader building a 1:50 Expert-level pod, you earn:</p>
       <ul>
-        <li><strong>Investment:</strong> $25,000 USD (15M FCFA) one-time upfront payment for 3-year HEXAD + IT Advanced certification program</li>
-        <li><strong>Timeline:</strong> 3 years from enrollment to $30M-$45M pod operation (heavy work-study from day one)</li>
-        <li><strong>≈ 650 USD/month</strong> active leadership income during 3-year formation</li>
-        <li><strong>44,321 USD</strong> – structured team-building commission upon completing 50-person pod</li>
-        <li><strong>~$2.1M/year</strong> recurring personal income from Year 3 onward (mature multi-branch managed services)</li>
-        <li>Your pod generates <strong>$30M–$45M gross revenue/year</strong> across 100+ branch deployments; you earn ~7%</li>
+        <li><strong>44,321 USD</strong> – one-time team-building commission upon completing 50-person pod</li>
+        <li><strong>~$2.1M/year</strong> recurring personal income from Year 4 onward (≈7% of gross revenue)</li>
+        <li>Your pod generates <strong>$30M–$45M gross revenue/year</strong> across 100+ branch deployments</li>
       </ul>
-      <p class="muted">Figures are illustrative and calibrated per country and sector. <strong>3-year model:</strong> Leader reaches Advanced certifications + leadership mastery + full revenue operation in 36 months. Optional Expert/Master track (Years 4-5) available for deep specialization. Details live in the Finance Pack.</p>
+      <p class="muted" style="margin-top:12px;"><strong>Investment:</strong> $25,000 USD (15M FCFA) one-time upfront payment for 4-year Expert-level training. Same investment for all 50 team members.</p>
     </div>
+  </div>
+
+  <!-- Revenue Assumptions Box -->
+  <div style="margin-top:40px;padding:30px;background:#fef3c7;border-left:6px solid #f59e0b;border-radius:12px;">
+    <h3 style="margin-top:0;color:#92400e;">Pod Economics Assumptions</h3>
+    <p style="color:#92400e;margin-bottom:16px;">The $30M–$45M annual revenue capacity is based on the following deployment model:</p>
+    <div class="grid" style="margin-top:20px;">
+      <div>
+        <h4 style="color:#92400e;margin-bottom:8px;">Geographic Model</h4>
+        <ul style="font-size:14px;line-height:1.8;color:#92400e;">
+          <li>10 companies × 10 branches each = 100 total branches</li>
+          <li>Each branch: 50-200 users (avg 100 users)</li>
+          <li>Multi-branch managed services contracts</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:#92400e;margin-bottom:8px;">Service Package Mix</h4>
+        <ul style="font-size:14px;line-height:1.8;color:#92400e;">
+          <li>Standard tier: $15K-$25K/month per branch</li>
+          <li>Advanced tier: $25K-$35K/month per branch</li>
+          <li>Enterprise tier: $35K-$50K/month per branch</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:#92400e;margin-bottom:8px;">Maturity Timeline</h4>
+        <ul style="font-size:14px;line-height:1.8;color:#92400e;">
+          <li>Years 1-2: Pilot phase ($1M-$10M)</li>
+          <li>Year 3: Scaling phase ($15M-$25M)</li>
+          <li>Year 4+: Full capacity ($30M-$45M)</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:#92400e;margin-bottom:8px;">Expert-Level Team</h4>
+        <ul style="font-size:14px;line-height:1.8;color:#92400e;">
+          <li>All 50 members Expert-certified by Year 4</li>
+          <li>Team payroll: $4M-$5M/year ($75K-$85K each)</li>
+          <li>Leader commission: ~7% of gross revenue</li>
+        </ul>
+      </div>
+    </div>
+    <p style="color:#92400e;margin-top:16px;font-size:14px;"><strong>Note:</strong> Actual figures vary by geography, sector compliance requirements, SLA tier adoption, and contract terms. Based on real production model generating ≈18B FCFA profit annually (≈$30M USD at 600 FCFA/USD exchange rate). Full financial projections in Finance Pack.</p>
   </div>
 
   <h3 style="margin-top:24px;">Pod Economics (Illustrative)</h3>
@@ -1199,7 +1237,7 @@ include 'breadcrumbs.php';
 <!-- Team Certification Pathways -->
 <section id="certifications" class="section">
   <h2>Team Certification Pathways — Complete 1:50 Pod Coverage</h2>
-  <p class="muted">Five certification tracks aligned to the five delivery pods, covering every service domain for $30M–$45M+ annual revenue capacity across multi-branch deployments. Each track follows a <strong>3-year intensive program</strong> (Foundation → Intermediate → Advanced) combined with the <strong>OEDP HEXAD Mentoring Framework</strong> (6 dimensions: Personal, Professional, Occupational, Financial, Relationship, Truth Education). Members train via heavy work-study model starting day one. Optional Expert/Master track (Years 4-5) available for specialist roles. Development/SDLC, big-data/ML, and SOC/MDR live on Software Engineering, Intelligent Cloud, and Cybersecurity pages.</p>
+  <p class="muted">Five certification tracks aligned to the five delivery pods, covering every service domain for $30M–$45M+ annual revenue capacity across multi-branch deployments. Each track follows a <strong>4-year Expert-level program</strong> (Foundation → Intermediate → Advanced → Expert) combined with the <strong>OEDP HEXAD Mentoring Framework</strong> (6 dimensions: Personal, Professional, Occupational, Financial, Relationship, Truth Education). <strong>All 50 members</strong> complete Expert-level training since everyone pays the same $25K investment. Members train via intensive work-study model starting day one, progressing to Expert certification by Year 4. Optional Master track (Year 5) available for principal/architect specialization. Development/SDLC, big-data/ML, and SOC/MDR live on Software Engineering, Intelligent Cloud, and Cybersecurity pages.</p>
 
   <div class="tabs" role="tablist">
     <button class="tab-btn active" onclick="switchTab('leadership')" role="tab" aria-controls="tab-leadership">A) Leadership & Governance</button>
@@ -1228,7 +1266,8 @@ include 'breadcrumbs.php';
       <li><strong>Foundation (Year 1):</strong> ITIL 4 Foundation • PMP/PRINCE2 Foundation • Agile/Scrum basics • Financial Management for IT • Vendor Management fundamentals • Stakeholder Engagement.</li>
       <li><strong>Intermediate (Year 2):</strong> ITIL 4 Strategist • ISO/IEC 20000 Foundation • COBIT 2019 Foundation • Change Management (PROSCI/ADKAR) • vCIO Advisory frameworks • Contract & SLA negotiation.</li>
       <li><strong>Advanced (Year 3):</strong> ITIL 4 Managing Professional (full suite) • ISO/IEC 20000 Lead Implementer • Enterprise Architecture (TOGAF/Zachman) • FinOps Certified Practitioner • Asset/License Management (HAM/SAM) • Service Integration & Management (SIAM).</li>
-      <li><strong>Expert (Year 4-5):</strong> ITIL 4 Strategic Leader • Business Relationship Management Professional (BRM) • Lean Six Sigma Green/Black Belt • IT Governance frameworks • Multi-site Operations Leadership • Executive Communication & Board Reporting.</li>
+      <li><strong>Expert (Year 4) — Required for All 50 Members:</strong> ITIL 4 Strategic Leader • Business Relationship Management Professional (BRM) • Lean Six Sigma Green Belt • IT Governance frameworks • Multi-site Operations Leadership • Executive Communication & Board Reporting.</li>
+      <li><strong>Master (Year 5) — Optional:</strong> Lean Six Sigma Black Belt • CIO-track executive leadership • Multi-industry portfolio management • Board-level governance expertise.</li>
       <li><strong>Sector depth:</strong> Healthcare IT leadership (HIPAA ops), Financial IT (PCI coordination), Education (FERPA/accessibility), Public Sector (compliance frameworks).</li>
     </ul>
     <p class="muted" style="margin-top:12px;"><strong>Career path:</strong> IT Ops Team Leader → IT Operations Director → VP/Head of IT Operations → CIO track</p>
@@ -1241,7 +1280,8 @@ include 'breadcrumbs.php';
       <li><strong>Foundation (Year 1):</strong> CompTIA A+ • MS-900 (M365 Fundamentals) • MD-102 (Endpoint Administrator) • SC-900 (Security Fundamentals) • MS-102 (M365 Administrator) • Linux Essentials.</li>
       <li><strong>Intermediate (Year 2):</strong> SC-300 (Identity & Access Administrator) • AZ-104 (Azure Administrator) • Intune/Jamf/Workspace ONE certifications • MS-720 (Teams Administrator) • LFCS (Linux Foundation Certified SysAdmin) • VMware VCP or Hyper-V specialist.</li>
       <li><strong>Advanced (Year 3):</strong> SC-100 (Cybersecurity Architect — identity focus) • AZ-305 (Azure Solutions Architect) • Advanced UEM (zero-touch, kiosk, VDI) • MS-700 (Teams Voice Engineer) • RHCSA (Red Hat) or LPIC-2 • Advanced virtualization (vSphere, Hyper-V clustering).</li>
-      <li><strong>Expert (Year 4-5):</strong> Entra ID/AD advanced architecture • Conditional Access policy frameworks • Privileged Identity Management (PIM) • Collaboration governance at scale (DLP, retention, compliance) • Server automation (Ansible, Chef, Puppet) • Multi-forest/multi-tenant architectures.</li>
+      <li><strong>Expert (Year 4) — Required for All 50 Members:</strong> Entra ID/AD advanced architecture • Conditional Access policy frameworks • Privileged Identity Management (PIM) • Collaboration governance at scale (DLP, retention, compliance) • Server automation (Ansible, Chef, Puppet) • Multi-forest/multi-tenant architectures.</li>
+      <li><strong>Master (Year 5) — Optional:</strong> Principal Architect specialization • Global identity federation • Zero Trust Architecture (ZTA) implementation • Enterprise-wide automation frameworks.</li>
       <li><strong>Sector depth:</strong> Healthcare device management (HIPAA endpoints), Financial branch endpoints (PCI-compliant imaging), Education (lab management, student devices), Manufacturing (rugged/industrial endpoints).</li>
     </ul>
     <p class="muted" style="margin-top:12px;"><strong>Career path:</strong> Platform Engineer → Senior Platform Architect → Principal Engineer (Identity/Collaboration/Endpoint specialization)</p>
@@ -1254,7 +1294,8 @@ include 'breadcrumbs.php';
       <li><strong>Foundation (Year 1):</strong> CompTIA Network+ • CCNA (Cisco) or equivalent (Aruba, Juniper) • Wi-Fi fundamentals • DHCP/DNS/IPAM basics • Network security fundamentals • Cable plant & physical layer.</li>
       <li><strong>Intermediate (Year 2):</strong> CCNP Enterprise (ENCOR + ENARSI) or Aruba ACMP • Wi-Fi Design (CWDP/Ekahau) • SD-WAN fundamentals (Cisco Meraki/Fortinet/VMware VeloCloud) • NAC/802.1X (ClearPass, ISE, FortiNAC) • VPN/ZTNA architectures.</li>
       <li><strong>Advanced (Year 3):</strong> CCNP Enterprise Wireless (ENWLSD + ENWLSI) or Aruba ACMX • SD-WAN Professional (multi-vendor) • Advanced NAC policy design • QoS & traffic engineering • Multi-site WAN optimization • Network automation (Python, Ansible for networking).</li>
-      <li><strong>Expert (Year 4-5):</strong> CCIE Enterprise Infrastructure or Aruba Expert • Wi-Fi 6E/7 advanced design • Zero Trust Network Architecture (ZTNA) • Branch-in-a-box templates • Multi-region connectivity (MPLS, Internet, 5G) • Network observability & telemetry • Carrier/ISP coordination.</li>
+      <li><strong>Expert (Year 4) — Required for All 50 Members:</strong> CCNP-level mastery (multi-vendor) • Wi-Fi 6E/7 advanced design • Zero Trust Network Architecture (ZTNA) • Branch-in-a-box templates • Multi-region connectivity (MPLS, Internet, 5G) • Network observability & telemetry.</li>
+      <li><strong>Master (Year 5) — Optional:</strong> CCIE Enterprise Infrastructure or Aruba Expert • Carrier/ISP coordination & peering • Global network architecture • SDN/intent-based networking.</li>
       <li><strong>Sector depth:</strong> Healthcare network segmentation (medical devices), Financial branch networking (PCI zones), Education (campus networks, high-density Wi-Fi), Manufacturing (OT/IT convergence, industrial protocols).</li>
     </ul>
     <p class="muted" style="margin-top:12px;"><strong>Career path:</strong> Network Engineer → Senior Network Architect → Principal Network Engineer → Network Infrastructure Director</p>
@@ -1267,7 +1308,8 @@ include 'breadcrumbs.php';
       <li><strong>Foundation (Year 1):</strong> SQL Fundamentals (Postgres/SQL Server/MySQL) • Backup basics (Veeam/Commvault/Rubrik Associate) • Storage fundamentals (SAN/NAS) • Power BI/Tableau/Looker Analyst • ETL basics • Data quality fundamentals.</li>
       <li><strong>Intermediate (Year 2):</strong> Database Administration Professional (Microsoft MCSA successor/Oracle OCP/PostgreSQL) • Veeam/Commvault/Rubrik Professional • Storage design & capacity planning • dbt Fundamentals • Data modeling & warehousing • BI governance & row-level security.</li>
       <li><strong>Advanced (Year 3):</strong> Advanced DBA (HA/clustering/replication/performance tuning) • Backup immutability & air-gap architectures • DR orchestration & failover automation • Business Continuity Planning (BCP) certification • Advanced BI (DAX, complex data models, paginated reports) • Data lineage & cataloging (Collibra/Alation).</li>
-      <li><strong>Expert (Year 4-5):</strong> Database Architecture (multi-region, sharding, polyglot persistence) • Disaster Recovery Planning Professional (DRI/BCI) • Recovery testing frameworks & tabletop exercises • Executive KPI dashboards & data storytelling • DataOps & governed analytics • RPO/RTO optimization & cost modeling.</li>
+      <li><strong>Expert (Year 4) — Required for All 50 Members:</strong> Database Architecture (multi-region, sharding, polyglot persistence) • Disaster Recovery Planning Professional (DRI/BCI) • Recovery testing frameworks & tabletop exercises • Executive KPI dashboards & data storytelling • DataOps & governed analytics • RPO/RTO optimization & cost modeling.</li>
+      <li><strong>Master (Year 5) — Optional:</strong> Principal Data Architect • Multi-cloud data strategy • Advanced data governance frameworks • Enterprise data mesh architecture.</li>
       <li><strong>Sector depth:</strong> Healthcare data (HIPAA retention, EHR backup), Financial data (SOX compliance, transaction integrity), Education (student data protection, FERPA), Manufacturing (SCADA/historian backup).</li>
       <li><strong>Boundary:</strong> Big data/ML/data lakes → <strong>Intelligent Cloud</strong>; SIEM/security analytics → <strong>Cybersecurity</strong>.</li>
     </ul>
@@ -1281,7 +1323,8 @@ include 'breadcrumbs.php';
       <li><strong>Foundation (Year 1):</strong> CompTIA Tech+ • ITIL 4 Foundation • HDI Support Center Analyst • Monitoring basics (Datadog/Splunk/ELK/Prometheus) • ServiceNow/Jira Service Management Fundamentals • Incident & Request Management.</li>
       <li><strong>Intermediate (Year 2):</strong> ITIL 4 Specialist (Monitor, Support & Fulfil) • ServiceNow System Administrator or Jira Admin • Monitoring platform professional (Datadog/Splunk/Grafana certifications) • CMDB design & population • Asset Management (ITAM Foundation) • PagerDuty/Opsgenie on-call design.</li>
       <li><strong>Advanced (Year 3):</strong> ITIL 4 Specialist (Create, Deliver & Support) • Advanced ITSM (change/problem/knowledge management) • Observability engineering (logs/metrics/traces correlation) • Runbook automation (Ansible/Python) • License optimization (SAM/HAM Professional) • SLA reporting & KPI dashboards.</li>
-      <li><strong>Expert (Year 4-5):</strong> Site Reliability Engineering (SRE) for IT Ops • Advanced automation (self-healing, auto-remediation) • Chaos engineering for resilience testing • Enterprise CMDB federation • Status page & incident communication at scale • On-call culture & burnout prevention • Proactive monitoring & AIOps.</li>
+      <li><strong>Expert (Year 4) — Required for All 50 Members:</strong> Site Reliability Engineering (SRE) for IT Ops • Advanced automation (self-healing, auto-remediation) • Chaos engineering for resilience testing • Enterprise CMDB federation • Status page & incident communication at scale • On-call culture & burnout prevention.</li>
+      <li><strong>Master (Year 5) — Optional:</strong> Proactive monitoring & AIOps specialization • Platform Engineering • Global NOC architecture • Enterprise observability strategy.</li>
       <li><strong>Sector depth:</strong> Healthcare NOC (patient safety-critical monitoring), Financial NOC (transaction monitoring, branch uptime), Education (academic calendar-aware support), Manufacturing (OT monitoring integration).</li>
     </ul>
     <p class="muted" style="margin-top:12px;"><strong>Career path:</strong> NOC Analyst → NOC Team Lead → Service Delivery Manager → IT Operations Manager → Head of Service Operations</p>
@@ -1341,75 +1384,353 @@ include 'breadcrumbs.php';
   </p>
 </section>
 
-<!-- Leadership Journey -->
+<!-- Leadership Formation Roadmap -->
 <section id="leadership-pathways" class="section">
-  <h2>Leadership Journey — How a 1:50 IT Leader is Built</h2>
+  <h2>Leadership Formation Roadmap — How a 1:50 IT Leader is Built</h2>
   <p class="muted" style="max-width:900px;margin:0 auto 30px;text-align:center;">
-    This is not a student program or an employment scheme — it is an Investor Education leadership mandate for running a full IT operations business unit.
+    This is not a student program or an employment scheme — it is an Investor Education leadership mandate for running a full IT operations business unit. <strong>Investment:</strong> $25,000 USD (15M FCFA) one-time upfront payment for 4-year Expert-level program (HEXAD + IT Expert certifications). Same investment applies to all 50 team members.
   </p>
 
-  <div class="grid">
-    <div class="card">
-      <h3>Step 1 — Formed (3-Year Intensive)</h3>
-      <p><strong>Investment:</strong> $25,000 USD (15M FCFA) one-time upfront payment</p>
-      <p><strong>You complete Advanced-level certifications + HEXAD in 3 years:</strong></p>
-      <ul style="margin:10px 0;padding-left:20px;line-height:1.8">
-        <li><strong>Year 1:</strong> HEXAD L1 Foundation (all 6 dimensions) + ITIL 4 Foundation, CompTIA Network+/A+, MS-900, basic ITSM — while recruiting first 10-20 team members and securing pilot clients</li>
-        <li><strong>Year 2:</strong> HEXAD L2 Intermediate + CCNA, AZ-104, ITIL Specialist, ServiceNow Admin — while scaling to full 50-person team and growing contracts to $5M-$10M</li>
-        <li><strong>Year 3:</strong> HEXAD L3 Advanced + CCNP, SC-300, ITIL Managing Professional, ISO 20000 Lead Implementer — while reaching $30M-$45M pod revenue and $2.1M personal income</li>
-        <li><strong>Heavy work-study from day one:</strong> Sales, recruiting, hands-on delivery, team supervision, vCIO advisory throughout all 3 years</li>
-      </ul>
-      <p class="muted"><strong>OEDP HEXAD Framework:</strong> Personal Development (maturation, capacities, axioms) • Professional Development (certifications, career skills, ethics) • Occupational Development (production, quality, standards) • Financial Development (literacy, investment, wealth-building) • Relationship Development (interpersonal, family, professional, community) • Truth Education (critical thinking, research, ethical reasoning). <a href="https://btheducationgroup.org/hexad-mastery.html" target="_blank" style="color:#0b4f7a;">Learn more →</a></p>
-    </div>
-    <div class="card">
-      <h3>Step 2 — Build the 1:50 Pod</h3>
-      <p><strong>You recruit and develop 50 members across 5 pods:</strong></p>
-      <ul style="margin:10px 0;padding-left:20px;line-height:1.8">
-        <li>Platform Pod (10): Workplace, identity, collaboration</li>
-        <li>Network Pod (10): LAN/WAN, Wi-Fi, connectivity</li>
-        <li>Data & Protection Pod (10): Backup/DR, data ops, BI</li>
-        <li>NOC & Tooling Pod (10): Monitoring, runbooks, CMDB</li>
-        <li>Leadership Pod (10): Governance, CAB, reporting</li>
-      </ul>
-      <p class="muted"><strong>Member Investment:</strong> Each member pays $25,000 USD (15M FCFA) in installments: $8,333/year × 3 years (≈5M FCFA/year). Members complete same 3-year HEXAD + IT Advanced certification program via heavy work-study model starting day one.</p>
-      <p class="muted"><strong>Work-Study Progression:</strong> Year 1 (Foundation): Help desk, Tier 1 support, shadowing seniors (20-30h/week billable) • Year 2 (Intermediate): Full project delivery, client-facing work (30-40h/week billable) • Year 3 (Advanced): Senior engineer, mentoring juniors, complex deployments (40-50h/week billable). By Year 3, members earn $63,822 salary and are fully productive Senior Engineers.</p>
-    </div>
-    <div class="card">
-      <h3>Step 3 — Deploy & Govern</h3>
-      <p><strong>You run SLAs and coordinate operations:</strong></p>
-      <ul style="margin:10px 0;padding-left:20px;line-height:1.8">
-        <li>Chair CAB, approve change windows, manage incident/problem/change processes</li>
-        <li>Coordinate with Cybersecurity (security posture) & Intelligent Cloud (platform scale)</li>
-        <li>Report KPIs, SLAs, and financial performance to clients monthly</li>
-        <li>Maintain ISO/IEC 20000 readiness and operational excellence</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>Step 4 — Earn & Scale</h3>
-      <p><strong>You earn from team-building and operational revenue:</strong></p>
-      <ul style="margin:10px 0;padding-left:20px;line-height:1.8">
-        <li><strong>Team-building commission:</strong> 44,321 USD upon forming the pod</li>
-        <li><strong>Leader personal income:</strong> ~$2.1M/year from performance-based residuals (≈7% of gross revenue)</li>
-        <li><strong>Total pod revenue capacity:</strong> $30M–$45M per year across 100+ multi-branch client portfolios</li>
-        <li>Scale by deploying multiple pods or expanding geographic coverage</li>
-      </ul>
+  <!-- Visual Timeline -->
+  <div style="max-width:1100px;margin:0 auto 40px;padding:24px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border-radius:12px;border:2px solid #0b4f7a;">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;">
+      <div style="flex:1;text-align:center;">
+        <div style="width:50px;height:50px;margin:0 auto 8px;border-radius:999px;background:#0b4f7a;color:white;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;">1</div>
+        <div style="font-weight:700;color:#0b4f7a;font-size:14px;">YEAR 1</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px;">Foundation</div>
+      </div>
+      <div style="flex:1;height:3px;background:#0b4f7a;margin-bottom:40px;"></div>
+      <div style="flex:1;text-align:center;">
+        <div style="width:50px;height:50px;margin:0 auto 8px;border-radius:999px;background:#0b4f7a;color:white;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;">2</div>
+        <div style="font-weight:700;color:#0b4f7a;font-size:14px;">YEAR 2</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px;">Intermediate</div>
+      </div>
+      <div style="flex:1;height:3px;background:#0b4f7a;margin-bottom:40px;"></div>
+      <div style="flex:1;text-align:center;">
+        <div style="width:50px;height:50px;margin:0 auto 8px;border-radius:999px;background:#0b4f7a;color:white;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;">3</div>
+        <div style="font-weight:700;color:#0b4f7a;font-size:14px;">YEAR 3</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px;">Advanced</div>
+      </div>
+      <div style="flex:1;height:3px;background:#0b4f7a;margin-bottom:40px;"></div>
+      <div style="flex:1;text-align:center;">
+        <div style="width:50px;height:50px;margin:0 auto 8px;border-radius:999px;background:#f59e0b;color:white;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;">4</div>
+        <div style="font-weight:700;color:#f59e0b;font-size:14px;">YEAR 4</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px;">Expert</div>
+      </div>
     </div>
   </div>
 
-  <div style="margin-top:40px;padding:30px;background:#f7fbff;border-radius:12px;border:1px solid #cfe2ff;">
-    <h3 style="margin-top:0;color:#0b4f7a;">Leadership Certification Pathways</h3>
-    <div class="grid" style="margin-top:20px;">
-      <div>
-        <h4 style="color:#0b4f7a;margin-bottom:10px;">Technical Leadership</h4>
-        <p style="font-size:14px;line-height:1.6;margin:0;">ITIL 4 Managing Professional • ISO/IEC 20000 Lead Implementer • ISO 27001 Lead Implementer (with Cyber) • SRE Foundations • ServiceNow/Jira Service Mgmt Admin • Architecture for IT Ops (capacity/availability).</p>
+  <!-- Tabbed Training Details -->
+  <div class="tabs" role="tablist" style="margin-bottom:24px;">
+    <button class="tab-btn active" onclick="switchLeaderTab('year1')" role="tab" aria-controls="leader-tab-year1">Year 1: Foundation</button>
+    <button class="tab-btn" onclick="switchLeaderTab('year2')" role="tab" aria-controls="leader-tab-year2">Year 2: Intermediate</button>
+    <button class="tab-btn" onclick="switchLeaderTab('year3')" role="tab" aria-controls="leader-tab-year3">Year 3: Advanced</button>
+    <button class="tab-btn" onclick="switchLeaderTab('year4')" role="tab" aria-controls="leader-tab-year4">Year 4: Expert</button>
+    <button class="tab-btn" onclick="switchLeaderTab('hexad')" role="tab" aria-controls="leader-tab-hexad">HEXAD Framework</button>
+    <button class="tab-btn" onclick="switchLeaderTab('pod-structure')" role="tab" aria-controls="leader-tab-pod-structure">1:50 Pod Structure</button>
+  </div>
+  
+  <script>
+  function switchLeaderTab(tabId) {
+    // Remove active from all buttons and panels
+    document.querySelectorAll('#leadership-pathways .tab-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.leader-tab-panel').forEach(panel => panel.classList.remove('active'));
+    
+    // Add active to clicked button and corresponding panel
+    event.target.classList.add('active');
+    document.getElementById('leader-tab-' + tabId).classList.add('active');
+  }
+  </script>
+
+  <!-- Year 1 Tab -->
+  <div id="leader-tab-year1" class="tab-panel leader-tab-panel active" role="tabpanel" aria-labelledby="year1">
+    <div class="card">
+      <h3 style="color:#0b4f7a;">Year 1: Foundation — Build Your Base</h3>
+      <div class="grid" style="margin-top:20px;">
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Certifications & Skills</h4>
+          <ul style="line-height:1.8;">
+            <li>HEXAD Level 1 (all 6 dimensions)</li>
+            <li>ITIL 4 Foundation</li>
+            <li>CompTIA Network+ / A+</li>
+            <li>MS-900 (M365 Fundamentals)</li>
+            <li>Basic ITSM (ServiceNow/Jira)</li>
+            <li>Stakeholder engagement fundamentals</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Business Activities</h4>
+          <ul style="line-height:1.8;">
+            <li>Recruit first 10-20 team members</li>
+            <li>Secure 1-3 pilot clients ($500K-$1M revenue)</li>
+            <li>Hands-on delivery (helpdesk, basic projects)</li>
+            <li>Learn sales & client engagement</li>
+            <li>Establish basic ITIL processes</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Financial Milestones</h4>
+          <ul style="line-height:1.8;">
+            <li><strong>Investment:</strong> $25K USD paid upfront</li>
+            <li><strong>Leader income:</strong> ~$650/month stipend</li>
+            <li><strong>Pod revenue:</strong> $500K-$1.5M pilot phase</li>
+            <li><strong>Focus:</strong> Learning + recruiting + proving model</li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <h4 style="color:#0b4f7a;margin-bottom:10px;">Program & Delivery</h4>
-        <p style="font-size:14px;line-height:1.6;margin:0;">PMP or PRINCE2 • Agile Scrum Master/PO • Change Enablement • Vendor & Contract Management • Financial Ops (FinOps for IT).</p>
+    </div>
+  </div>
+
+  <!-- Year 2 Tab -->
+  <div id="leader-tab-year2" class="tab-panel leader-tab-panel" role="tabpanel" aria-labelledby="year2">
+    <div class="card">
+      <h3 style="color:#0b4f7a;">Year 2: Intermediate — Scale Your Team</h3>
+      <div class="grid" style="margin-top:20px;">
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Certifications & Skills</h4>
+          <ul style="line-height:1.8;">
+            <li>HEXAD Level 2</li>
+            <li>CCNA (Cisco networking)</li>
+            <li>AZ-104 (Azure Administrator)</li>
+            <li>ITIL 4 Specialist (2-3 modules)</li>
+            <li>ServiceNow System Administrator</li>
+            <li>Contract negotiation & SLA design</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Business Activities</h4>
+          <ul style="line-height:1.8;">
+            <li>Scale to full 50-person team</li>
+            <li>Expand to 5-8 clients across 20-40 branches</li>
+            <li>Launch all 5 pods (Platform, Network, Data, NOC, Leadership)</li>
+            <li>Supervise pod leads & delivery quality</li>
+            <li>Implement CAB & change management</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Financial Milestones</h4>
+          <ul style="line-height:1.8;">
+            <li><strong>Leader income:</strong> ~$650/month + project bonuses</li>
+            <li><strong>Pod revenue:</strong> $5M-$10M across multi-client portfolio</li>
+            <li><strong>Team payroll:</strong> $2M-$3M (members Year 1-2 progression)</li>
+            <li><strong>Focus:</strong> Scaling capacity + proving SLA delivery</li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <h4 style="color:#0b4f7a;margin-bottom:10px;">Commercial & Leadership</h4>
-        <p style="font-size:14px;line-height:1.6;margin:0;">Negotiation & Procurement • Stakeholder Management • Executive Reporting • Compliance & Audit Readiness.</p>
+    </div>
+  </div>
+
+  <!-- Year 3 Tab -->
+  <div id="leader-tab-year3" class="tab-panel leader-tab-panel" role="tabpanel" aria-labelledby="year3">
+    <div class="card">
+      <h3 style="color:#0b4f7a;">Year 3: Advanced — Master Operations</h3>
+      <div class="grid" style="margin-top:20px;">
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Certifications & Skills</h4>
+          <ul style="line-height:1.8;">
+            <li>HEXAD Level 3</li>
+            <li>CCNP Enterprise (ENCOR/ENARSI)</li>
+            <li>SC-300 (Identity & Access Admin)</li>
+            <li>ITIL 4 Managing Professional (full suite)</li>
+            <li>ISO/IEC 20000 Lead Implementer</li>
+            <li>vCIO advisory & executive reporting</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Business Activities</h4>
+          <ul style="line-height:1.8;">
+            <li>Serve 8-12 clients across 60-100 branches</li>
+            <li>Chair CAB, govern all changes/incidents</li>
+            <li>Coordinate with Cyber & Cloud teams</li>
+            <li>Monthly SLA reporting to C-suite clients</li>
+            <li>Optimize pod efficiency & cost management</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Financial Milestones</h4>
+          <ul style="line-height:1.8;">
+            <li><strong>Leader income:</strong> Rising toward $1M-$1.5M/year</li>
+            <li><strong>Pod revenue:</strong> $15M-$25M managed services</li>
+            <li><strong>Team payroll:</strong> $3M-$4M (members Years 2-3)</li>
+            <li><strong>Focus:</strong> Operational excellence + client retention</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Year 4 Tab -->
+  <div id="leader-tab-year4" class="tab-panel leader-tab-panel" role="tabpanel" aria-labelledby="year4">
+    <div class="card">
+      <h3 style="color:#f59e0b;">Year 4: Expert — Full Revenue Operation</h3>
+      <div class="grid" style="margin-top:20px;">
+        <div>
+          <h4 style="color:#f59e0b;margin-bottom:10px;">Certifications & Skills</h4>
+          <ul style="line-height:1.8;">
+            <li>HEXAD Level 4 (Expert)</li>
+            <li>ITIL 4 Strategic Leader</li>
+            <li>CCIE Enterprise Infrastructure or equivalent Expert-level cert</li>
+            <li>TOGAF (Enterprise Architecture)</li>
+            <li>Multi-site operations leadership</li>
+            <li>Executive communication & board reporting</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#f59e0b;margin-bottom:10px;">Business Activities</h4>
+          <ul style="line-height:1.8;">
+            <li>Serve 10+ companies across 100+ branches</li>
+            <li>Lead strategic IT transformation projects</li>
+            <li>Mentor junior leaders & succession planning</li>
+            <li>Represent clients at vendor negotiations</li>
+            <li>Drive continuous service improvement (CSI)</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#f59e0b;margin-bottom:10px;">Financial Milestones</h4>
+          <ul style="line-height:1.8;">
+            <li><strong>Team-building commission:</strong> $44,321 (one-time, upon pod completion)</li>
+            <li><strong>Leader personal income:</strong> ~$2.1M/year (≈7% of gross revenue)</li>
+            <li><strong>Pod revenue:</strong> $30M-$45M/year managed services</li>
+            <li><strong>Team payroll:</strong> $4M-$5M (all 50 Expert-level, $75K-$85K each)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEXAD Framework Tab -->
+  <div id="leader-tab-hexad" class="tab-panel leader-tab-panel" role="tabpanel" aria-labelledby="hexad">
+    <div class="card">
+      <h3 style="color:#0b4f7a;">OEDP HEXAD Mentoring Framework — 6 Dimensions of Formation</h3>
+      <p style="margin-bottom:20px;color:#6b7280;">The HEXAD framework integrates with technical certifications throughout the 4-year program. All 50 team members (leader + 49 members) complete HEXAD L1-L4.</p>
+      <div class="grid" style="margin-top:20px;">
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">1. Personal Development</h4>
+          <p style="font-size:14px;line-height:1.6;">Maturation, capacities, axioms, self-awareness, emotional intelligence, resilience, time management, personal mission & values alignment.</p>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">2. Professional Development</h4>
+          <p style="font-size:14px;line-height:1.6;">Certifications, career skills, professional ethics, industry standards, continuous learning, thought leadership, mentoring others.</p>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">3. Occupational Development</h4>
+          <p style="font-size:14px;line-height:1.6;">Production excellence, quality standards, operational discipline, SLA management, service delivery mastery, client satisfaction focus.</p>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">4. Financial Development</h4>
+          <p style="font-size:14px;line-height:1.6;">Financial literacy, investment strategies, wealth-building, budgeting, cost management, understanding ROI, financial planning for life & business.</p>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">5. Relationship Development</h4>
+          <p style="font-size:14px;line-height:1.6;">Interpersonal skills, family relationships, professional networking, community engagement, conflict resolution, building trust & influence.</p>
+        </div>
+        <div>
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">6. Truth Education</h4>
+          <p style="font-size:14px;line-height:1.6;">Critical thinking, research methodology, ethical reasoning, discernment, evaluating information sources, intellectual humility, principled decision-making.</p>
+        </div>
+      </div>
+      <p style="margin-top:20px;text-align:center;">
+        <a href="https://btheducationgroup.org/hexad-mastery.html" target="_blank" class="btn" style="display:inline-block;">Explore Full HEXAD Curriculum →</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Pod Structure Tab -->
+  <div id="leader-tab-pod-structure" class="tab-panel leader-tab-panel" role="tabpanel" aria-labelledby="pod-structure">
+    <div class="card">
+      <h3 style="color:#0b4f7a;">1:50 Pod Structure — All 50 Roles Defined</h3>
+      <p style="margin-bottom:20px;color:#6b7280;"><strong>All 50 team members reach Expert level (Year 4)</strong> since everyone pays the same $25K investment. Below is the full organizational structure showing who fills the 50 positions.</p>
+      
+      <!-- Org Chart Visual -->
+      <div style="text-align:center;margin:30px 0;padding:30px;background:#f0f9ff;border-radius:12px;">
+        <div style="margin-bottom:20px;">
+          <div style="display:inline-block;padding:12px 24px;background:#0b4f7a;color:white;border-radius:8px;font-weight:700;font-size:16px;">
+            IT Operations Team Leader (1)
+          </div>
+        </div>
+        <div style="width:2px;height:30px;background:#0b4f7a;margin:0 auto;"></div>
+        <div style="display:flex;justify-content:space-around;flex-wrap:wrap;gap:16px;">
+          <div style="flex:1;min-width:180px;padding:12px;background:white;border:2px solid #0b4f7a;border-radius:8px;">
+            <div style="font-weight:700;color:#0b4f7a;margin-bottom:4px;">Leadership Pod</div>
+            <div style="font-size:13px;color:#6b7280;">10 members</div>
+          </div>
+          <div style="flex:1;min-width:180px;padding:12px;background:white;border:2px solid #0b4f7a;border-radius:8px;">
+            <div style="font-weight:700;color:#0b4f7a;margin-bottom:4px;">Platform Pod</div>
+            <div style="font-size:13px;color:#6b7280;">10 members</div>
+          </div>
+          <div style="flex:1;min-width:180px;padding:12px;background:white;border:2px solid #0b4f7a;border-radius:8px;">
+            <div style="font-weight:700;color:#0b4f7a;margin-bottom:4px;">Network Pod</div>
+            <div style="font-size:13px;color:#6b7280;">10 members</div>
+          </div>
+          <div style="flex:1;min-width:180px;padding:12px;background:white;border:2px solid #0b4f7a;border-radius:8px;">
+            <div style="font-weight:700;color:#0b4f7a;margin-bottom:4px;">Data & Protection Pod</div>
+            <div style="font-size:13px;color:#6b7280;">10 members</div>
+          </div>
+          <div style="flex:1;min-width:180px;padding:12px;background:white;border:2px solid #0b4f7a;border-radius:8px;">
+            <div style="font-weight:700;color:#0b4f7a;margin-bottom:4px;">NOC & Tooling Pod</div>
+            <div style="font-size:13px;color:#6b7280;">10 members</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detailed Role Breakdown -->
+      <div class="grid" style="margin-top:30px;">
+        <div style="border-left:4px solid #0b4f7a;padding-left:16px;">
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Leadership Pod (10)</h4>
+          <ul style="font-size:14px;line-height:1.8;color:#374151;">
+            <li>2× IT Operations Architect / vCIO</li>
+            <li>2× PMO Coordinator / Program Manager</li>
+            <li>2× CAB Chair / Change Manager</li>
+            <li>2× Vendor & Contract Manager</li>
+            <li>2× Governance & Compliance Analyst</li>
+          </ul>
+          <p style="font-size:13px;color:#6b7280;margin-top:8px;"><strong>Expert certs:</strong> ITIL 4 Strategic Leader, TOGAF, BRM, ISO 20000/27001 Lead Implementer</p>
+        </div>
+        <div style="border-left:4px solid #0b4f7a;padding-left:16px;">
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Platform Pod (10)</h4>
+          <ul style="font-size:14px;line-height:1.8;color:#374151;">
+            <li>3× Identity & Access Engineer (Entra/AD)</li>
+            <li>3× Endpoint Specialist (Intune/Jamf/UEM)</li>
+            <li>2× Server Administrator (Windows/Linux)</li>
+            <li>2× Collaboration Engineer (Teams/M365)</li>
+          </ul>
+          <p style="font-size:13px;color:#6b7280;margin-top:8px;"><strong>Expert certs:</strong> SC-100, AZ-305, Advanced UEM, RHCSA, MS-700</p>
+        </div>
+        <div style="border-left:4px solid #0b4f7a;padding-left:16px;">
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Network Pod (10)</h4>
+          <ul style="font-size:14px;line-height:1.8;color:#374151;">
+            <li>3× Network Engineer (LAN/WAN/SD-WAN)</li>
+            <li>3× Wi-Fi Specialist (CWDP/Ekahau)</li>
+            <li>2× NAC Administrator (802.1X/ClearPass/ISE)</li>
+            <li>2× Network Automation Engineer (Python/Ansible)</li>
+          </ul>
+          <p style="font-size:13px;color:#6b7280;margin-top:8px;"><strong>Expert certs:</strong> CCNP Enterprise Wireless, SD-WAN Professional, CCIE (optional Master track)</p>
+        </div>
+        <div style="border-left:4px solid #0b4f7a;padding-left:16px;">
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">Data & Protection Pod (10)</h4>
+          <ul style="font-size:14px;line-height:1.8;color:#374151;">
+            <li>3× Database Administrator (SQL/NoSQL/PostgreSQL)</li>
+            <li>3× Backup/DR Specialist (Veeam/Commvault/Rubrik)</li>
+            <li>2× BI Analyst / Data Engineer (Power BI/Tableau)</li>
+            <li>2× BCP Coordinator / Storage Architect</li>
+          </ul>
+          <p style="font-size:13px;color:#6b7280;margin-top:8px;"><strong>Expert certs:</strong> Advanced DBA (HA/clustering), DR Planning Professional, Advanced BI, Data Architect</p>
+        </div>
+        <div style="border-left:4px solid #0b4f7a;padding-left:16px;">
+          <h4 style="color:#0b4f7a;margin-bottom:10px;">NOC & Tooling Pod (10)</h4>
+          <ul style="font-size:14px;line-height:1.8;color:#374151;">
+            <li>3× NOC Engineer / Monitoring Specialist</li>
+            <li>2× ITSM Administrator (ServiceNow/Jira)</li>
+            <li>2× CMDB / Asset Manager</li>
+            <li>2× Automation Engineer (Runbooks/SRE)</li>
+            <li>1× On-call Coordinator / Incident Manager</li>
+          </ul>
+          <p style="font-size:13px;color:#6b7280;margin-top:8px;"><strong>Expert certs:</strong> SRE for IT Ops, Advanced ITSM, Observability Engineering, AIOps</p>
+        </div>
+      </div>
+
+      <div style="margin-top:30px;padding:20px;background:#fef3c7;border-left:4px solid #f59e0b;border-radius:8px;">
+        <p style="margin:0;color:#92400e;"><strong>Investment Equity:</strong> All 50 team members pay $25,000 USD ($6,250/year × 4 years) and complete the same Expert-level training program (HEXAD L1-L4 + IT Expert certifications). By Year 4, all members earn $75K-$85K salary as Expert-level engineers, and the leader earns $2.1M from the $30M-$45M pod revenue.</p>
       </div>
     </div>
   </div>
@@ -1454,7 +1775,7 @@ include 'breadcrumbs.php';
 <section id="apply-leader" class="section">
   <h2>Apply to Become a Team Leader</h2>
   <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;">
-    <strong>For Leaders:</strong> Only <strong>100 Team Leaders</strong> are accepted per industry. Complete 3-year intensive training ($25K USD / 15M FCFA upfront) covering HEXAD (6 dimensions) + IT Advanced certifications via heavy work-study from day one. Build a certified 50-person delivery unit, deploy enterprise contracts across 100+ branches, and lead a pod generating $30M–$45M annually (you earn ~$2.1M personally by Year 3). This is not a client service—it's a leadership mandate in the 1:50 model.
+    <strong>For Leaders:</strong> Only <strong>100 Team Leaders</strong> are accepted per industry. Complete 4-year Expert-level training ($25K USD / 15M FCFA upfront) covering HEXAD (6 dimensions) + IT Expert certifications via intensive work-study from day one. Build a certified 50-person delivery unit (all Expert-level), deploy enterprise contracts across 100+ branches, and lead a pod generating $30M–$45M annually (you earn ~$2.1M personally by Year 4). This is not a client service—it's a leadership mandate in the 1:50 model.
   </p>
   <form method="post" action="send-mail.php" class="application-form">
     <div class="form-row">
@@ -1484,8 +1805,8 @@ include 'breadcrumbs.php';
 
   <button class="accordion-button" aria-expanded="false">How does a 50-person team generate $30M–$45M annually?</button>
   <div class="accordion-content">
-    <p>Multi-branch deployment model: serving 10 companies across 10 branches each (100 total branches) with comprehensive IT operations managed services. Based on real production model generating ≈18B FCFA profit annually (≈$30M USD at 600 FCFA/USD). Each branch generates ~15M FCFA profit. The 1:50 pod structure enables parallel multi-client service delivery at scale. Leader earns ~$2.1M (≈7% of gross revenue) as recurring personal income by Year 3, with $44,321 USD one-time team-building commission upon completing pod formation.</p>
-    <p><strong>Training Investment:</strong> Leaders pay $25K USD upfront for 3-year intensive program (HEXAD all 6 dimensions + IT Advanced certs). Members pay $25K USD in installments ($8,333/year × 3 years). Both complete Foundation → Intermediate → Advanced progression via heavy work-study model starting day one. By Year 3, leader operates $30M-$45M pod and members are Senior Engineers earning $63,822/year.</p>
+    <p>Multi-branch deployment model: serving 10 companies across 10 branches each (100 total branches) with comprehensive IT operations managed services. Based on real production model generating ≈18B FCFA profit annually (≈$30M USD at 600 FCFA/USD). Each branch generates ~15M FCFA profit. The 1:50 pod structure enables parallel multi-client service delivery at scale. Leader earns ~$2.1M (≈7% of gross revenue) as recurring personal income by Year 4, with $44,321 USD one-time team-building commission upon completing pod formation.</p>
+    <p><strong>Training Investment:</strong> Leaders pay $25K USD upfront for 4-year Expert-level program (HEXAD all 6 dimensions + IT Expert certs). Members pay $25K USD in installments ($6,250/year × 4 years). <strong>All 50 members</strong> complete Foundation → Intermediate → Advanced → Expert progression via intensive work-study model starting day one. Same investment, same Expert outcome. By Year 4, leader operates $30M-$45M pod and members are Expert-level engineers earning $75K-$85K/year.</p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">Why 1:50 instead of smaller teams or outsourcing to large MSPs?</button>
