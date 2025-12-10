@@ -40,7 +40,7 @@ include 'breadcrumbs.php';
         <a href="software-engineering.php">Software &amp; Systems Engineering</a>;
         for PaaS/AI scale see <a href="intelligent-cloud.php">Intelligent Cloud</a>;
         for SOC/MDR/IR see <a href="cybersecurity.php">Cybersecurity</a>.
-        Each fully built 1:50 IT leadership unit can realistically support <strong>$3M–$8M per year</strong> in managed services and project revenue across multi-site portfolios.
+        Each fully built 1:50 IT leadership unit can realistically support <strong>$30M–$45M per year</strong> in managed services and project revenue across multi-site, multi-branch client portfolios.
       </p>
       <!-- Fortune 500 Validation Strip -->
       <div style="
@@ -106,8 +106,8 @@ include 'breadcrumbs.php';
           <div class="stat-label">Member annual income</div>
         </div>
         <div class="stat">
-          <div class="stat-value" data-target="3" data-prefix="$" data-suffix="M–$8M" data-format="simple">0</div>
-          <div class="stat-label">Revenue capacity/year</div>
+          <div class="stat-value" data-target="30" data-prefix="$" data-suffix="M–$45M" data-format="simple">0</div>
+          <div class="stat-label">Pod revenue capacity/year</div>
         </div>
       </div>
       <p class="kpi-caption" style="margin-top:20px;font-size:13px;color:#b8d4f0;max-width:700px;line-height:1.5">
@@ -257,8 +257,8 @@ include 'breadcrumbs.php';
     </div>
     <div class="card">
       <h3>Financial Viability</h3>
-      <p>50-person teams generate $3M–$8M annually in managed services revenue. Leader overhead (governance, CAB, reporting) is 10–15% of billable hours—sustainable and scalable.</p>
-      <p class="muted"><strong>Result:</strong> Profitable unit economics for both leader and organization.</p>
+      <p>50-person teams generate $30M–$45M annually in managed services revenue across multi-branch, multi-site deployments. Leader overhead (governance, CAB, reporting) is 10–15% of billable hours—sustainable and scalable.</p>
+      <p class="muted"><strong>Result:</strong> Profitable unit economics for both leader and organization, with leader earning ~$2.1M from gross revenue pool.</p>
     </div>
     <div class="card">
       <h3>Enterprise-Grade SLAs</h3>
@@ -330,9 +330,9 @@ include 'breadcrumbs.php';
         A typical Fortune-500 IT division is a cost center. Your 1:50 pod is a <strong>profit engine</strong>:
       </p>
       <ul style="margin:10px 0 0 18px;font-size:14px;color:#cbd5f5;line-height:1.7;">
-        <li><strong>$3M–$8M/year</strong> realistic revenue capacity per 1:50 IT Operations unit</li>
+        <li><strong>$30M–$45M/year</strong> realistic revenue capacity per 1:50 IT Operations unit serving multi-branch portfolios</li>
         <li><strong>100 leaders per sector → 5,000 professionals</strong> in Information Technology alone</li>
-        <li><strong>$300M–$800M/year</strong> sector-level potential when fully deployed</li>
+        <li><strong>$3B–$4.5B/year</strong> sector-level potential when fully deployed (100 pods × $30M-$45M)</li>
       </ul>
       <p class="muted" style="margin-top:10px;font-size:13px;color:#9ca3af;">
         Result: a single sector can out-earn the IT operations line of many Fortune-500 firms — with explicit pod-level economics.
@@ -389,7 +389,7 @@ include 'breadcrumbs.php';
           <tr>
             <td style="padding:10px;border-bottom:1px solid #111827;">Economic Role</td>
             <td style="padding:10px;border-bottom:1px solid #111827;">Cost center; budget line under CIO; limited external revenue.</td>
-            <td style="padding:10px;border-bottom:1px solid #111827;"><strong>Profit engine:</strong> $3M–$8M/year managed services per pod, multi-client portfolio.</td>
+            <td style="padding:10px;border-bottom:1px solid #111827;"><strong>Profit engine:</strong> $30M–$45M/year gross revenue per pod serving 100+ branches, multi-client portfolio.</td>
           </tr>
           <tr>
             <td style="padding:10px;border-bottom:1px solid #111827;">Training &amp; Certifications</td>
@@ -504,11 +504,12 @@ include 'breadcrumbs.php';
     </div>
     <div class="card">
       <h3>Leader ROI (Narrative)</h3>
-      <p>As an IT Operations Team Leader you build a 1:50 pod and earn:</p>
+      <p>As an IT Operations Team Leader you build a 1:50 pod serving multi-branch client portfolios and earn:</p>
       <ul>
         <li><strong>≈ 650 USD/month</strong> active leadership income for 5 years</li>
         <li><strong>44,321 USD</strong> – structured team-building commissions</li>
-        <li><strong>$3M–$8M/year</strong> potential residual income from mature multi-site managed services contracts</li>
+        <li><strong>~$2.1M/year</strong> recurring personal income from mature multi-branch managed services</li>
+        <li>Your pod generates <strong>$30M–$45M gross revenue/year</strong> across 100+ branch deployments; you earn ~7%</li>
       </ul>
       <p class="muted">Figures are illustrative and calibrated per country and sector. Details live in the Finance Pack.</p>
     </div>
@@ -1196,7 +1197,7 @@ include 'breadcrumbs.php';
 <!-- Team Certification Pathways -->
 <section id="certifications" class="section">
   <h2>Team Certification Pathways — Complete 1:50 Pod Coverage</h2>
-  <p class="muted">Five certification tracks aligned to the five delivery pods, covering every service domain for $3M–$8M+ annual revenue capacity. Each track has Foundation → Intermediate → Advanced → Expert progression over 4–5 years. Development/SDLC, big-data/ML, and SOC/MDR live on Software Engineering, Intelligent Cloud, and Cybersecurity pages.</p>
+  <p class="muted">Five certification tracks aligned to the five delivery pods, covering every service domain for $30M–$45M+ annual revenue capacity across multi-branch deployments. Each track has Foundation → Intermediate → Advanced → Expert progression over 4–5 years. Development/SDLC, big-data/ML, and SOC/MDR live on Software Engineering, Intelligent Cloud, and Cybersecurity pages.</p>
 
   <div class="tabs" role="tablist">
     <button class="tab-btn active" onclick="switchTab('leadership')" role="tab" aria-controls="tab-leadership">A) Leadership & Governance</button>
@@ -1275,7 +1276,7 @@ include 'breadcrumbs.php';
     <h3>E) NOC & Tooling Pod — Monitoring, ITSM, CMDB, Automation, Incident Response</h3>
     <p style="margin-bottom:16px;color:#6b7280;"><strong>Revenue impact:</strong> $48K–$78K/month pod revenue | <strong>Roles:</strong> NOC Engineer, ITSM Administrator, Monitoring Specialist, Automation Engineer, On-call Coordinator | <strong>Service coverage:</strong> 24×7 monitoring, service desk/ITSM, CMDB, asset/license management, runbooks, on-call, status pages</p>
     <ul>
-      <li><strong>Foundation (Year 1):</strong> CompTIA IT Fundamentals+ • ITIL 4 Foundation • HDI Support Center Analyst • Monitoring basics (Datadog/Splunk/ELK/Prometheus) • ServiceNow/Jira Service Management Fundamentals • Incident & Request Management.</li>
+      <li><strong>Foundation (Year 1):</strong> CompTIA Tech+ • ITIL 4 Foundation • HDI Support Center Analyst • Monitoring basics (Datadog/Splunk/ELK/Prometheus) • ServiceNow/Jira Service Management Fundamentals • Incident & Request Management.</li>
       <li><strong>Intermediate (Year 2):</strong> ITIL 4 Specialist (Monitor, Support & Fulfil) • ServiceNow System Administrator or Jira Admin • Monitoring platform professional (Datadog/Splunk/Grafana certifications) • CMDB design & population • Asset Management (ITAM Foundation) • PagerDuty/Opsgenie on-call design.</li>
       <li><strong>Advanced (Year 3):</strong> ITIL 4 Specialist (Create, Deliver & Support) • Advanced ITSM (change/problem/knowledge management) • Observability engineering (logs/metrics/traces correlation) • Runbook automation (Ansible/Python) • License optimization (SAM/HAM Professional) • SLA reporting & KPI dashboards.</li>
       <li><strong>Expert (Year 4-5):</strong> Site Reliability Engineering (SRE) for IT Ops • Advanced automation (self-healing, auto-remediation) • Chaos engineering for resilience testing • Enterprise CMDB federation • Status page & incident communication at scale • On-call culture & burnout prevention • Proactive monitoring & AIOps.</li>
@@ -1382,8 +1383,8 @@ include 'breadcrumbs.php';
       <p><strong>You earn from team-building and operational revenue:</strong></p>
       <ul style="margin:10px 0;padding-left:20px;line-height:1.8">
         <li><strong>Team-building commission:</strong> 44,321 USD upon forming the pod</li>
-        <li><strong>Operational revenue share:</strong> Performance-based residuals from managed services</li>
-        <li><strong>Total pod revenue capacity:</strong> $3M–$8M per year across multi-site client portfolios</li>
+        <li><strong>Leader personal income:</strong> ~$2.1M/year from performance-based residuals (≈7% of gross revenue)</li>
+        <li><strong>Total pod revenue capacity:</strong> $30M–$45M per year across 100+ multi-branch client portfolios</li>
         <li>Scale by deploying multiple pods or expanding geographic coverage</li>
       </ul>
     </div>
@@ -1447,7 +1448,7 @@ include 'breadcrumbs.php';
 <section id="apply-leader" class="section">
   <h2>Apply to Become a Team Leader</h2>
   <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;">
-    <strong>For Leaders:</strong> Only <strong>100 Team Leaders</strong> are accepted per industry. Build a certified 50-person delivery unit, deploy enterprise contracts, and earn $3M–$8M annually. This is not a client service—it's a leadership mandate in the 1:50 model.
+    <strong>For Leaders:</strong> Only <strong>100 Team Leaders</strong> are accepted per industry. Build a certified 50-person delivery unit, deploy enterprise contracts across 100+ branches, and lead a pod generating $30M–$45M annually (you earn ~$2.1M personally). This is not a client service—it's a leadership mandate in the 1:50 model.
   </p>
   <form method="post" action="send-mail.php" class="application-form">
     <div class="form-row">
@@ -1475,9 +1476,9 @@ include 'breadcrumbs.php';
     Investors and enterprise buyers frequently ask these questions about the 1:50 IT Operations model.
   </p>
 
-  <button class="accordion-button" aria-expanded="false">How does a 50-person team generate $3M–$8M annually?</button>
+  <button class="accordion-button" aria-expanded="false">How does a 50-person team generate $30M–$45M annually?</button>
   <div class="accordion-content">
-    <p>Managed services are priced per user/device with tiered SLAs. A team serving 500–2000 users across multiple sites, with Standard/Advanced/Enterprise packages, generates $250K–$650K monthly recurring revenue. Annual total: $3M–$8M. Leader commission (44,321 USD) covers team-building; residual revenue scales with contract growth.</p>
+    <p>Multi-branch deployment model: serving 10 companies across 10 branches each (100 total branches) with comprehensive IT operations managed services. Based on real production model generating ≈18B FCFA profit annually (≈$30M USD at 600 FCFA/USD). Each branch generates ~15M FCFA profit. The 1:50 pod structure enables parallel multi-client service delivery at scale. Leader earns ~$2.1M (≈7% of gross revenue) as recurring personal income, with $44,321 USD one-time team-building commission.</p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">Why 1:50 instead of smaller teams or outsourcing to large MSPs?</button>
@@ -1512,7 +1513,7 @@ include 'breadcrumbs.php';
 
   <button class="accordion-button" aria-expanded="false">What happens if we outgrow one 1:50 team?</button>
   <div class="accordion-content">
-    <p>Add a second 1:50 team with regional or service-line specialization (e.g., Team 1: Americas, Team 2: EMEA; or Team 1: Workplace/Network, Team 2: Data/Apps). Two leaders coordinate via shared CAB and SLA framework. This is the path to scaling beyond $8M annually while maintaining governance quality.</p>
+    <p>Add a second 1:50 team with regional or service-line specialization (e.g., Team 1: Americas, Team 2: EMEA; or Team 1: Workplace/Network, Team 2: Data/Apps). Two leaders coordinate via shared CAB and SLA framework. This is the path to scaling beyond $45M annually while maintaining governance quality (2 pods = $60M–$90M potential).</p>
   </div>
 </section>
 
