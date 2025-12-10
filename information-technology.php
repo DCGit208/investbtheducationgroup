@@ -504,14 +504,16 @@ include 'breadcrumbs.php';
     </div>
     <div class="card">
       <h3>Leader ROI (Narrative)</h3>
-      <p>As an IT Operations Team Leader you build a 1:50 pod serving multi-branch client portfolios and earn:</p>
+      <p>As an IT Operations Team Leader you complete 3-year intensive training, build a 1:50 pod serving multi-branch client portfolios, and earn:</p>
       <ul>
-        <li><strong>≈ 650 USD/month</strong> active leadership income for 5 years</li>
-        <li><strong>44,321 USD</strong> – structured team-building commissions</li>
-        <li><strong>~$2.1M/year</strong> recurring personal income from mature multi-branch managed services</li>
+        <li><strong>Investment:</strong> $25,000 USD (15M FCFA) one-time upfront payment for 3-year HEXAD + IT Advanced certification program</li>
+        <li><strong>Timeline:</strong> 3 years from enrollment to $30M-$45M pod operation (heavy work-study from day one)</li>
+        <li><strong>≈ 650 USD/month</strong> active leadership income during 3-year formation</li>
+        <li><strong>44,321 USD</strong> – structured team-building commission upon completing 50-person pod</li>
+        <li><strong>~$2.1M/year</strong> recurring personal income from Year 3 onward (mature multi-branch managed services)</li>
         <li>Your pod generates <strong>$30M–$45M gross revenue/year</strong> across 100+ branch deployments; you earn ~7%</li>
       </ul>
-      <p class="muted">Figures are illustrative and calibrated per country and sector. Details live in the Finance Pack.</p>
+      <p class="muted">Figures are illustrative and calibrated per country and sector. <strong>3-year model:</strong> Leader reaches Advanced certifications + leadership mastery + full revenue operation in 36 months. Optional Expert/Master track (Years 4-5) available for deep specialization. Details live in the Finance Pack.</p>
     </div>
   </div>
 
@@ -1197,7 +1199,7 @@ include 'breadcrumbs.php';
 <!-- Team Certification Pathways -->
 <section id="certifications" class="section">
   <h2>Team Certification Pathways — Complete 1:50 Pod Coverage</h2>
-  <p class="muted">Five certification tracks aligned to the five delivery pods, covering every service domain for $30M–$45M+ annual revenue capacity across multi-branch deployments. Each track has Foundation → Intermediate → Advanced → Expert progression over 4–5 years. Development/SDLC, big-data/ML, and SOC/MDR live on Software Engineering, Intelligent Cloud, and Cybersecurity pages.</p>
+  <p class="muted">Five certification tracks aligned to the five delivery pods, covering every service domain for $30M–$45M+ annual revenue capacity across multi-branch deployments. Each track follows a <strong>3-year intensive program</strong> (Foundation → Intermediate → Advanced) combined with the <strong>OEDP HEXAD Mentoring Framework</strong> (6 dimensions: Personal, Professional, Occupational, Financial, Relationship, Truth Education). Members train via heavy work-study model starting day one. Optional Expert/Master track (Years 4-5) available for specialist roles. Development/SDLC, big-data/ML, and SOC/MDR live on Software Engineering, Intelligent Cloud, and Cybersecurity pages.</p>
 
   <div class="tabs" role="tablist">
     <button class="tab-btn active" onclick="switchTab('leadership')" role="tab" aria-controls="tab-leadership">A) Leadership & Governance</button>
@@ -1348,13 +1350,16 @@ include 'breadcrumbs.php';
 
   <div class="grid">
     <div class="card">
-      <h3>Step 1 — Formed</h3>
-      <p><strong>You complete expert tracks in:</strong></p>
+      <h3>Step 1 — Formed (3-Year Intensive)</h3>
+      <p><strong>Investment:</strong> $25,000 USD (15M FCFA) one-time upfront payment</p>
+      <p><strong>You complete Advanced-level certifications + HEXAD in 3 years:</strong></p>
       <ul style="margin:10px 0;padding-left:20px;line-height:1.8">
-        <li>ITIL/ITSM, identity/endpoint, network, collaboration, backup/DR</li>
-        <li>ISO/IEC 20000, ISO 27001 coordination, ServiceNow/Jira Service Mgmt</li>
-        <li>Leadership & commercial training (negotiation, stakeholder management, financial ops)</li>
+        <li><strong>Year 1:</strong> HEXAD L1 Foundation (all 6 dimensions) + ITIL 4 Foundation, CompTIA Network+/A+, MS-900, basic ITSM — while recruiting first 10-20 team members and securing pilot clients</li>
+        <li><strong>Year 2:</strong> HEXAD L2 Intermediate + CCNA, AZ-104, ITIL Specialist, ServiceNow Admin — while scaling to full 50-person team and growing contracts to $5M-$10M</li>
+        <li><strong>Year 3:</strong> HEXAD L3 Advanced + CCNP, SC-300, ITIL Managing Professional, ISO 20000 Lead Implementer — while reaching $30M-$45M pod revenue and $2.1M personal income</li>
+        <li><strong>Heavy work-study from day one:</strong> Sales, recruiting, hands-on delivery, team supervision, vCIO advisory throughout all 3 years</li>
       </ul>
+      <p class="muted"><strong>OEDP HEXAD Framework:</strong> Personal Development (maturation, capacities, axioms) • Professional Development (certifications, career skills, ethics) • Occupational Development (production, quality, standards) • Financial Development (literacy, investment, wealth-building) • Relationship Development (interpersonal, family, professional, community) • Truth Education (critical thinking, research, ethical reasoning). <a href="https://btheducationgroup.org/hexad-mastery.html" target="_blank" style="color:#0b4f7a;">Learn more →</a></p>
     </div>
     <div class="card">
       <h3>Step 2 — Build the 1:50 Pod</h3>
@@ -1366,7 +1371,8 @@ include 'breadcrumbs.php';
         <li>NOC & Tooling Pod (10): Monitoring, runbooks, CMDB</li>
         <li>Leadership Pod (10): Governance, CAB, reporting</li>
       </ul>
-      <p class="muted">Using the Investor Education work-study model.</p>
+      <p class="muted"><strong>Member Investment:</strong> Each member pays $25,000 USD (15M FCFA) in installments: $8,333/year × 3 years (≈5M FCFA/year). Members complete same 3-year HEXAD + IT Advanced certification program via heavy work-study model starting day one.</p>
+      <p class="muted"><strong>Work-Study Progression:</strong> Year 1 (Foundation): Help desk, Tier 1 support, shadowing seniors (20-30h/week billable) • Year 2 (Intermediate): Full project delivery, client-facing work (30-40h/week billable) • Year 3 (Advanced): Senior engineer, mentoring juniors, complex deployments (40-50h/week billable). By Year 3, members earn $63,822 salary and are fully productive Senior Engineers.</p>
     </div>
     <div class="card">
       <h3>Step 3 — Deploy & Govern</h3>
@@ -1448,7 +1454,7 @@ include 'breadcrumbs.php';
 <section id="apply-leader" class="section">
   <h2>Apply to Become a Team Leader</h2>
   <p style="color:#6b7280;max-width:900px;margin:0 auto 30px;text-align:center;">
-    <strong>For Leaders:</strong> Only <strong>100 Team Leaders</strong> are accepted per industry. Build a certified 50-person delivery unit, deploy enterprise contracts across 100+ branches, and lead a pod generating $30M–$45M annually (you earn ~$2.1M personally). This is not a client service—it's a leadership mandate in the 1:50 model.
+    <strong>For Leaders:</strong> Only <strong>100 Team Leaders</strong> are accepted per industry. Complete 3-year intensive training ($25K USD / 15M FCFA upfront) covering HEXAD (6 dimensions) + IT Advanced certifications via heavy work-study from day one. Build a certified 50-person delivery unit, deploy enterprise contracts across 100+ branches, and lead a pod generating $30M–$45M annually (you earn ~$2.1M personally by Year 3). This is not a client service—it's a leadership mandate in the 1:50 model.
   </p>
   <form method="post" action="send-mail.php" class="application-form">
     <div class="form-row">
@@ -1478,7 +1484,8 @@ include 'breadcrumbs.php';
 
   <button class="accordion-button" aria-expanded="false">How does a 50-person team generate $30M–$45M annually?</button>
   <div class="accordion-content">
-    <p>Multi-branch deployment model: serving 10 companies across 10 branches each (100 total branches) with comprehensive IT operations managed services. Based on real production model generating ≈18B FCFA profit annually (≈$30M USD at 600 FCFA/USD). Each branch generates ~15M FCFA profit. The 1:50 pod structure enables parallel multi-client service delivery at scale. Leader earns ~$2.1M (≈7% of gross revenue) as recurring personal income, with $44,321 USD one-time team-building commission.</p>
+    <p>Multi-branch deployment model: serving 10 companies across 10 branches each (100 total branches) with comprehensive IT operations managed services. Based on real production model generating ≈18B FCFA profit annually (≈$30M USD at 600 FCFA/USD). Each branch generates ~15M FCFA profit. The 1:50 pod structure enables parallel multi-client service delivery at scale. Leader earns ~$2.1M (≈7% of gross revenue) as recurring personal income by Year 3, with $44,321 USD one-time team-building commission upon completing pod formation.</p>
+    <p><strong>Training Investment:</strong> Leaders pay $25K USD upfront for 3-year intensive program (HEXAD all 6 dimensions + IT Advanced certs). Members pay $25K USD in installments ($8,333/year × 3 years). Both complete Foundation → Intermediate → Advanced progression via heavy work-study model starting day one. By Year 3, leader operates $30M-$45M pod and members are Senior Engineers earning $63,822/year.</p>
   </div>
 
   <button class="accordion-button" aria-expanded="false">Why 1:50 instead of smaller teams or outsourcing to large MSPs?</button>
