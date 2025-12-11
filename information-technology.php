@@ -103,7 +103,7 @@ include 'breadcrumbs.php';
         </div>
         <div class="stat">
           <div class="stat-value" data-target="78500" data-prefix="$" data-format="comma">0</div>
-          <div class="stat-label">Member annual income (Expert level)</div>
+          <div class="stat-label">Member annual income</div>
         </div>
         <div class="stat">
           <div class="stat-value" data-target="30" data-prefix="$" data-suffix="M–$45M" data-format="simple">0</div>
